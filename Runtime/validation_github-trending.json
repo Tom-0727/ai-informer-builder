@@ -1,0 +1,368 @@
+{
+  "collected_at": "2026-05-05T09:20:10Z",
+  "source_request": {
+    "source": "github-trending",
+    "source_set": null,
+    "profile": "quick",
+    "limit": 5,
+    "selected_sources": [
+      "github-trending"
+    ],
+    "per_source_limits": {
+      "github-trending": 5
+    },
+    "enrich": true,
+    "options": {
+      "hacker_news_feeds": [
+        "top"
+      ],
+      "github_since_windows": [
+        "daily",
+        "weekly"
+      ],
+      "reddit_subreddits": [
+        "LocalLLaMA",
+        "singularity",
+        "artificial"
+      ]
+    }
+  },
+  "item_count": 5,
+  "source_counts": {
+    "github-trending": 5
+  },
+  "source_errors": {},
+  "items": [
+    {
+      "id": "github-trending:ruvnet/ruflo",
+      "source": "github-trending",
+      "source_category": "developer_signal",
+      "title": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "published_at": null,
+      "summary": "<div align=\"center\"> Ruflo Multi-agent AI orchestration for Claude Code** </div> Orchestrate 100+ specialized AI agents across machines, teams, and trust boundaries. Ruflo adds coordinated swarms, self-learning memory, federated comms, and enterprise security to Claude Code — so agents don't just run, they collaborate. Why Ruflo? Claude Flow is now Ruflo — named by rUv, who loves Rust, flow states, and building things that feel inevitable. The \"Ru\" is the Ruv. The \"flo\" is the flow. Underneath, WASM kernels written in Rust power the policy engine, embeddings, and proof system. What Ruflo Does One init gives Claude Code a nervous system: agents self-organize into swarms, learn from every task, remember across sessions, and — with federation — securely talk to agents on other machines without leaking data. You keep writing code. Ruflo handles the coordination. Self-Learning / Self-Optimiz...",
+      "author": null,
+      "tags": [
+        "TypeScript"
+      ],
+      "source_metrics": {
+        "stars": 0
+      },
+      "raw": {
+        "repo": "ruvnet/ruflo",
+        "since": "daily",
+        "description": ""
+      }
+    },
+    {
+      "id": "github-trending:TauricResearch/TradingAgents",
+      "source": "github-trending",
+      "source_category": "developer_signal",
+      "title": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "published_at": null,
+      "summary": "<p align=\"center\"> <img src=\"assets/TauricResearch.png\" style=\"width: 60%; height: auto;\"> </p> <div align=\"center\" style=\"line-height: 1;\"> <a href=\"https://arxiv.org/abs/2412.20138\" target=\"_blank\"><img alt=\"arXiv\" src=\"https://img.shields.io/badge/arXiv-2412.20138-B31B1B?logo=arxiv\"/></a> <a href=\"https://discord.com/invite/hk9PGKShPK\" target=\"_blank\"><img alt=\"Discord\" src=\"https://img.shields.io/badge/Discord-TradingResearch-7289da?logo=discord&logoColor=white&color=7289da\"/></a> <a href=\"./assets/wechat.png\" target=\"_blank\"><img alt=\"WeChat\" src=\"https://img.shields.io/badge/WeChat-TauricResearch-brightgreen?logo=wechat&logoColor=white\"/></a> <a href=\"https://x.com/TauricResearch\" target=\"_blank\"><img alt=\"X Follow\" src=\"https://img.shields.io/badge/X-TauricResearch-white?logo=x&logoColor=white\"/></a> <br> <a href=\"https://github.com/TauricResearch/\" target=\"_blank\"><img alt=\"Comm...",
+      "author": null,
+      "tags": [
+        "Python"
+      ],
+      "source_metrics": {
+        "stars": 0
+      },
+      "raw": {
+        "repo": "TauricResearch/TradingAgents",
+        "since": "daily",
+        "description": ""
+      }
+    },
+    {
+      "id": "github-trending:browserbase/skills",
+      "source": "github-trending",
+      "source_category": "developer_signal",
+      "title": "browserbase/skills",
+      "url": "https://github.com/browserbase/skills",
+      "published_at": null,
+      "summary": "Browserbase Skills A set of skills for enabling **Claude Code** to work with Browserbase through browser automation and the official bb CLI. Skills This plugin includes the following skills (see skills/ for details): | Skill | Description | |-------|-------------| | browser | Automate web browser interactions via CLI commands — supports remote Browserbase sessions with anti-bot stealth, CAPTCHA solving, and residential proxies | | browserbase-cli | Use the official bb CLI for Browserbase Functions and platform API workflows including sessions, projects, contexts, extensions, fetch, and dashboard | | functions | Deploy serverless browser automation to Browserbase cloud using the bb CLI | | site-debugger | Diagnose and fix failing browser automations — analyzes bot detection, selectors, timing, auth, and captchas, then generates a tested site playbook | | browser-trace | Capture a full De...",
+      "author": null,
+      "tags": [
+        "JavaScript"
+      ],
+      "source_metrics": {
+        "stars": 0
+      },
+      "raw": {
+        "repo": "browserbase/skills",
+        "since": "daily",
+        "description": ""
+      }
+    },
+    {
+      "id": "github-trending:Hmbown/DeepSeek-TUI",
+      "source": "github-trending",
+      "source_category": "developer_signal",
+      "title": "Hmbown/DeepSeek-TUI",
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "published_at": null,
+      "summary": "🐳 DeepSeek TUI This terminal-native coding agent is built around DeepSeek V4's 1M-token context window and prefix cache capability. It is distributed as a single binary and requires no Node.js or Python runtime. It also includes an MCP client, a sandbox, and a durable task queue out of the box.** 简体中文 README Install deepseek ships as a self-contained Rust binary — **no Node.js or Python runtime is required to run it.** Pick whichever path you already have on your machine; they all land the same binary on your PATH. bash 1. npm — easiest if you already use Node. The npm package is a thin installer that downloads the matching prebuilt binary from GitHub Releases; it does NOT add a Node runtime dependency to deepseek itself. npm install -g deepseek-tui 2. Cargo — no Node needed. cargo install deepseek-tui-cli --locked # deepseek (entry point) cargo install deepseek-tui --locked # deepseek-...",
+      "author": null,
+      "tags": [
+        "Rust"
+      ],
+      "source_metrics": {
+        "stars": 0
+      },
+      "raw": {
+        "repo": "Hmbown/DeepSeek-TUI",
+        "since": "daily",
+        "description": ""
+      }
+    },
+    {
+      "id": "github-trending:soxoj/maigret",
+      "source": "github-trending",
+      "source_category": "developer_signal",
+      "title": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "published_at": null,
+      "summary": "Maigret <div align=\"center\"> <div> <a href=\"https://pypi.org/project/maigret/\"> <img alt=\"PyPI version badge for Maigret\" src=\"https://img.shields.io/pypi/v/maigret?style=flat-square\" /> </a> <a href=\"https://pypi.org/project/maigret/\"> <img alt=\"PyPI download count for Maigret\" src=\"https://img.shields.io/pypi/dw/maigret?style=flat-square\" /> </a> <a href=\"https://github.com/soxoj/maigret\"> <img alt=\"Minimum Python version required: 3.10+\" src=\"https://img.shields.io/badge/Python-3.10%2B-brightgreen?style=flat-square\" /> </a> <a href=\"https://github.com/soxoj/maigret/blob/main/LICENSE\"> <img alt=\"License badge for Maigret\" src=\"https://img.shields.io/github/license/soxoj/maigret?style=flat-square\" /> </a> <a href=\"https://github.com/soxoj/maigret\"> <img alt=\"View count for Maigret project\" src=\"https://komarev.com/ghpvc/?username=maigret&color=brightgreen&label=views&style=flat-square\"...",
+      "author": null,
+      "tags": [
+        "Python"
+      ],
+      "source_metrics": {
+        "stars": 0
+      },
+      "raw": {
+        "repo": "soxoj/maigret",
+        "since": "daily",
+        "description": ""
+      }
+    }
+  ],
+  "raw_item_count": 5,
+  "normalized_record_count": 5,
+  "merged_duplicates": 0,
+  "records": [
+    {
+      "record_id": "intake:d9569cde07a3e585",
+      "dedupe_key": "https://github.com/Hmbown/DeepSeek-TUI",
+      "title": "Hmbown/DeepSeek-TUI",
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "published_at": null,
+      "summary": "🐳 DeepSeek TUI This terminal-native coding agent is built around DeepSeek V4's 1M-token context window and prefix cache capability. It is distributed as a single binary and requires no Node.js or Python runtime. It also includes an MCP client, a sandbox, and a durable task queue out of the box.** 简体中文 README Install deepseek ships as a self-contained Rust binary — **no Node.js or Python runtime is required to run it.** Pick whichever path you already have on your machine; they all land the same binary on your PATH. bash 1. npm — easiest if you already use Node. The npm package is a thin installer that downloads the matching prebuilt binary from GitHub Releases; it does NOT add a Node runtime dependency to deepseek itself. npm install -g deepseek-tui 2. Cargo — no Node needed. cargo install deepseek-tui-cli --locked # deepseek (entry point) cargo install deepseek-tui --locked # deepseek-...",
+      "tags": [
+        "rust"
+      ],
+      "source_item_ids": [
+        "github-trending:Hmbown/DeepSeek-TUI"
+      ],
+      "sources": [
+        "github-trending"
+      ],
+      "source_categories": [
+        "developer_signal"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "github-trending:Hmbown/DeepSeek-TUI",
+          "source": "github-trending",
+          "source_category": "developer_signal",
+          "title": "Hmbown/DeepSeek-TUI",
+          "url": "https://github.com/Hmbown/DeepSeek-TUI",
+          "published_at": null,
+          "summary": "🐳 DeepSeek TUI This terminal-native coding agent is built around DeepSeek V4's 1M-token context window and prefix cache capability. It is distributed as a single binary and requires no Node.js or Python runtime. It also includes an MCP client, a sandbox, and a durable task queue out of the box.** 简体中文 README Install deepseek ships as a self-contained Rust binary — **no Node.js or Python runtime is required to run it.** Pick whichever path you already have on your machine; they all land the same binary on your PATH. bash 1. npm — easiest if you already use Node. The npm package is a thin installer that downloads the matching prebuilt binary from GitHub Releases; it does NOT add a Node runtime dependency to deepseek itself. npm install -g deepseek-tui 2. Cargo — no Node needed. cargo install deepseek-tui-cli --locked # deepseek (entry point) cargo install deepseek-tui --locked # deepseek-...",
+          "author": null,
+          "tags": [
+            "Rust"
+          ],
+          "source_metrics": {
+            "stars": 0
+          },
+          "raw": {
+            "repo": "Hmbown/DeepSeek-TUI",
+            "since": "daily",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:1606cfe2c2a91a41",
+      "dedupe_key": "https://github.com/TauricResearch/TradingAgents",
+      "title": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "published_at": null,
+      "summary": "<p align=\"center\"> <img src=\"assets/TauricResearch.png\" style=\"width: 60%; height: auto;\"> </p> <div align=\"center\" style=\"line-height: 1;\"> <a href=\"https://arxiv.org/abs/2412.20138\" target=\"_blank\"><img alt=\"arXiv\" src=\"https://img.shields.io/badge/arXiv-2412.20138-B31B1B?logo=arxiv\"/></a> <a href=\"https://discord.com/invite/hk9PGKShPK\" target=\"_blank\"><img alt=\"Discord\" src=\"https://img.shields.io/badge/Discord-TradingResearch-7289da?logo=discord&logoColor=white&color=7289da\"/></a> <a href=\"./assets/wechat.png\" target=\"_blank\"><img alt=\"WeChat\" src=\"https://img.shields.io/badge/WeChat-TauricResearch-brightgreen?logo=wechat&logoColor=white\"/></a> <a href=\"https://x.com/TauricResearch\" target=\"_blank\"><img alt=\"X Follow\" src=\"https://img.shields.io/badge/X-TauricResearch-white?logo=x&logoColor=white\"/></a> <br> <a href=\"https://github.com/TauricResearch/\" target=\"_blank\"><img alt=\"Comm...",
+      "tags": [
+        "python"
+      ],
+      "source_item_ids": [
+        "github-trending:TauricResearch/TradingAgents"
+      ],
+      "sources": [
+        "github-trending"
+      ],
+      "source_categories": [
+        "developer_signal"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "github-trending:TauricResearch/TradingAgents",
+          "source": "github-trending",
+          "source_category": "developer_signal",
+          "title": "TauricResearch/TradingAgents",
+          "url": "https://github.com/TauricResearch/TradingAgents",
+          "published_at": null,
+          "summary": "<p align=\"center\"> <img src=\"assets/TauricResearch.png\" style=\"width: 60%; height: auto;\"> </p> <div align=\"center\" style=\"line-height: 1;\"> <a href=\"https://arxiv.org/abs/2412.20138\" target=\"_blank\"><img alt=\"arXiv\" src=\"https://img.shields.io/badge/arXiv-2412.20138-B31B1B?logo=arxiv\"/></a> <a href=\"https://discord.com/invite/hk9PGKShPK\" target=\"_blank\"><img alt=\"Discord\" src=\"https://img.shields.io/badge/Discord-TradingResearch-7289da?logo=discord&logoColor=white&color=7289da\"/></a> <a href=\"./assets/wechat.png\" target=\"_blank\"><img alt=\"WeChat\" src=\"https://img.shields.io/badge/WeChat-TauricResearch-brightgreen?logo=wechat&logoColor=white\"/></a> <a href=\"https://x.com/TauricResearch\" target=\"_blank\"><img alt=\"X Follow\" src=\"https://img.shields.io/badge/X-TauricResearch-white?logo=x&logoColor=white\"/></a> <br> <a href=\"https://github.com/TauricResearch/\" target=\"_blank\"><img alt=\"Comm...",
+          "author": null,
+          "tags": [
+            "Python"
+          ],
+          "source_metrics": {
+            "stars": 0
+          },
+          "raw": {
+            "repo": "TauricResearch/TradingAgents",
+            "since": "daily",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:291f23fefb358932",
+      "dedupe_key": "https://github.com/browserbase/skills",
+      "title": "browserbase/skills",
+      "url": "https://github.com/browserbase/skills",
+      "published_at": null,
+      "summary": "Browserbase Skills A set of skills for enabling **Claude Code** to work with Browserbase through browser automation and the official bb CLI. Skills This plugin includes the following skills (see skills/ for details): | Skill | Description | |-------|-------------| | browser | Automate web browser interactions via CLI commands — supports remote Browserbase sessions with anti-bot stealth, CAPTCHA solving, and residential proxies | | browserbase-cli | Use the official bb CLI for Browserbase Functions and platform API workflows including sessions, projects, contexts, extensions, fetch, and dashboard | | functions | Deploy serverless browser automation to Browserbase cloud using the bb CLI | | site-debugger | Diagnose and fix failing browser automations — analyzes bot detection, selectors, timing, auth, and captchas, then generates a tested site playbook | | browser-trace | Capture a full De...",
+      "tags": [
+        "javascript"
+      ],
+      "source_item_ids": [
+        "github-trending:browserbase/skills"
+      ],
+      "sources": [
+        "github-trending"
+      ],
+      "source_categories": [
+        "developer_signal"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "github-trending:browserbase/skills",
+          "source": "github-trending",
+          "source_category": "developer_signal",
+          "title": "browserbase/skills",
+          "url": "https://github.com/browserbase/skills",
+          "published_at": null,
+          "summary": "Browserbase Skills A set of skills for enabling **Claude Code** to work with Browserbase through browser automation and the official bb CLI. Skills This plugin includes the following skills (see skills/ for details): | Skill | Description | |-------|-------------| | browser | Automate web browser interactions via CLI commands — supports remote Browserbase sessions with anti-bot stealth, CAPTCHA solving, and residential proxies | | browserbase-cli | Use the official bb CLI for Browserbase Functions and platform API workflows including sessions, projects, contexts, extensions, fetch, and dashboard | | functions | Deploy serverless browser automation to Browserbase cloud using the bb CLI | | site-debugger | Diagnose and fix failing browser automations — analyzes bot detection, selectors, timing, auth, and captchas, then generates a tested site playbook | | browser-trace | Capture a full De...",
+          "author": null,
+          "tags": [
+            "JavaScript"
+          ],
+          "source_metrics": {
+            "stars": 0
+          },
+          "raw": {
+            "repo": "browserbase/skills",
+            "since": "daily",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:c289dc3d991e222b",
+      "dedupe_key": "https://github.com/ruvnet/ruflo",
+      "title": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "published_at": null,
+      "summary": "<div align=\"center\"> Ruflo Multi-agent AI orchestration for Claude Code** </div> Orchestrate 100+ specialized AI agents across machines, teams, and trust boundaries. Ruflo adds coordinated swarms, self-learning memory, federated comms, and enterprise security to Claude Code — so agents don't just run, they collaborate. Why Ruflo? Claude Flow is now Ruflo — named by rUv, who loves Rust, flow states, and building things that feel inevitable. The \"Ru\" is the Ruv. The \"flo\" is the flow. Underneath, WASM kernels written in Rust power the policy engine, embeddings, and proof system. What Ruflo Does One init gives Claude Code a nervous system: agents self-organize into swarms, learn from every task, remember across sessions, and — with federation — securely talk to agents on other machines without leaking data. You keep writing code. Ruflo handles the coordination. Self-Learning / Self-Optimiz...",
+      "tags": [
+        "typescript"
+      ],
+      "source_item_ids": [
+        "github-trending:ruvnet/ruflo"
+      ],
+      "sources": [
+        "github-trending"
+      ],
+      "source_categories": [
+        "developer_signal"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "github-trending:ruvnet/ruflo",
+          "source": "github-trending",
+          "source_category": "developer_signal",
+          "title": "ruvnet/ruflo",
+          "url": "https://github.com/ruvnet/ruflo",
+          "published_at": null,
+          "summary": "<div align=\"center\"> Ruflo Multi-agent AI orchestration for Claude Code** </div> Orchestrate 100+ specialized AI agents across machines, teams, and trust boundaries. Ruflo adds coordinated swarms, self-learning memory, federated comms, and enterprise security to Claude Code — so agents don't just run, they collaborate. Why Ruflo? Claude Flow is now Ruflo — named by rUv, who loves Rust, flow states, and building things that feel inevitable. The \"Ru\" is the Ruv. The \"flo\" is the flow. Underneath, WASM kernels written in Rust power the policy engine, embeddings, and proof system. What Ruflo Does One init gives Claude Code a nervous system: agents self-organize into swarms, learn from every task, remember across sessions, and — with federation — securely talk to agents on other machines without leaking data. You keep writing code. Ruflo handles the coordination. Self-Learning / Self-Optimiz...",
+          "author": null,
+          "tags": [
+            "TypeScript"
+          ],
+          "source_metrics": {
+            "stars": 0
+          },
+          "raw": {
+            "repo": "ruvnet/ruflo",
+            "since": "daily",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:e0f906740cdeb211",
+      "dedupe_key": "https://github.com/soxoj/maigret",
+      "title": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "published_at": null,
+      "summary": "Maigret <div align=\"center\"> <div> <a href=\"https://pypi.org/project/maigret/\"> <img alt=\"PyPI version badge for Maigret\" src=\"https://img.shields.io/pypi/v/maigret?style=flat-square\" /> </a> <a href=\"https://pypi.org/project/maigret/\"> <img alt=\"PyPI download count for Maigret\" src=\"https://img.shields.io/pypi/dw/maigret?style=flat-square\" /> </a> <a href=\"https://github.com/soxoj/maigret\"> <img alt=\"Minimum Python version required: 3.10+\" src=\"https://img.shields.io/badge/Python-3.10%2B-brightgreen?style=flat-square\" /> </a> <a href=\"https://github.com/soxoj/maigret/blob/main/LICENSE\"> <img alt=\"License badge for Maigret\" src=\"https://img.shields.io/github/license/soxoj/maigret?style=flat-square\" /> </a> <a href=\"https://github.com/soxoj/maigret\"> <img alt=\"View count for Maigret project\" src=\"https://komarev.com/ghpvc/?username=maigret&color=brightgreen&label=views&style=flat-square\"...",
+      "tags": [
+        "python"
+      ],
+      "source_item_ids": [
+        "github-trending:soxoj/maigret"
+      ],
+      "sources": [
+        "github-trending"
+      ],
+      "source_categories": [
+        "developer_signal"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "github-trending:soxoj/maigret",
+          "source": "github-trending",
+          "source_category": "developer_signal",
+          "title": "soxoj/maigret",
+          "url": "https://github.com/soxoj/maigret",
+          "published_at": null,
+          "summary": "Maigret <div align=\"center\"> <div> <a href=\"https://pypi.org/project/maigret/\"> <img alt=\"PyPI version badge for Maigret\" src=\"https://img.shields.io/pypi/v/maigret?style=flat-square\" /> </a> <a href=\"https://pypi.org/project/maigret/\"> <img alt=\"PyPI download count for Maigret\" src=\"https://img.shields.io/pypi/dw/maigret?style=flat-square\" /> </a> <a href=\"https://github.com/soxoj/maigret\"> <img alt=\"Minimum Python version required: 3.10+\" src=\"https://img.shields.io/badge/Python-3.10%2B-brightgreen?style=flat-square\" /> </a> <a href=\"https://github.com/soxoj/maigret/blob/main/LICENSE\"> <img alt=\"License badge for Maigret\" src=\"https://img.shields.io/github/license/soxoj/maigret?style=flat-square\" /> </a> <a href=\"https://github.com/soxoj/maigret\"> <img alt=\"View count for Maigret project\" src=\"https://komarev.com/ghpvc/?username=maigret&color=brightgreen&label=views&style=flat-square\"...",
+          "author": null,
+          "tags": [
+            "Python"
+          ],
+          "source_metrics": {
+            "stars": 0
+          },
+          "raw": {
+            "repo": "soxoj/maigret",
+            "since": "daily",
+            "description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "output_path": "Runtime/validation_github-trending.json"
+}

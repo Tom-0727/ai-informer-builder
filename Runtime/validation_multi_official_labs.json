@@ -1,0 +1,1692 @@
+{
+  "collected_at": "2026-05-05T09:36:27Z",
+  "source_request": {
+    "source": "all",
+    "source_set": "official_labs",
+    "profile": "quick",
+    "limit": 3,
+    "selected_sources": [
+      "aws-ml-blog",
+      "microsoft-ai-blog",
+      "meta-ai-blog",
+      "google-ai-blog",
+      "google-deepmind-blog",
+      "anthropic-news",
+      "nvidia-blog",
+      "mistral-news",
+      "openai-blog"
+    ],
+    "per_source_limits": {
+      "aws-ml-blog": 3,
+      "microsoft-ai-blog": 3,
+      "meta-ai-blog": 3,
+      "google-ai-blog": 3,
+      "google-deepmind-blog": 3,
+      "anthropic-news": 3,
+      "nvidia-blog": 3,
+      "mistral-news": 3,
+      "openai-blog": 3
+    },
+    "enrich": true,
+    "options": {
+      "hacker_news_feeds": [
+        "top"
+      ],
+      "github_since_windows": [
+        "daily",
+        "weekly"
+      ],
+      "reddit_subreddits": [
+        "LocalLLaMA",
+        "singularity",
+        "artificial"
+      ]
+    }
+  },
+  "item_count": 24,
+  "source_counts": {
+    "aws-ml-blog": 3,
+    "microsoft-ai-blog": 3,
+    "meta-ai-blog": 0,
+    "google-ai-blog": 3,
+    "google-deepmind-blog": 3,
+    "anthropic-news": 3,
+    "nvidia-blog": 3,
+    "mistral-news": 3,
+    "openai-blog": 3
+  },
+  "source_errors": {
+    "meta-ai-blog": "failed to fetch https://ai.meta.com/blog/: HTTP Error 400: Bad Request"
+  },
+  "items": [
+    {
+      "id": "aws-ml-blog:60d160056df6505b0c2dcad394f16535ce73b8a8",
+      "source": "aws-ml-blog",
+      "source_category": "cloud_platform",
+      "title": "Beyond BI: How the Dataset Q&A feature of Amazon Quick powers the next generation of data decisions",
+      "url": "https://aws.amazon.com/blogs/machine-learning/beyond-bi-how-the-dataset-qa-feature-of-amazon-quick-powers-the-next-generation-of-data-decisions/",
+      "published_at": "Mon, 04 May 2026 17:46:32 +0000",
+      "summary": "Business leaders across industries rely on operational dashboards as the shared source of truth that their teams execute against daily. But dashboards are built to answer known questions. When teams need to explore further, ad-hoc, multi-dimensional, or unforeseen questions, they hit a bottleneck. They wait hours or days for BI teams to build new views […]",
+      "author": "Salim Khan",
+      "tags": [
+        "Amazon Quick Sight",
+        "Amazon Quick Suite",
+        "Business Intelligence",
+        "Case Study",
+        "Customer Solutions",
+        "Enterprise BI",
+        "Experience-Based Acceleration",
+        "Generative BI",
+        "AI/ML",
+        "Generative AI"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "60d160056df6505b0c2dcad394f16535ce73b8a8",
+        "feed_url": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      }
+    },
+    {
+      "id": "aws-ml-blog:7dbb6ffe39567fe894de1d5ab0f9d846ce289fad",
+      "source": "aws-ml-blog",
+      "source_category": "cloud_platform",
+      "title": "Introducing the agent quality loop: AgentCore Optimization now in preview",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-agent-quality-loop-agentcore-optimization-now-in-preview/",
+      "published_at": "Mon, 04 May 2026 17:13:42 +0000",
+      "summary": "Generate recommendations from production traces, validate them with batch evaluation and A/B testing, and ship with confidence. AI agents that perform well at launch don’t stay that way. As models evolve, user behavior shifts, and prompts get reused in new contexts they were never designed for. Agent quality quietly degrades. In most teams, the improvement […]",
+      "author": "Bharathi Srinivasan",
+      "tags": [
+        "Amazon Bedrock AgentCore",
+        "Announcements",
+        "Foundational (100)",
+        "Launch"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "7dbb6ffe39567fe894de1d5ab0f9d846ce289fad",
+        "feed_url": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      }
+    },
+    {
+      "id": "aws-ml-blog:5a13a1edc84510ca328c5e8f007e5ebc9c8437f9",
+      "source": "aws-ml-blog",
+      "source_category": "cloud_platform",
+      "title": "Agent-guided workflows to accelerate model customization in Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/agent-guided-workflows-to-accelerate-model-customization-in-amazon-sagemaker-ai/",
+      "published_at": "Mon, 04 May 2026 17:10:46 +0000",
+      "summary": "Amazon SageMaker AI now offers an agentic experience that changes this. Developers describe their use case using natural language, and the AI coding agent streamlines the entire journey, from use case definition and data preparation through technique selection, evaluation, and deployment. In this post, we walk you through the model customization lifecycle using SageMaker AI agent skills.",
+      "author": "Lauren Mullennex",
+      "tags": [
+        "Amazon SageMaker AI",
+        "Announcements",
+        "Artificial Intelligence",
+        "Intermediate (200)",
+        "Kiro",
+        "Technical How-to"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "5a13a1edc84510ca328c5e8f007e5ebc9c8437f9",
+        "feed_url": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      }
+    },
+    {
+      "id": "microsoft-ai-blog:https://blogs.microsoft.com/?p=52562909",
+      "source": "microsoft-ai-blog",
+      "source_category": "cloud_platform",
+      "title": "The next phase of the Microsoft-OpenAI partnership",
+      "url": "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/",
+      "published_at": "Mon, 27 Apr 2026 13:00:02 +0000",
+      "summary": "Amended Agreement Provides Long-Term Clarity The rapid pace of innovation requires us to continue to evolve our partnership to benefit our customers and both companies. Today, we are announcing an amended agreement to simplify our partnership and the way we work together, grounded in flexibility, certainty and a focus on delivering the benefits of AI... The post The next phase of the Microsoft-OpenAI partnership appeared first on The Official Microsoft Blog.",
+      "author": "Microsoft Corporate Blogs",
+      "tags": [
+        "Featured",
+        "The Official Microsoft Blog",
+        "AI"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://blogs.microsoft.com/?p=52562909",
+        "feed_url": "https://blogs.microsoft.com/blog/tag/ai/feed/"
+      }
+    },
+    {
+      "id": "microsoft-ai-blog:https://blogs.microsoft.com/?p=52562872",
+      "source": "microsoft-ai-blog",
+      "source_category": "cloud_platform",
+      "title": "Open to Work: How to Get Ahead in the Age of AI",
+      "url": "https://blogs.microsoft.com/blog/2026/03/31/open-to-work-how-to-get-ahead-in-the-age-of-ai/",
+      "published_at": "Tue, 31 Mar 2026 15:08:49 +0000",
+      "summary": "Today is the day. Open to Work: How to Get Ahead in the Age of AI is officially available! At a time when technology dominates the headlines, the conversation I see most often on LinkedIn is deeply human: what does AI mean for my job and my career? And that makes sense. Careers once felt... The post Open to Work: How to Get Ahead in the Age of AI appeared first on The Official Microsoft Blog.",
+      "author": "Ryan Roslansky",
+      "tags": [
+        "Featured",
+        "The Official Microsoft Blog",
+        "AI",
+        "LinkedIn",
+        "Work Trend Index"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://blogs.microsoft.com/?p=52562872",
+        "feed_url": "https://blogs.microsoft.com/blog/tag/ai/feed/"
+      }
+    },
+    {
+      "id": "microsoft-ai-blog:https://blogs.microsoft.com/?p=52562833",
+      "source": "microsoft-ai-blog",
+      "source_category": "cloud_platform",
+      "title": "Microsoft at NVIDIA GTC: New solutions for Microsoft Foundry, Azure AI infrastructure and Physical AI",
+      "url": "https://blogs.microsoft.com/blog/2026/03/16/microsoft-at-nvidia-gtc-new-solutions-for-microsoft-foundry-azure-ai-infrastructure-and-physical-ai/",
+      "published_at": "Mon, 16 Mar 2026 20:29:56 +0000",
+      "summary": "Microsoft combines accelerated computing with cloud scale engineering to bring advanced AI capabilities to our customers. For years, we’ve worked with NVIDIA to integrate hardware, software and infrastructure to power many of today’s most important AI breakthroughs. What’s new at NVIDIA GTC Expanded Microsoft Foundry capabilities to build, deploy and operate production-ready AI agents on... The post Microsoft at NVIDIA GTC: New solutions for Microsoft Foundry, Azure AI infrastructure and Physical AI appeared first on The Official Microsoft Blog.",
+      "author": "Yina Arenas",
+      "tags": [
+        "Featured",
+        "The Official Microsoft Blog",
+        "AI",
+        "Azure",
+        "Azure AI",
+        "Azure Arc",
+        "Foundry Agent Service",
+        "Foundry Local",
+        "Microsoft Fabric",
+        "Microsoft Foundry",
+        "Physical AI"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://blogs.microsoft.com/?p=52562833",
+        "feed_url": "https://blogs.microsoft.com/blog/tag/ai/feed/"
+      }
+    },
+    {
+      "id": "google-ai-blog:https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+      "source": "google-ai-blog",
+      "source_category": "official_lab",
+      "title": "The latest AI news we announced in April 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+      "published_at": "Mon, 04 May 2026 17:00:00 +0000",
+      "summary": "mp4 featuring an underwater video and a mobile AI video mockup.",
+      "author": "The Keyword Team",
+      "tags": [
+        "Translate",
+        "Google Labs",
+        "Developer tools",
+        "Google Workspace",
+        "Google.org",
+        "Google Cloud",
+        "AI",
+        "Gemini models",
+        "Fitbit"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+        "feed_url": "https://blog.google/technology/ai/rss/"
+      }
+    },
+    {
+      "id": "google-ai-blog:https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+      "source": "google-ai-blog",
+      "source_category": "official_lab",
+      "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+      "published_at": "Mon, 04 May 2026 15:30:00 +0000",
+      "summary": "Gemini API",
+      "author": "Lucia LoherProduct ManagerGemini API",
+      "tags": [
+        "Developer tools",
+        "AI"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+        "feed_url": "https://blog.google/technology/ai/rss/"
+      }
+    },
+    {
+      "id": "google-ai-blog:https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/",
+      "source": "google-ai-blog",
+      "source_category": "official_lab",
+      "title": "Celebrating 20 years of Google Translate: Fun facts, tips and new features to try",
+      "url": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/",
+      "published_at": "Tue, 28 Apr 2026 16:00:00 +0000",
+      "summary": "The Google Translate logo sits in the middle of colorful illustrated scenes, including people translating live conversations and a birthday cake topped by candles with the numeral 20",
+      "author": "Rose YaoVP, Product, Search",
+      "tags": [
+        "Search",
+        "Translate",
+        "AI"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/",
+        "feed_url": "https://blog.google/technology/ai/rss/"
+      }
+    },
+    {
+      "id": "google-deepmind-blog:https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+      "source": "google-deepmind-blog",
+      "source_category": "official_lab",
+      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+      "published_at": "Mon, 27 Apr 2026 13:00:00 +0000",
+      "summary": "A web next to a laptop",
+      "author": "Anant NawalgariaGroup Product Manager, Founder of GenAI Intensive",
+      "tags": [
+        "Google DeepMind",
+        "Developer tools",
+        "Google Cloud",
+        "AI",
+        "Gemini models"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+        "feed_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/rss/"
+      }
+    },
+    {
+      "id": "google-deepmind-blog:https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-1-6/",
+      "source": "google-deepmind-blog",
+      "source_category": "official_lab",
+      "title": "Gemini Robotics ER-1.6 enhances reasoning to help robots navigate real-world tasks.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-1-6/",
+      "published_at": "Tue, 14 Apr 2026 15:00:00 +0000",
+      "summary": "An overview of Gemini Robotics-ER 1.6, an upgrade to our reasoning-first model that helps robots to understand their environment.",
+      "author": null,
+      "tags": [
+        "Google DeepMind"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-1-6/",
+        "feed_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/rss/"
+      }
+    },
+    {
+      "id": "google-deepmind-blog:https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/",
+      "source": "google-deepmind-blog",
+      "source_category": "official_lab",
+      "title": "The latest AI news we announced in March 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/",
+      "published_at": "Wed, 01 Apr 2026 13:00:00 +0000",
+      "summary": "March 2026 AI Recap showing new updates",
+      "author": "The Keyword Team",
+      "tags": [
+        "Search",
+        "Translate",
+        "Google DeepMind",
+        "Developer tools",
+        "Google Workspace",
+        "AI",
+        "Pixel",
+        "Gemini App",
+        "Gemini models",
+        "Fitbit",
+        "Maps",
+        "Health"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/",
+        "feed_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/rss/"
+      }
+    },
+    {
+      "id": "anthropic-news:https://www.anthropic.com/news/claude-opus-4-7",
+      "source": "anthropic-news",
+      "source_category": "official_lab",
+      "title": "Introducing Claude Opus 4.7",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "published_at": "2026-04-16T14:30:00.000Z",
+      "summary": "Our latest model, Claude Opus 4.7, is now generally available. Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, with particular gains on the most difficult tasks.",
+      "author": null,
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "index_url": "https://www.anthropic.com/news",
+        "path": "/news/claude-opus-4-7"
+      }
+    },
+    {
+      "id": "anthropic-news:https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "source": "anthropic-news",
+      "source_category": "official_lab",
+      "title": "Introducing Claude Design by Anthropic Labs",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "published_at": "2026-04-17T14:32:27.021Z",
+      "summary": "Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.",
+      "author": null,
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "index_url": "https://www.anthropic.com/news",
+        "path": "/news/claude-design-anthropic-labs"
+      }
+    },
+    {
+      "id": "anthropic-news:https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "source": "anthropic-news",
+      "source_category": "official_lab",
+      "title": "Claude is a space to think | Anthropic",
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "published_at": "2026-02-04T18:00:00.000Z",
+      "summary": "We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and how we plan to expand access without compromising user trust.",
+      "author": null,
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "index_url": "https://www.anthropic.com/news",
+        "path": "/news/claude-is-a-space-to-think"
+      }
+    },
+    {
+      "id": "nvidia-blog:https://blogs.nvidia.com/?p=92588",
+      "source": "nvidia-blog",
+      "source_category": "ai_hardware_platform",
+      "title": "Nemotron Labs: What OpenClaw Agents Mean for Every Organization",
+      "url": "https://blogs.nvidia.com/blog/what-openclaw-agents-mean-for-every-organization/",
+      "published_at": "Thu, 30 Apr 2026 20:00:39 +0000",
+      "summary": "By early 2026, the open source project OpenClaw had become a phenomenon. In January, its GitHub star count crossed 100,000 as developer interest surged.",
+      "author": "Justin Boitano",
+      "tags": [
+        "AI",
+        "Agentic AI",
+        "Artificial Intelligence",
+        "Nemotron",
+        "Nemotron Labs",
+        "Open Source"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://blogs.nvidia.com/?p=92588",
+        "feed_url": "https://blogs.nvidia.com/feed/"
+      }
+    },
+    {
+      "id": "nvidia-blog:https://blogs.nvidia.com/?p=92732",
+      "source": "nvidia-blog",
+      "source_category": "ai_hardware_platform",
+      "title": "NVIDIA Launches Nemotron 3 Nano Omni Model, Unifying Vision, Audio and Language for up to 9x More Efficient AI Agents",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/",
+      "published_at": "Tue, 28 Apr 2026 16:00:28 +0000",
+      "summary": "AI agent systems today juggle separate models for vision, speech and language — losing time and context as they pass data from one model to the other. Unveiled today, NVIDIA Nemotron 3 Nano Omni is an open multimodal model that brings these capabilities together into one system, enabling agents to deliver faster, smarter responses with […]",
+      "author": "Kari Briski",
+      "tags": [
+        "AI",
+        "Agentic AI",
+        "Artificial Intelligence",
+        "Nemotron",
+        "NVIDIA NeMo",
+        "Open Source"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://blogs.nvidia.com/?p=92732",
+        "feed_url": "https://blogs.nvidia.com/feed/"
+      }
+    },
+    {
+      "id": "nvidia-blog:https://blogs.nvidia.com/?p=92723",
+      "source": "nvidia-blog",
+      "source_category": "ai_hardware_platform",
+      "title": "Into the Omniverse: Manufacturing’s Simulation-First Era Has Arrived",
+      "url": "https://blogs.nvidia.com/blog/manufacturing-simulation-first/",
+      "published_at": "Tue, 28 Apr 2026 13:00:33 +0000",
+      "summary": "Manufacturing’s traditional design-build-test cycle rested on a single assumption: Real-world testing was the only reliable test environment.",
+      "author": "Bhoomi Gadhia",
+      "tags": [
+        "Pro Graphics",
+        "Robotics",
+        "Artificial Intelligence",
+        "Cosmos",
+        "Digital Twin",
+        "Industrial and Manufacturing",
+        "Into the Omniverse",
+        "Metropolis",
+        "Omniverse",
+        "Physical AI",
+        "Simulation and Design",
+        "Smart Spaces",
+        "Universal Scene Description"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://blogs.nvidia.com/?p=92723",
+        "feed_url": "https://blogs.nvidia.com/feed/"
+      }
+    },
+    {
+      "id": "mistral-news:https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+      "source": "mistral-news",
+      "source_category": "official_lab",
+      "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5.",
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+      "published_at": "2026-04-29T12:00:00",
+      "summary": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+      "author": null,
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "index_url": "https://mistral.ai/news",
+        "path": "/news/vibe-remote-agents-mistral-medium-3-5"
+      }
+    },
+    {
+      "id": "mistral-news:https://mistral.ai/news/voxtral-transcribe-2",
+      "source": "mistral-news",
+      "source_category": "official_lab",
+      "title": "Voxtral transcribes at the speed of sound.",
+      "url": "https://mistral.ai/news/voxtral-transcribe-2",
+      "published_at": "2026-02-04T16:00:00",
+      "summary": "Precision diarization, real-time transcription, and a new audio playground.",
+      "author": null,
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "index_url": "https://mistral.ai/news",
+        "path": "/news/voxtral-transcribe-2"
+      }
+    },
+    {
+      "id": "mistral-news:https://mistral.ai/news/mistral-small-4",
+      "source": "mistral-news",
+      "source_category": "official_lab",
+      "title": "Introducing Mistral Small 4",
+      "url": "https://mistral.ai/news/mistral-small-4",
+      "published_at": "2026-03-16T21:00:00",
+      "summary": "Solutions Research Blog Customers Company Contact Sales Try Studio Introducing Mistral Small 4 A fast instruct model",
+      "author": null,
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "index_url": "https://mistral.ai/news",
+        "path": "/news/mistral-small-4"
+      }
+    },
+    {
+      "id": "openai-blog:https://openai.com/index/openai-pwc-finance-collaboration",
+      "source": "openai-blog",
+      "source_category": "official_lab",
+      "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+      "url": "https://openai.com/index/openai-pwc-finance-collaboration",
+      "published_at": "Mon, 04 May 2026 21:00:00 GMT",
+      "summary": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+      "author": null,
+      "tags": [
+        "Global Affairs"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://openai.com/index/openai-pwc-finance-collaboration",
+        "feed_url": "https://openai.com/news/rss.xml"
+      }
+    },
+    {
+      "id": "openai-blog:https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "source": "openai-blog",
+      "source_category": "official_lab",
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "published_at": "Mon, 04 May 2026 00:00:00 GMT",
+      "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+      "author": null,
+      "tags": [
+        "Engineering"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+        "feed_url": "https://openai.com/news/rss.xml"
+      }
+    },
+    {
+      "id": "openai-blog:https://openai.com/index/advanced-account-security",
+      "source": "openai-blog",
+      "source_category": "official_lab",
+      "title": "Introducing Advanced Account Security",
+      "url": "https://openai.com/index/advanced-account-security",
+      "published_at": "Thu, 30 Apr 2026 00:00:00 GMT",
+      "summary": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.",
+      "author": null,
+      "tags": [
+        "Product"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://openai.com/index/advanced-account-security",
+        "feed_url": "https://openai.com/news/rss.xml"
+      }
+    }
+  ],
+  "raw_item_count": 24,
+  "normalized_record_count": 24,
+  "merged_duplicates": 0,
+  "records": [
+    {
+      "record_id": "intake:25fc6aa8b3573f03",
+      "dedupe_key": "https://aws.amazon.com/blogs/machine-learning/agent-guided-workflows-to-accelerate-model-customization-in-amazon-sagemaker-ai",
+      "title": "Agent-guided workflows to accelerate model customization in Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/agent-guided-workflows-to-accelerate-model-customization-in-amazon-sagemaker-ai",
+      "published_at": "Mon, 04 May 2026 17:10:46 +0000",
+      "summary": "Amazon SageMaker AI now offers an agentic experience that changes this. Developers describe their use case using natural language, and the AI coding agent streamlines the entire journey, from use case definition and data preparation through technique selection, evaluation, and deployment. In this post, we walk you through the model customization lifecycle using SageMaker AI agent skills.",
+      "tags": [
+        "amazon sagemaker ai",
+        "announcements",
+        "artificial intelligence",
+        "intermediate (200)",
+        "kiro",
+        "technical how-to"
+      ],
+      "source_item_ids": [
+        "aws-ml-blog:5a13a1edc84510ca328c5e8f007e5ebc9c8437f9"
+      ],
+      "sources": [
+        "aws-ml-blog"
+      ],
+      "source_categories": [
+        "cloud_platform"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "aws-ml-blog:5a13a1edc84510ca328c5e8f007e5ebc9c8437f9",
+          "source": "aws-ml-blog",
+          "source_category": "cloud_platform",
+          "title": "Agent-guided workflows to accelerate model customization in Amazon SageMaker AI",
+          "url": "https://aws.amazon.com/blogs/machine-learning/agent-guided-workflows-to-accelerate-model-customization-in-amazon-sagemaker-ai/",
+          "published_at": "Mon, 04 May 2026 17:10:46 +0000",
+          "summary": "Amazon SageMaker AI now offers an agentic experience that changes this. Developers describe their use case using natural language, and the AI coding agent streamlines the entire journey, from use case definition and data preparation through technique selection, evaluation, and deployment. In this post, we walk you through the model customization lifecycle using SageMaker AI agent skills.",
+          "author": "Lauren Mullennex",
+          "tags": [
+            "Amazon SageMaker AI",
+            "Announcements",
+            "Artificial Intelligence",
+            "Intermediate (200)",
+            "Kiro",
+            "Technical How-to"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "5a13a1edc84510ca328c5e8f007e5ebc9c8437f9",
+            "feed_url": "https://aws.amazon.com/blogs/machine-learning/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:4edcd9ac40862890",
+      "dedupe_key": "https://aws.amazon.com/blogs/machine-learning/beyond-bi-how-the-dataset-qa-feature-of-amazon-quick-powers-the-next-generation-of-data-decisions",
+      "title": "Beyond BI: How the Dataset Q&A feature of Amazon Quick powers the next generation of data decisions",
+      "url": "https://aws.amazon.com/blogs/machine-learning/beyond-bi-how-the-dataset-qa-feature-of-amazon-quick-powers-the-next-generation-of-data-decisions",
+      "published_at": "Mon, 04 May 2026 17:46:32 +0000",
+      "summary": "Business leaders across industries rely on operational dashboards as the shared source of truth that their teams execute against daily. But dashboards are built to answer known questions. When teams need to explore further, ad-hoc, multi-dimensional, or unforeseen questions, they hit a bottleneck. They wait hours or days for BI teams to build new views […]",
+      "tags": [
+        "ai/ml",
+        "amazon quick sight",
+        "amazon quick suite",
+        "business intelligence",
+        "case study",
+        "customer solutions",
+        "enterprise bi",
+        "experience-based acceleration",
+        "generative ai",
+        "generative bi"
+      ],
+      "source_item_ids": [
+        "aws-ml-blog:60d160056df6505b0c2dcad394f16535ce73b8a8"
+      ],
+      "sources": [
+        "aws-ml-blog"
+      ],
+      "source_categories": [
+        "cloud_platform"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "aws-ml-blog:60d160056df6505b0c2dcad394f16535ce73b8a8",
+          "source": "aws-ml-blog",
+          "source_category": "cloud_platform",
+          "title": "Beyond BI: How the Dataset Q&A feature of Amazon Quick powers the next generation of data decisions",
+          "url": "https://aws.amazon.com/blogs/machine-learning/beyond-bi-how-the-dataset-qa-feature-of-amazon-quick-powers-the-next-generation-of-data-decisions/",
+          "published_at": "Mon, 04 May 2026 17:46:32 +0000",
+          "summary": "Business leaders across industries rely on operational dashboards as the shared source of truth that their teams execute against daily. But dashboards are built to answer known questions. When teams need to explore further, ad-hoc, multi-dimensional, or unforeseen questions, they hit a bottleneck. They wait hours or days for BI teams to build new views […]",
+          "author": "Salim Khan",
+          "tags": [
+            "Amazon Quick Sight",
+            "Amazon Quick Suite",
+            "Business Intelligence",
+            "Case Study",
+            "Customer Solutions",
+            "Enterprise BI",
+            "Experience-Based Acceleration",
+            "Generative BI",
+            "AI/ML",
+            "Generative AI"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "60d160056df6505b0c2dcad394f16535ce73b8a8",
+            "feed_url": "https://aws.amazon.com/blogs/machine-learning/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:b75f25f0f31fdb1b",
+      "dedupe_key": "https://aws.amazon.com/blogs/machine-learning/introducing-the-agent-quality-loop-agentcore-optimization-now-in-preview",
+      "title": "Introducing the agent quality loop: AgentCore Optimization now in preview",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-agent-quality-loop-agentcore-optimization-now-in-preview",
+      "published_at": "Mon, 04 May 2026 17:13:42 +0000",
+      "summary": "Generate recommendations from production traces, validate them with batch evaluation and A/B testing, and ship with confidence. AI agents that perform well at launch don’t stay that way. As models evolve, user behavior shifts, and prompts get reused in new contexts they were never designed for. Agent quality quietly degrades. In most teams, the improvement […]",
+      "tags": [
+        "amazon bedrock agentcore",
+        "announcements",
+        "foundational (100)",
+        "launch"
+      ],
+      "source_item_ids": [
+        "aws-ml-blog:7dbb6ffe39567fe894de1d5ab0f9d846ce289fad"
+      ],
+      "sources": [
+        "aws-ml-blog"
+      ],
+      "source_categories": [
+        "cloud_platform"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "aws-ml-blog:7dbb6ffe39567fe894de1d5ab0f9d846ce289fad",
+          "source": "aws-ml-blog",
+          "source_category": "cloud_platform",
+          "title": "Introducing the agent quality loop: AgentCore Optimization now in preview",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-agent-quality-loop-agentcore-optimization-now-in-preview/",
+          "published_at": "Mon, 04 May 2026 17:13:42 +0000",
+          "summary": "Generate recommendations from production traces, validate them with batch evaluation and A/B testing, and ship with confidence. AI agents that perform well at launch don’t stay that way. As models evolve, user behavior shifts, and prompts get reused in new contexts they were never designed for. Agent quality quietly degrades. In most teams, the improvement […]",
+          "author": "Bharathi Srinivasan",
+          "tags": [
+            "Amazon Bedrock AgentCore",
+            "Announcements",
+            "Foundational (100)",
+            "Launch"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "7dbb6ffe39567fe894de1d5ab0f9d846ce289fad",
+            "feed_url": "https://aws.amazon.com/blogs/machine-learning/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:3d57a105910abb7d",
+      "dedupe_key": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-1-6",
+      "title": "Gemini Robotics ER-1.6 enhances reasoning to help robots navigate real-world tasks.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-1-6",
+      "published_at": "Tue, 14 Apr 2026 15:00:00 +0000",
+      "summary": "An overview of Gemini Robotics-ER 1.6, an upgrade to our reasoning-first model that helps robots to understand their environment.",
+      "tags": [
+        "google deepmind"
+      ],
+      "source_item_ids": [
+        "google-deepmind-blog:https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-1-6/"
+      ],
+      "sources": [
+        "google-deepmind-blog"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "google-deepmind-blog:https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-1-6/",
+          "source": "google-deepmind-blog",
+          "source_category": "official_lab",
+          "title": "Gemini Robotics ER-1.6 enhances reasoning to help robots navigate real-world tasks.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-1-6/",
+          "published_at": "Tue, 14 Apr 2026 15:00:00 +0000",
+          "summary": "An overview of Gemini Robotics-ER 1.6, an upgrade to our reasoning-first model that helps robots to understand their environment.",
+          "author": null,
+          "tags": [
+            "Google DeepMind"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-1-6/",
+            "feed_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/rss/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:4d3c4343934e34e0",
+      "dedupe_key": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026",
+      "title": "The latest AI news we announced in April 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026",
+      "published_at": "Mon, 04 May 2026 17:00:00 +0000",
+      "summary": "mp4 featuring an underwater video and a mobile AI video mockup.",
+      "tags": [
+        "ai",
+        "developer tools",
+        "fitbit",
+        "gemini models",
+        "google cloud",
+        "google labs",
+        "google workspace",
+        "google.org",
+        "translate"
+      ],
+      "source_item_ids": [
+        "google-ai-blog:https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/"
+      ],
+      "sources": [
+        "google-ai-blog"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "google-ai-blog:https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+          "source": "google-ai-blog",
+          "source_category": "official_lab",
+          "title": "The latest AI news we announced in April 2026",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+          "published_at": "Mon, 04 May 2026 17:00:00 +0000",
+          "summary": "mp4 featuring an underwater video and a mobile AI video mockup.",
+          "author": "The Keyword Team",
+          "tags": [
+            "Translate",
+            "Google Labs",
+            "Developer tools",
+            "Google Workspace",
+            "Google.org",
+            "Google Cloud",
+            "AI",
+            "Gemini models",
+            "Fitbit"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+            "feed_url": "https://blog.google/technology/ai/rss/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:686b52144bb20106",
+      "dedupe_key": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026",
+      "title": "The latest AI news we announced in March 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026",
+      "published_at": "Wed, 01 Apr 2026 13:00:00 +0000",
+      "summary": "March 2026 AI Recap showing new updates",
+      "tags": [
+        "ai",
+        "developer tools",
+        "fitbit",
+        "gemini app",
+        "gemini models",
+        "google deepmind",
+        "google workspace",
+        "health",
+        "maps",
+        "pixel",
+        "search",
+        "translate"
+      ],
+      "source_item_ids": [
+        "google-deepmind-blog:https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/"
+      ],
+      "sources": [
+        "google-deepmind-blog"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "google-deepmind-blog:https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/",
+          "source": "google-deepmind-blog",
+          "source_category": "official_lab",
+          "title": "The latest AI news we announced in March 2026",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/",
+          "published_at": "Wed, 01 Apr 2026 13:00:00 +0000",
+          "summary": "March 2026 AI Recap showing new updates",
+          "author": "The Keyword Team",
+          "tags": [
+            "Search",
+            "Translate",
+            "Google DeepMind",
+            "Developer tools",
+            "Google Workspace",
+            "AI",
+            "Pixel",
+            "Gemini App",
+            "Gemini models",
+            "Fitbit",
+            "Maps",
+            "Health"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/",
+            "feed_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/rss/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:472f81f15ea1ffea",
+      "dedupe_key": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks",
+      "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks",
+      "published_at": "Mon, 04 May 2026 15:30:00 +0000",
+      "summary": "Gemini API",
+      "tags": [
+        "ai",
+        "developer tools"
+      ],
+      "source_item_ids": [
+        "google-ai-blog:https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/"
+      ],
+      "sources": [
+        "google-ai-blog"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "google-ai-blog:https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+          "source": "google-ai-blog",
+          "source_category": "official_lab",
+          "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+          "published_at": "Mon, 04 May 2026 15:30:00 +0000",
+          "summary": "Gemini API",
+          "author": "Lucia LoherProduct ManagerGemini API",
+          "tags": [
+            "Developer tools",
+            "AI"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+            "feed_url": "https://blog.google/technology/ai/rss/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:faca0c75fcd600bb",
+      "dedupe_key": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026",
+      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026",
+      "published_at": "Mon, 27 Apr 2026 13:00:00 +0000",
+      "summary": "A web next to a laptop",
+      "tags": [
+        "ai",
+        "developer tools",
+        "gemini models",
+        "google cloud",
+        "google deepmind"
+      ],
+      "source_item_ids": [
+        "google-deepmind-blog:https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/"
+      ],
+      "sources": [
+        "google-deepmind-blog"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "google-deepmind-blog:https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+          "source": "google-deepmind-blog",
+          "source_category": "official_lab",
+          "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+          "published_at": "Mon, 27 Apr 2026 13:00:00 +0000",
+          "summary": "A web next to a laptop",
+          "author": "Anant NawalgariaGroup Product Manager, Founder of GenAI Intensive",
+          "tags": [
+            "Google DeepMind",
+            "Developer tools",
+            "Google Cloud",
+            "AI",
+            "Gemini models"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+            "feed_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/rss/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:c076edccb35c8b97",
+      "dedupe_key": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years",
+      "title": "Celebrating 20 years of Google Translate: Fun facts, tips and new features to try",
+      "url": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years",
+      "published_at": "Tue, 28 Apr 2026 16:00:00 +0000",
+      "summary": "The Google Translate logo sits in the middle of colorful illustrated scenes, including people translating live conversations and a birthday cake topped by candles with the numeral 20",
+      "tags": [
+        "ai",
+        "search",
+        "translate"
+      ],
+      "source_item_ids": [
+        "google-ai-blog:https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/"
+      ],
+      "sources": [
+        "google-ai-blog"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "google-ai-blog:https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/",
+          "source": "google-ai-blog",
+          "source_category": "official_lab",
+          "title": "Celebrating 20 years of Google Translate: Fun facts, tips and new features to try",
+          "url": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/",
+          "published_at": "Tue, 28 Apr 2026 16:00:00 +0000",
+          "summary": "The Google Translate logo sits in the middle of colorful illustrated scenes, including people translating live conversations and a birthday cake topped by candles with the numeral 20",
+          "author": "Rose YaoVP, Product, Search",
+          "tags": [
+            "Search",
+            "Translate",
+            "AI"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/",
+            "feed_url": "https://blog.google/technology/ai/rss/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:4c44e48f2f98dcee",
+      "dedupe_key": "https://blogs.microsoft.com/blog/2026/03/16/microsoft-at-nvidia-gtc-new-solutions-for-microsoft-foundry-azure-ai-infrastructure-and-physical-ai",
+      "title": "Microsoft at NVIDIA GTC: New solutions for Microsoft Foundry, Azure AI infrastructure and Physical AI",
+      "url": "https://blogs.microsoft.com/blog/2026/03/16/microsoft-at-nvidia-gtc-new-solutions-for-microsoft-foundry-azure-ai-infrastructure-and-physical-ai",
+      "published_at": "Mon, 16 Mar 2026 20:29:56 +0000",
+      "summary": "Microsoft combines accelerated computing with cloud scale engineering to bring advanced AI capabilities to our customers. For years, we’ve worked with NVIDIA to integrate hardware, software and infrastructure to power many of today’s most important AI breakthroughs. What’s new at NVIDIA GTC Expanded Microsoft Foundry capabilities to build, deploy and operate production-ready AI agents on... The post Microsoft at NVIDIA GTC: New solutions for Microsoft Foundry, Azure AI infrastructure and Physical AI appeared first on The Official Microsoft Blog.",
+      "tags": [
+        "ai",
+        "azure",
+        "azure ai",
+        "azure arc",
+        "featured",
+        "foundry agent service",
+        "foundry local",
+        "microsoft fabric",
+        "microsoft foundry",
+        "physical ai",
+        "the official microsoft blog"
+      ],
+      "source_item_ids": [
+        "microsoft-ai-blog:https://blogs.microsoft.com/?p=52562833"
+      ],
+      "sources": [
+        "microsoft-ai-blog"
+      ],
+      "source_categories": [
+        "cloud_platform"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "microsoft-ai-blog:https://blogs.microsoft.com/?p=52562833",
+          "source": "microsoft-ai-blog",
+          "source_category": "cloud_platform",
+          "title": "Microsoft at NVIDIA GTC: New solutions for Microsoft Foundry, Azure AI infrastructure and Physical AI",
+          "url": "https://blogs.microsoft.com/blog/2026/03/16/microsoft-at-nvidia-gtc-new-solutions-for-microsoft-foundry-azure-ai-infrastructure-and-physical-ai/",
+          "published_at": "Mon, 16 Mar 2026 20:29:56 +0000",
+          "summary": "Microsoft combines accelerated computing with cloud scale engineering to bring advanced AI capabilities to our customers. For years, we’ve worked with NVIDIA to integrate hardware, software and infrastructure to power many of today’s most important AI breakthroughs. What’s new at NVIDIA GTC Expanded Microsoft Foundry capabilities to build, deploy and operate production-ready AI agents on... The post Microsoft at NVIDIA GTC: New solutions for Microsoft Foundry, Azure AI infrastructure and Physical AI appeared first on The Official Microsoft Blog.",
+          "author": "Yina Arenas",
+          "tags": [
+            "Featured",
+            "The Official Microsoft Blog",
+            "AI",
+            "Azure",
+            "Azure AI",
+            "Azure Arc",
+            "Foundry Agent Service",
+            "Foundry Local",
+            "Microsoft Fabric",
+            "Microsoft Foundry",
+            "Physical AI"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://blogs.microsoft.com/?p=52562833",
+            "feed_url": "https://blogs.microsoft.com/blog/tag/ai/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:738612a8dd5c4aa2",
+      "dedupe_key": "https://blogs.microsoft.com/blog/2026/03/31/open-to-work-how-to-get-ahead-in-the-age-of-ai",
+      "title": "Open to Work: How to Get Ahead in the Age of AI",
+      "url": "https://blogs.microsoft.com/blog/2026/03/31/open-to-work-how-to-get-ahead-in-the-age-of-ai",
+      "published_at": "Tue, 31 Mar 2026 15:08:49 +0000",
+      "summary": "Today is the day. Open to Work: How to Get Ahead in the Age of AI is officially available! At a time when technology dominates the headlines, the conversation I see most often on LinkedIn is deeply human: what does AI mean for my job and my career? And that makes sense. Careers once felt... The post Open to Work: How to Get Ahead in the Age of AI appeared first on The Official Microsoft Blog.",
+      "tags": [
+        "ai",
+        "featured",
+        "linkedin",
+        "the official microsoft blog",
+        "work trend index"
+      ],
+      "source_item_ids": [
+        "microsoft-ai-blog:https://blogs.microsoft.com/?p=52562872"
+      ],
+      "sources": [
+        "microsoft-ai-blog"
+      ],
+      "source_categories": [
+        "cloud_platform"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "microsoft-ai-blog:https://blogs.microsoft.com/?p=52562872",
+          "source": "microsoft-ai-blog",
+          "source_category": "cloud_platform",
+          "title": "Open to Work: How to Get Ahead in the Age of AI",
+          "url": "https://blogs.microsoft.com/blog/2026/03/31/open-to-work-how-to-get-ahead-in-the-age-of-ai/",
+          "published_at": "Tue, 31 Mar 2026 15:08:49 +0000",
+          "summary": "Today is the day. Open to Work: How to Get Ahead in the Age of AI is officially available! At a time when technology dominates the headlines, the conversation I see most often on LinkedIn is deeply human: what does AI mean for my job and my career? And that makes sense. Careers once felt... The post Open to Work: How to Get Ahead in the Age of AI appeared first on The Official Microsoft Blog.",
+          "author": "Ryan Roslansky",
+          "tags": [
+            "Featured",
+            "The Official Microsoft Blog",
+            "AI",
+            "LinkedIn",
+            "Work Trend Index"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://blogs.microsoft.com/?p=52562872",
+            "feed_url": "https://blogs.microsoft.com/blog/tag/ai/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:a211c3ef16ef3c15",
+      "dedupe_key": "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership",
+      "title": "The next phase of the Microsoft-OpenAI partnership",
+      "url": "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership",
+      "published_at": "Mon, 27 Apr 2026 13:00:02 +0000",
+      "summary": "Amended Agreement Provides Long-Term Clarity The rapid pace of innovation requires us to continue to evolve our partnership to benefit our customers and both companies. Today, we are announcing an amended agreement to simplify our partnership and the way we work together, grounded in flexibility, certainty and a focus on delivering the benefits of AI... The post The next phase of the Microsoft-OpenAI partnership appeared first on The Official Microsoft Blog.",
+      "tags": [
+        "ai",
+        "featured",
+        "the official microsoft blog"
+      ],
+      "source_item_ids": [
+        "microsoft-ai-blog:https://blogs.microsoft.com/?p=52562909"
+      ],
+      "sources": [
+        "microsoft-ai-blog"
+      ],
+      "source_categories": [
+        "cloud_platform"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "microsoft-ai-blog:https://blogs.microsoft.com/?p=52562909",
+          "source": "microsoft-ai-blog",
+          "source_category": "cloud_platform",
+          "title": "The next phase of the Microsoft-OpenAI partnership",
+          "url": "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/",
+          "published_at": "Mon, 27 Apr 2026 13:00:02 +0000",
+          "summary": "Amended Agreement Provides Long-Term Clarity The rapid pace of innovation requires us to continue to evolve our partnership to benefit our customers and both companies. Today, we are announcing an amended agreement to simplify our partnership and the way we work together, grounded in flexibility, certainty and a focus on delivering the benefits of AI... The post The next phase of the Microsoft-OpenAI partnership appeared first on The Official Microsoft Blog.",
+          "author": "Microsoft Corporate Blogs",
+          "tags": [
+            "Featured",
+            "The Official Microsoft Blog",
+            "AI"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://blogs.microsoft.com/?p=52562909",
+            "feed_url": "https://blogs.microsoft.com/blog/tag/ai/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:be78c11fb9ab61ae",
+      "dedupe_key": "https://blogs.nvidia.com/blog/manufacturing-simulation-first",
+      "title": "Into the Omniverse: Manufacturing’s Simulation-First Era Has Arrived",
+      "url": "https://blogs.nvidia.com/blog/manufacturing-simulation-first",
+      "published_at": "Tue, 28 Apr 2026 13:00:33 +0000",
+      "summary": "Manufacturing’s traditional design-build-test cycle rested on a single assumption: Real-world testing was the only reliable test environment.",
+      "tags": [
+        "artificial intelligence",
+        "cosmos",
+        "digital twin",
+        "industrial and manufacturing",
+        "into the omniverse",
+        "metropolis",
+        "omniverse",
+        "physical ai",
+        "pro graphics",
+        "robotics",
+        "simulation and design",
+        "smart spaces",
+        "universal scene description"
+      ],
+      "source_item_ids": [
+        "nvidia-blog:https://blogs.nvidia.com/?p=92723"
+      ],
+      "sources": [
+        "nvidia-blog"
+      ],
+      "source_categories": [
+        "ai_hardware_platform"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "nvidia-blog:https://blogs.nvidia.com/?p=92723",
+          "source": "nvidia-blog",
+          "source_category": "ai_hardware_platform",
+          "title": "Into the Omniverse: Manufacturing’s Simulation-First Era Has Arrived",
+          "url": "https://blogs.nvidia.com/blog/manufacturing-simulation-first/",
+          "published_at": "Tue, 28 Apr 2026 13:00:33 +0000",
+          "summary": "Manufacturing’s traditional design-build-test cycle rested on a single assumption: Real-world testing was the only reliable test environment.",
+          "author": "Bhoomi Gadhia",
+          "tags": [
+            "Pro Graphics",
+            "Robotics",
+            "Artificial Intelligence",
+            "Cosmos",
+            "Digital Twin",
+            "Industrial and Manufacturing",
+            "Into the Omniverse",
+            "Metropolis",
+            "Omniverse",
+            "Physical AI",
+            "Simulation and Design",
+            "Smart Spaces",
+            "Universal Scene Description"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://blogs.nvidia.com/?p=92723",
+            "feed_url": "https://blogs.nvidia.com/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:be0d9acd6ce338a2",
+      "dedupe_key": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents",
+      "title": "NVIDIA Launches Nemotron 3 Nano Omni Model, Unifying Vision, Audio and Language for up to 9x More Efficient AI Agents",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents",
+      "published_at": "Tue, 28 Apr 2026 16:00:28 +0000",
+      "summary": "AI agent systems today juggle separate models for vision, speech and language — losing time and context as they pass data from one model to the other. Unveiled today, NVIDIA Nemotron 3 Nano Omni is an open multimodal model that brings these capabilities together into one system, enabling agents to deliver faster, smarter responses with […]",
+      "tags": [
+        "agentic ai",
+        "ai",
+        "artificial intelligence",
+        "nemotron",
+        "nvidia nemo",
+        "open source"
+      ],
+      "source_item_ids": [
+        "nvidia-blog:https://blogs.nvidia.com/?p=92732"
+      ],
+      "sources": [
+        "nvidia-blog"
+      ],
+      "source_categories": [
+        "ai_hardware_platform"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "nvidia-blog:https://blogs.nvidia.com/?p=92732",
+          "source": "nvidia-blog",
+          "source_category": "ai_hardware_platform",
+          "title": "NVIDIA Launches Nemotron 3 Nano Omni Model, Unifying Vision, Audio and Language for up to 9x More Efficient AI Agents",
+          "url": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/",
+          "published_at": "Tue, 28 Apr 2026 16:00:28 +0000",
+          "summary": "AI agent systems today juggle separate models for vision, speech and language — losing time and context as they pass data from one model to the other. Unveiled today, NVIDIA Nemotron 3 Nano Omni is an open multimodal model that brings these capabilities together into one system, enabling agents to deliver faster, smarter responses with […]",
+          "author": "Kari Briski",
+          "tags": [
+            "AI",
+            "Agentic AI",
+            "Artificial Intelligence",
+            "Nemotron",
+            "NVIDIA NeMo",
+            "Open Source"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://blogs.nvidia.com/?p=92732",
+            "feed_url": "https://blogs.nvidia.com/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:4b4b8a70eb515196",
+      "dedupe_key": "https://blogs.nvidia.com/blog/what-openclaw-agents-mean-for-every-organization",
+      "title": "Nemotron Labs: What OpenClaw Agents Mean for Every Organization",
+      "url": "https://blogs.nvidia.com/blog/what-openclaw-agents-mean-for-every-organization",
+      "published_at": "Thu, 30 Apr 2026 20:00:39 +0000",
+      "summary": "By early 2026, the open source project OpenClaw had become a phenomenon. In January, its GitHub star count crossed 100,000 as developer interest surged.",
+      "tags": [
+        "agentic ai",
+        "ai",
+        "artificial intelligence",
+        "nemotron",
+        "nemotron labs",
+        "open source"
+      ],
+      "source_item_ids": [
+        "nvidia-blog:https://blogs.nvidia.com/?p=92588"
+      ],
+      "sources": [
+        "nvidia-blog"
+      ],
+      "source_categories": [
+        "ai_hardware_platform"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "nvidia-blog:https://blogs.nvidia.com/?p=92588",
+          "source": "nvidia-blog",
+          "source_category": "ai_hardware_platform",
+          "title": "Nemotron Labs: What OpenClaw Agents Mean for Every Organization",
+          "url": "https://blogs.nvidia.com/blog/what-openclaw-agents-mean-for-every-organization/",
+          "published_at": "Thu, 30 Apr 2026 20:00:39 +0000",
+          "summary": "By early 2026, the open source project OpenClaw had become a phenomenon. In January, its GitHub star count crossed 100,000 as developer interest surged.",
+          "author": "Justin Boitano",
+          "tags": [
+            "AI",
+            "Agentic AI",
+            "Artificial Intelligence",
+            "Nemotron",
+            "Nemotron Labs",
+            "Open Source"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://blogs.nvidia.com/?p=92588",
+            "feed_url": "https://blogs.nvidia.com/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:24e1d47edb549097",
+      "dedupe_key": "https://mistral.ai/news/mistral-small-4",
+      "title": "Introducing Mistral Small 4",
+      "url": "https://mistral.ai/news/mistral-small-4",
+      "published_at": "2026-03-16T21:00:00",
+      "summary": "Solutions Research Blog Customers Company Contact Sales Try Studio Introducing Mistral Small 4 A fast instruct model",
+      "tags": [],
+      "source_item_ids": [
+        "mistral-news:https://mistral.ai/news/mistral-small-4"
+      ],
+      "sources": [
+        "mistral-news"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "mistral-news:https://mistral.ai/news/mistral-small-4",
+          "source": "mistral-news",
+          "source_category": "official_lab",
+          "title": "Introducing Mistral Small 4",
+          "url": "https://mistral.ai/news/mistral-small-4",
+          "published_at": "2026-03-16T21:00:00",
+          "summary": "Solutions Research Blog Customers Company Contact Sales Try Studio Introducing Mistral Small 4 A fast instruct model",
+          "author": null,
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "index_url": "https://mistral.ai/news",
+            "path": "/news/mistral-small-4"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:637050adece4681f",
+      "dedupe_key": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+      "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5.",
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+      "published_at": "2026-04-29T12:00:00",
+      "summary": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+      "tags": [],
+      "source_item_ids": [
+        "mistral-news:https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5"
+      ],
+      "sources": [
+        "mistral-news"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "mistral-news:https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+          "source": "mistral-news",
+          "source_category": "official_lab",
+          "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5.",
+          "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+          "published_at": "2026-04-29T12:00:00",
+          "summary": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+          "author": null,
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "index_url": "https://mistral.ai/news",
+            "path": "/news/vibe-remote-agents-mistral-medium-3-5"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:fa83462e6745a479",
+      "dedupe_key": "https://mistral.ai/news/voxtral-transcribe-2",
+      "title": "Voxtral transcribes at the speed of sound.",
+      "url": "https://mistral.ai/news/voxtral-transcribe-2",
+      "published_at": "2026-02-04T16:00:00",
+      "summary": "Precision diarization, real-time transcription, and a new audio playground.",
+      "tags": [],
+      "source_item_ids": [
+        "mistral-news:https://mistral.ai/news/voxtral-transcribe-2"
+      ],
+      "sources": [
+        "mistral-news"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "mistral-news:https://mistral.ai/news/voxtral-transcribe-2",
+          "source": "mistral-news",
+          "source_category": "official_lab",
+          "title": "Voxtral transcribes at the speed of sound.",
+          "url": "https://mistral.ai/news/voxtral-transcribe-2",
+          "published_at": "2026-02-04T16:00:00",
+          "summary": "Precision diarization, real-time transcription, and a new audio playground.",
+          "author": null,
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "index_url": "https://mistral.ai/news",
+            "path": "/news/voxtral-transcribe-2"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:92f8ee26a85afd65",
+      "dedupe_key": "https://openai.com/index/advanced-account-security",
+      "title": "Introducing Advanced Account Security",
+      "url": "https://openai.com/index/advanced-account-security",
+      "published_at": "Thu, 30 Apr 2026 00:00:00 GMT",
+      "summary": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.",
+      "tags": [
+        "product"
+      ],
+      "source_item_ids": [
+        "openai-blog:https://openai.com/index/advanced-account-security"
+      ],
+      "sources": [
+        "openai-blog"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "openai-blog:https://openai.com/index/advanced-account-security",
+          "source": "openai-blog",
+          "source_category": "official_lab",
+          "title": "Introducing Advanced Account Security",
+          "url": "https://openai.com/index/advanced-account-security",
+          "published_at": "Thu, 30 Apr 2026 00:00:00 GMT",
+          "summary": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.",
+          "author": null,
+          "tags": [
+            "Product"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://openai.com/index/advanced-account-security",
+            "feed_url": "https://openai.com/news/rss.xml"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:d6581b92c87ef014",
+      "dedupe_key": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "published_at": "Mon, 04 May 2026 00:00:00 GMT",
+      "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+      "tags": [
+        "engineering"
+      ],
+      "source_item_ids": [
+        "openai-blog:https://openai.com/index/delivering-low-latency-voice-ai-at-scale"
+      ],
+      "sources": [
+        "openai-blog"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "openai-blog:https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+          "source": "openai-blog",
+          "source_category": "official_lab",
+          "title": "How OpenAI delivers low-latency voice AI at scale",
+          "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+          "published_at": "Mon, 04 May 2026 00:00:00 GMT",
+          "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+          "author": null,
+          "tags": [
+            "Engineering"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+            "feed_url": "https://openai.com/news/rss.xml"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:9807ae0752f785d8",
+      "dedupe_key": "https://openai.com/index/openai-pwc-finance-collaboration",
+      "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+      "url": "https://openai.com/index/openai-pwc-finance-collaboration",
+      "published_at": "Mon, 04 May 2026 21:00:00 GMT",
+      "summary": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+      "tags": [
+        "global affairs"
+      ],
+      "source_item_ids": [
+        "openai-blog:https://openai.com/index/openai-pwc-finance-collaboration"
+      ],
+      "sources": [
+        "openai-blog"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "openai-blog:https://openai.com/index/openai-pwc-finance-collaboration",
+          "source": "openai-blog",
+          "source_category": "official_lab",
+          "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+          "url": "https://openai.com/index/openai-pwc-finance-collaboration",
+          "published_at": "Mon, 04 May 2026 21:00:00 GMT",
+          "summary": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+          "author": null,
+          "tags": [
+            "Global Affairs"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://openai.com/index/openai-pwc-finance-collaboration",
+            "feed_url": "https://openai.com/news/rss.xml"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:afabafae073055fd",
+      "dedupe_key": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "title": "Introducing Claude Design by Anthropic Labs",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "published_at": "2026-04-17T14:32:27.021Z",
+      "summary": "Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.",
+      "tags": [],
+      "source_item_ids": [
+        "anthropic-news:https://www.anthropic.com/news/claude-design-anthropic-labs"
+      ],
+      "sources": [
+        "anthropic-news"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "anthropic-news:https://www.anthropic.com/news/claude-design-anthropic-labs",
+          "source": "anthropic-news",
+          "source_category": "official_lab",
+          "title": "Introducing Claude Design by Anthropic Labs",
+          "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+          "published_at": "2026-04-17T14:32:27.021Z",
+          "summary": "Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.",
+          "author": null,
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "index_url": "https://www.anthropic.com/news",
+            "path": "/news/claude-design-anthropic-labs"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:26de9866b27d78a4",
+      "dedupe_key": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "title": "Claude is a space to think | Anthropic",
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "published_at": "2026-02-04T18:00:00.000Z",
+      "summary": "We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and how we plan to expand access without compromising user trust.",
+      "tags": [],
+      "source_item_ids": [
+        "anthropic-news:https://www.anthropic.com/news/claude-is-a-space-to-think"
+      ],
+      "sources": [
+        "anthropic-news"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "anthropic-news:https://www.anthropic.com/news/claude-is-a-space-to-think",
+          "source": "anthropic-news",
+          "source_category": "official_lab",
+          "title": "Claude is a space to think | Anthropic",
+          "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+          "published_at": "2026-02-04T18:00:00.000Z",
+          "summary": "We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and how we plan to expand access without compromising user trust.",
+          "author": null,
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "index_url": "https://www.anthropic.com/news",
+            "path": "/news/claude-is-a-space-to-think"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:8ffed2502175348b",
+      "dedupe_key": "https://www.anthropic.com/news/claude-opus-4-7",
+      "title": "Introducing Claude Opus 4.7",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "published_at": "2026-04-16T14:30:00.000Z",
+      "summary": "Our latest model, Claude Opus 4.7, is now generally available. Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, with particular gains on the most difficult tasks.",
+      "tags": [],
+      "source_item_ids": [
+        "anthropic-news:https://www.anthropic.com/news/claude-opus-4-7"
+      ],
+      "sources": [
+        "anthropic-news"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "anthropic-news:https://www.anthropic.com/news/claude-opus-4-7",
+          "source": "anthropic-news",
+          "source_category": "official_lab",
+          "title": "Introducing Claude Opus 4.7",
+          "url": "https://www.anthropic.com/news/claude-opus-4-7",
+          "published_at": "2026-04-16T14:30:00.000Z",
+          "summary": "Our latest model, Claude Opus 4.7, is now generally available. Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, with particular gains on the most difficult tasks.",
+          "author": null,
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "index_url": "https://www.anthropic.com/news",
+            "path": "/news/claude-opus-4-7"
+          }
+        }
+      ]
+    }
+  ],
+  "output_path": "Runtime/validation_multi_official_labs.json"
+}

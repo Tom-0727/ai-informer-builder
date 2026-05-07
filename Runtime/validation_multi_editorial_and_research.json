@@ -1,0 +1,2987 @@
+{
+  "collected_at": "2026-05-05T09:36:43Z",
+  "source_request": {
+    "source": "all",
+    "source_set": "editorial_and_research",
+    "profile": "quick",
+    "limit": 3,
+    "selected_sources": [
+      "rundown-ai",
+      "techcrunch-ai",
+      "venturebeat-ai",
+      "marktechpost-ai",
+      "ai-news",
+      "synced",
+      "sebastian-raschka",
+      "thegradient",
+      "machinelearningmastery",
+      "towards-ai",
+      "towardsdatascience",
+      "ai-business",
+      "arxiv-ai",
+      "huggingface-blog",
+      "analyticsvidhya"
+    ],
+    "per_source_limits": {
+      "rundown-ai": 3,
+      "techcrunch-ai": 3,
+      "venturebeat-ai": 3,
+      "marktechpost-ai": 3,
+      "ai-news": 3,
+      "synced": 3,
+      "sebastian-raschka": 3,
+      "thegradient": 3,
+      "machinelearningmastery": 3,
+      "towards-ai": 3,
+      "towardsdatascience": 3,
+      "ai-business": 3,
+      "arxiv-ai": 3,
+      "huggingface-blog": 3,
+      "analyticsvidhya": 3
+    },
+    "enrich": true,
+    "options": {
+      "hacker_news_feeds": [
+        "top"
+      ],
+      "github_since_windows": [
+        "daily",
+        "weekly"
+      ],
+      "reddit_subreddits": [
+        "LocalLLaMA",
+        "singularity",
+        "artificial"
+      ]
+    }
+  },
+  "item_count": 45,
+  "source_counts": {
+    "rundown-ai": 3,
+    "techcrunch-ai": 3,
+    "venturebeat-ai": 3,
+    "marktechpost-ai": 3,
+    "ai-news": 3,
+    "synced": 3,
+    "sebastian-raschka": 3,
+    "thegradient": 3,
+    "machinelearningmastery": 3,
+    "towards-ai": 3,
+    "towardsdatascience": 3,
+    "ai-business": 3,
+    "arxiv-ai": 3,
+    "huggingface-blog": 3,
+    "analyticsvidhya": 3
+  },
+  "source_errors": {},
+  "items": [
+    {
+      "id": "rundown-ai:https://www.therundown.ai/p/ai-data-centers-head-for-the-ocean",
+      "source": "rundown-ai",
+      "source_category": "newsletter",
+      "title": "AI data centers head for the ocean",
+      "url": "https://www.therundown.ai/p/ai-data-centers-head-for-the-ocean",
+      "published_at": "Tue, 05 May 2026 09:00:00 +0000",
+      "summary": "PLUS: How to replace Siri with a free local model",
+      "author": "Zach Mink",
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://www.therundown.ai/p/ai-data-centers-head-for-the-ocean",
+        "feed_url": "https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml"
+      }
+    },
+    {
+      "id": "rundown-ai:https://www.therundown.ai/p/ai-shows-its-skills-in-the-emergency-room",
+      "source": "rundown-ai",
+      "source_category": "newsletter",
+      "title": "AI shows its skills in the emergency room",
+      "url": "https://www.therundown.ai/p/ai-shows-its-skills-in-the-emergency-room",
+      "published_at": "Mon, 04 May 2026 09:00:00 +0000",
+      "summary": "PLUS: Create converting landing pages in Claude Design",
+      "author": "Zach Mink",
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://www.therundown.ai/p/ai-shows-its-skills-in-the-emergency-room",
+        "feed_url": "https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml"
+      }
+    },
+    {
+      "id": "rundown-ai:https://www.therundown.ai/p/exclusive-uipath-cmo-michael-atalla-on-ai-at-work",
+      "source": "rundown-ai",
+      "source_category": "newsletter",
+      "title": "Exclusive: UiPath CMO Michael Atalla on AI at work",
+      "url": "https://www.therundown.ai/p/exclusive-uipath-cmo-michael-atalla-on-ai-at-work",
+      "published_at": "Sun, 03 May 2026 10:00:00 +0000",
+      "summary": "Why most AI projects fail, what the cloud era teaches us, and what the whole AI shift means for your job",
+      "author": "Shubham Sharma",
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://www.therundown.ai/p/exclusive-uipath-cmo-michael-atalla-on-ai-at-work",
+        "feed_url": "https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml"
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/?p=3119100",
+      "source": "techcrunch-ai",
+      "source_category": "industry_news",
+      "title": "As workers worry about AI, Nvidia’s Jensen Huang says AI is ‘creating an enormous number of jobs’",
+      "url": "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs/",
+      "published_at": "Tue, 05 May 2026 03:31:54 +0000",
+      "summary": "The Nvidia CEO seems to feel that claims of AI's job-killing potential have been greatly exaggerated.",
+      "author": "Lucas Ropek",
+      "tags": [
+        "AI",
+        "chips",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://techcrunch.com/?p=3119100",
+        "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/?p=3118909",
+      "source": "techcrunch-ai",
+      "source_category": "industry_news",
+      "title": "OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO",
+      "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+      "published_at": "Mon, 04 May 2026 21:53:21 +0000",
+      "summary": "AI chip maker Cerebras is heading for a blockbuster IPO that could value it at $26.6 billion or more. Its relationship with OpenAI is deep and rich.",
+      "author": "Julie Bort",
+      "tags": [
+        "AI",
+        "Startups",
+        "TC",
+        "cerebras systems",
+        "IPO",
+        "OpenAI"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://techcrunch.com/?p=3118909",
+        "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/?p=3118889",
+      "source": "techcrunch-ai",
+      "source_category": "industry_news",
+      "title": "Image AI models now drive app growth, beating chatbot upgrades",
+      "url": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/",
+      "published_at": "Mon, 04 May 2026 19:12:49 +0000",
+      "summary": "Appfigures finds visual model launches generate 6.5x more downloads — but most don’t convert that spike into revenue.",
+      "author": "Sarah Perez",
+      "tags": [
+        "AI",
+        "Apps",
+        "ai apps",
+        "ChatGPT",
+        "gemini",
+        "image models",
+        "meta ai"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://techcrunch.com/?p=3118889",
+        "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+      }
+    },
+    {
+      "id": "venturebeat-ai:1l2gUXhw9OMzMzsSp8yAFk",
+      "source": "venturebeat-ai",
+      "source_category": "industry_news",
+      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+      "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "published_at": "Thu, 22 Jan 2026 14:00:00 GMT",
+      "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of legacy cloud infrastructure. TQ Ventures led the round, with participation from FPV Ventures, Redpoint, and Unusual Ventures. The investment values Railway as one of the most significant infrastructure startups to emerge during the AI boom, capitalizing on developer frustration with the complexity and cost of traditional platforms like Amazon Web Services and Google Cloud. \"As AI models get better at writing code, more and more people are asking the age-old question: where, and how, do I run my applications?\" said Jake Cooper, Railway's 28-year-old founder and chief executive, in an exclusive int...",
+      "author": "michael.nunez@venturebeat.com (Michael Nuñez)",
+      "tags": [
+        "Infrastructure",
+        "AI"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "1l2gUXhw9OMzMzsSp8yAFk",
+        "feed_url": "https://venturebeat.com/category/ai/feed/"
+      }
+    },
+    {
+      "id": "venturebeat-ai:2CUHNkdUg4dnjDFiMtJJQ",
+      "source": "venturebeat-ai",
+      "source_category": "industry_news",
+      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+      "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "published_at": "Mon, 19 Jan 2026 14:00:00 GMT",
+      "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive. Claude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing — ranging from $20 to $200 per month depending on usage — has sparked a growing rebellion among the very programmers it aims to serve. Now, a free alternative is gaining traction. Goose, an open-source AI agent developed by Block (the financial technology company formerly known as Square), offers nearly identical functionality to Claude Code but runs entirely on a user's local machine. No subscription fees. No cloud dependency. No rate limits that reset every five hours. \"Your data stays with you, period,\" said Parth Sareen, a software engineer who demonstrated the tool during a recent livestream. The comment captures the core a...",
+      "author": "michael.nunez@venturebeat.com (Michael Nuñez)",
+      "tags": [
+        "AI",
+        "Infrastructure"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "2CUHNkdUg4dnjDFiMtJJQ",
+        "feed_url": "https://venturebeat.com/category/ai/feed/"
+      }
+    },
+    {
+      "id": "venturebeat-ai:wOG0z6nm91FOeUqhpizqI",
+      "source": "venturebeat-ai",
+      "source_category": "industry_news",
+      "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+      "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+      "published_at": "Fri, 16 Jan 2026 14:01:00 GMT",
+      "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,000 — a fifth of his marketing budget — on a billboard in San Francisco displaying what looked like gibberish: five strings of random numbers. The numbers were actually AI tokens. Decoded, they led to a coding challenge: build an algorithm to act as a digital bouncer at Berghain, the Berlin nightclub famous for rejecting nearly everyone at the door. Within days, thousands attempted the puzzle. 430 cracked it. Some got hired. The winner flew to Berlin, all expenses paid. That unconventional approach has now attracted $69 million in Series B funding, led by Ribbit Capital with participation from Evantic and existing investors Sequoia Capital, Conviction, and Pear VC. The round values Listen L...",
+      "author": "michael.nunez@venturebeat.com (Michael Nuñez)",
+      "tags": [
+        "Technology",
+        "AI"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "wOG0z6nm91FOeUqhpizqI",
+        "feed_url": "https://venturebeat.com/category/ai/feed/"
+      }
+    },
+    {
+      "id": "marktechpost-ai:https://www.marktechpost.com/?p=79524",
+      "source": "marktechpost-ai",
+      "source_category": "technical_news",
+      "title": "Why Gradient Descent Zigzags and How Momentum Fixes It",
+      "url": "https://www.marktechpost.com/2026/05/05/why-gradient-descent-zigzags-and-how-momentum-fixes-it/",
+      "published_at": "Tue, 05 May 2026 07:26:29 +0000",
+      "summary": "How momentum optimizes gradient descent by dampening oscillations and accelerating convergence on complex The post Why Gradient Descent Zigzags and How Momentum Fixes It appeared first on MarkTechPost.",
+      "author": "Arham Islam",
+      "tags": [
+        "Data Science",
+        "Editors Pick",
+        "Staff",
+        "Technology"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://www.marktechpost.com/?p=79524",
+        "feed_url": "https://www.marktechpost.com/feed/"
+      }
+    },
+    {
+      "id": "marktechpost-ai:https://www.marktechpost.com/?p=79521",
+      "source": "marktechpost-ai",
+      "source_category": "technical_news",
+      "title": "Google Adds Event-Driven Webhooks to the Gemini API, Eliminating the Need for Polling in Long-Running AI Jobs",
+      "url": "https://www.marktechpost.com/2026/05/05/google-adds-event-driven-webhooks-to-the-gemini-api-eliminating-the-need-for-polling-in-long-running-ai-jobs/",
+      "published_at": "Tue, 05 May 2026 07:01:53 +0000",
+      "summary": "A push-based notification system for Batch API, Deep Research, and video generation tasks arrives with built-in security, retry guarantees, and two configuration modes. The post Google Adds Event-Driven Webhooks to the Gemini API, Eliminating the Need for Polling in Long-Running AI Jobs appeared first on MarkTechPost.",
+      "author": "Michal Sutter",
+      "tags": [
+        "Agentic AI",
+        "AI Shorts",
+        "Artificial Intelligence",
+        "Editors Pick",
+        "New Releases",
+        "Software Engineering",
+        "Technology"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://www.marktechpost.com/?p=79521",
+        "feed_url": "https://www.marktechpost.com/feed/"
+      }
+    },
+    {
+      "id": "marktechpost-ai:https://www.marktechpost.com/?p=79514",
+      "source": "marktechpost-ai",
+      "source_category": "technical_news",
+      "title": "A Coding Guide to Survey Bias Correction Using Facebook Research Balance with IPW CBPS Ranking and Post Stratification Methods",
+      "url": "https://www.marktechpost.com/2026/05/04/a-coding-guide-to-survey-bias-correction-using-facebook-research-balance-with-ipw-cbps-ranking-and-post-stratification-methods/",
+      "published_at": "Tue, 05 May 2026 04:46:45 +0000",
+      "summary": "In this tutorial, we walk through a complete, end-to-end workflow for correcting bias in survey data using the balance library. We simulate a realistic population, deliberately introduce sampling bias, and then apply multiple re-weighting techniques to recover unbiased estimates. We focus on four widely used methods: Inverse Probability Weighting (IPW), Covariate Balancing Propensity Scores (CBPS), […] The post A Coding Guide to Survey Bias Correction Using Facebook Research Balance with IPW CBPS Ranking and Post Stratification Methods appeared first on MarkTechPost.",
+      "author": "Sana Hassan",
+      "tags": [
+        "Applications",
+        "Artificial Intelligence",
+        "Data Science",
+        "Deep Learning",
+        "Editors Pick",
+        "Machine Learning",
+        "Software Engineering",
+        "Staff",
+        "Technology",
+        "Tutorials"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://www.marktechpost.com/?p=79514",
+        "feed_url": "https://www.marktechpost.com/feed/"
+      }
+    },
+    {
+      "id": "ai-news:https://www.artificialintelligence-news.com/?p=113301",
+      "source": "ai-news",
+      "source_category": "industry_news",
+      "title": "Physical AI raises governance questions for autonomous systems",
+      "url": "https://www.artificialintelligence-news.com/news/physical-ai-governance-autonomous-systems/",
+      "published_at": "Mon, 04 May 2026 11:00:00 +0000",
+      "summary": "Governance around Physical AI is becoming harder as autonomous AI systems move into robots, sensors, and industrial equipment. The issue is not only whether AI agents can complete tasks. It is how their actions are tested, monitored, and stopped when they interact with real-world systems. Industrial robotics already provides a large base for that discussion. […] The post Physical AI raises governance questions for autonomous systems appeared first on AI News.",
+      "author": "Muhammad Zulhusni",
+      "tags": [
+        "Artificial Intelligence",
+        "Governance, Regulation & Policy",
+        "Manufacturing & Engineering AI",
+        "Multimodal AI",
+        "Physical AI",
+        "TechEx Events",
+        "ai",
+        "governance",
+        "manufacturing",
+        "multimodal AI",
+        "physical ai"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://www.artificialintelligence-news.com/?p=113301",
+        "feed_url": "https://www.artificialintelligence-news.com/feed/"
+      }
+    },
+    {
+      "id": "ai-news:https://www.artificialintelligence-news.com/?p=113300",
+      "source": "ai-news",
+      "source_category": "industry_news",
+      "title": "Google made agentic AI governance a product. Enterprises still have to catch up.",
+      "url": "https://www.artificialintelligence-news.com/news/agentic-ai-governance-enterprise-readiness-google/",
+      "published_at": "Mon, 04 May 2026 10:00:00 +0000",
+      "summary": "Two weeks ago at Google Cloud Next ’26 in Las Vegas, Google did something the enterprise AI industry has been dancing around for the better part of two years: it made agentic AI governance a native product feature, not an afterthought. The centrepiece announcement was the Gemini Enterprise Agent Platform, pitched as the successor to Vertex AI […] The post Google made agentic AI governance a product. Enterprises still have to catch up. appeared first on AI News.",
+      "author": "Dashveenjit Kaur",
+      "tags": [
+        "AI Business Strategy",
+        "AI in Action",
+        "AI Market Trends",
+        "Artificial Intelligence",
+        "Featured News",
+        "Governance, Regulation & Policy",
+        "Inside AI",
+        "agentic ai",
+        "AI agents",
+        "ai governance",
+        "ai infrastructure",
+        "ai security",
+        "enterprise AI",
+        "gemini",
+        "google cloud",
+        "Google Cloud Next"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://www.artificialintelligence-news.com/?p=113300",
+        "feed_url": "https://www.artificialintelligence-news.com/feed/"
+      }
+    },
+    {
+      "id": "ai-news:https://www.artificialintelligence-news.com/?p=113292",
+      "source": "ai-news",
+      "source_category": "industry_news",
+      "title": "SAP: How enterprise AI governance secures profit margins",
+      "url": "https://www.artificialintelligence-news.com/news/sap-how-enterprise-ai-governance-secures-profit-margins/",
+      "published_at": "Fri, 01 May 2026 13:05:37 +0000",
+      "summary": "According to SAP, enterprise AI governance secures profit margins by replacing statistical guesses with deterministic control. Ask a consumer-grade model to count the words in a document, and it will often miss the mark by ten percent. Manos Raptopoulos, Global President of Customer Success Europe, APAC, Middle East & Africa at SAP, observes that the […] The post SAP: How enterprise AI governance secures profit margins appeared first on AI News.",
+      "author": "Ryan Daws",
+      "tags": [
+        "AI and Us",
+        "AI Business Strategy",
+        "AI Market Trends",
+        "Data Engineering & MLOps",
+        "Deep Dives",
+        "Featured News",
+        "Features",
+        "Governance, Regulation & Policy",
+        "Human-AI Relationships",
+        "Inside AI",
+        "Natural Language Processing (NLP)",
+        "Opinion",
+        "Trust, Bias & Fairness",
+        "World of Work",
+        "agentic ai",
+        "agents",
+        "automation",
+        "enterprise",
+        "governance",
+        "sap",
+        "strategy",
+        "trends"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://www.artificialintelligence-news.com/?p=113292",
+        "feed_url": "https://www.artificialintelligence-news.com/feed/"
+      }
+    },
+    {
+      "id": "synced:https://syncedreview.com/?p=47256",
+      "source": "synced",
+      "source_category": "global_ai_news",
+      "title": "Which Agent Causes Task Failures and When?Researchers from PSU and Duke explores automated failure attribution of LLM Multi-Agent Systems",
+      "url": "https://syncedreview.com/2025/08/14/which-agent-causes-task-failures-and-whenresearchers-from-psu-and-duke-explores-automated-failure-attribution-of-llm-multi-agent-systems/",
+      "published_at": "Thu, 14 Aug 2025 06:31:20 +0000",
+      "summary": "In recent years, LLM Multi-Agent systems have garnered widespread attention for their collaborative approach to solving complex problems. However, it's a common scenario for these systems to fail at a task despite a flurry of activity. The post Which Agent Causes Task Failures and When?Researchers from PSU and Duke explores automated failure attribution of LLM Multi-Agent Systems first appeared on Synced.",
+      "author": "Synced",
+      "tags": [
+        "Research"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://syncedreview.com/?p=47256",
+        "feed_url": "https://syncedreview.com/feed/"
+      }
+    },
+    {
+      "id": "synced:https://syncedreview.com/?p=47236",
+      "source": "synced",
+      "source_category": "global_ai_news",
+      "title": "ByteDance Introduces Astra: A Dual-Model Architecture for Autonomous Robot Navigation",
+      "url": "https://syncedreview.com/2025/06/24/bytedance-introduces-astra-a-dual-model-architecture-for-autonomous-robot-navigation/",
+      "published_at": "Tue, 24 Jun 2025 09:17:01 +0000",
+      "summary": "ByteDance introduces Astra, an innovative dual-model architecture revolutionizing robot navigation in complex indoor environments. The post ByteDance Introduces Astra: A Dual-Model Architecture for Autonomous Robot Navigation first appeared on Synced.",
+      "author": "Synced",
+      "tags": [
+        "Research"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://syncedreview.com/?p=47236",
+        "feed_url": "https://syncedreview.com/feed/"
+      }
+    },
+    {
+      "id": "synced:https://syncedreview.com/?p=47227",
+      "source": "synced",
+      "source_category": "global_ai_news",
+      "title": "MIT Researchers Unveil “SEAL”: A New Step Towards Self-Improving AI",
+      "url": "https://syncedreview.com/2025/06/16/mit-researchers-unveil-seal-a-new-step-towards-self-improving-ai/",
+      "published_at": "Mon, 16 Jun 2025 12:58:37 +0000",
+      "summary": "MIT introduces SEAL, a framework enabling large language models to self-edit and update their weights via reinforcement learning. The post MIT Researchers Unveil “SEAL”: A New Step Towards Self-Improving AI first appeared on Synced.",
+      "author": "Synced",
+      "tags": [
+        "Research"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://syncedreview.com/?p=47227",
+        "feed_url": "https://syncedreview.com/feed/"
+      }
+    },
+    {
+      "id": "sebastian-raschka:https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
+      "source": "sebastian-raschka",
+      "source_category": "expert_analysis",
+      "title": "My Workflow for Understanding LLM Architectures",
+      "url": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
+      "published_at": "Sat, 18 Apr 2026 11:24:36 GMT",
+      "summary": "A learning-oriented workflow for understanding new open-weight model releases",
+      "author": "Sebastian Raschka, PhD",
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
+        "feed_url": "https://magazine.sebastianraschka.com/feed"
+      }
+    },
+    {
+      "id": "sebastian-raschka:https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+      "source": "sebastian-raschka",
+      "source_category": "expert_analysis",
+      "title": "Components of A Coding Agent",
+      "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+      "published_at": "Sat, 04 Apr 2026 11:45:37 GMT",
+      "summary": "How coding agents use tools, memory, and repo context to make LLMs work better in practice",
+      "author": "Sebastian Raschka, PhD",
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+        "feed_url": "https://magazine.sebastianraschka.com/feed"
+      }
+    },
+    {
+      "id": "sebastian-raschka:https://magazine.sebastianraschka.com/p/visual-attention-variants",
+      "source": "sebastian-raschka",
+      "source_category": "expert_analysis",
+      "title": "A Visual Guide to Attention Variants in Modern LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/visual-attention-variants",
+      "published_at": "Sun, 22 Mar 2026 11:55:40 GMT",
+      "summary": "From MHA and GQA to MLA, sparse attention, and hybrid architectures",
+      "author": "Sebastian Raschka, PhD",
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://magazine.sebastianraschka.com/p/visual-attention-variants",
+        "feed_url": "https://magazine.sebastianraschka.com/feed"
+      }
+    },
+    {
+      "id": "thegradient:69879dd077c3d76051ac158f",
+      "source": "thegradient",
+      "source_category": "research_commentary",
+      "title": "After Orthogonality: Virtue-Ethical Agency and AI Alignment",
+      "url": "https://thegradient.pub/virtue-ethics-ai-alignment/",
+      "published_at": "Wed, 18 Feb 2026 23:25:52 GMT",
+      "summary": "Preface This essay argues that rational people don’t have goals, and that rational AIs shouldn’t have goals. Human actions are rational not because we direct them at some final ‘goals,’ but because we align actions to practices [1]: networks of actions, action-dispositions, action-evaluation criteria,",
+      "author": "Peli Grietzer",
+      "tags": [
+        "Ethics",
+        "Human factors",
+        "Impacts"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "69879dd077c3d76051ac158f",
+        "feed_url": "https://thegradient.pub/rss/"
+      }
+    },
+    {
+      "id": "thegradient:683fb98b77c3d76051ac142c",
+      "source": "thegradient",
+      "source_category": "research_commentary",
+      "title": "AGI Is Not Multimodal",
+      "url": "https://thegradient.pub/agi-is-not-multimodal/",
+      "published_at": "Wed, 04 Jun 2025 14:00:29 GMT",
+      "summary": "\"In projecting language back as the model for thought, we lose sight of the tacit embodied understanding that undergirds our intelligence.\" –Terry Winograd The recent successes of generative AI models have convinced some that AGI is imminent. While these models appear to capture the essence of human",
+      "author": "Benjamin A. Spiegel",
+      "tags": [
+        "Perspectives",
+        "Trends"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "683fb98b77c3d76051ac142c",
+        "feed_url": "https://thegradient.pub/rss/"
+      }
+    },
+    {
+      "id": "thegradient:673686c693571d5c8c155078",
+      "source": "thegradient",
+      "source_category": "research_commentary",
+      "title": "Shape, Symmetries, and Structure: The Changing Role of Mathematics in Machine Learning Research",
+      "url": "https://thegradient.pub/shape-symmetry-structure/",
+      "published_at": "Sat, 16 Nov 2024 16:46:15 GMT",
+      "summary": "What is the Role of Mathematics in Modern Machine Learning? The past decade has witnessed a shift in how progress is made in machine learning. Research involving carefully designed and mathematically principled architectures result in only marginal improvements while compute-intensive and engineering-first efforts that scale to ever larger training sets",
+      "author": "Henry Kvinge",
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "guid": "673686c693571d5c8c155078",
+        "feed_url": "https://thegradient.pub/rss/"
+      }
+    },
+    {
+      "id": "machinelearningmastery:https://machinelearningmastery.com/?p=23975",
+      "source": "machinelearningmastery",
+      "source_category": "tutorials",
+      "title": "Agentic RAG Explained in 3 Levels of Difficulty",
+      "url": "https://machinelearningmastery.com/agentic-rag-explained-in-3-levels-of-difficulty/",
+      "published_at": "Mon, 04 May 2026 12:00:34 +0000",
+      "summary": "Traditional <a href=\"https://aws.",
+      "author": "Bala Priya C",
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://machinelearningmastery.com/?p=23975",
+        "feed_url": "https://machinelearningmastery.com/feed/"
+      }
+    },
+    {
+      "id": "machinelearningmastery:https://machinelearningmastery.com/?p=24079",
+      "source": "machinelearningmastery",
+      "source_category": "tutorials",
+      "title": "Effective KV Compression with TurboQuant",
+      "url": "https://machinelearningmastery.com/effective-kv-compression-with-turboquant/",
+      "published_at": "Thu, 30 Apr 2026 12:00:11 +0000",
+      "summary": "TurboQuant has recently been launched by Google as a novel algorithmic suite and library for applying advanced quantization and compression to large language models (LLMs) and vector search engines — an indispensable element of RAG systems.",
+      "author": "Iván Palomares Carrascosa",
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://machinelearningmastery.com/?p=24079",
+        "feed_url": "https://machinelearningmastery.com/feed/"
+      }
+    },
+    {
+      "id": "machinelearningmastery:https://machinelearningmastery.com/?p=24025",
+      "source": "machinelearningmastery",
+      "source_category": "tutorials",
+      "title": "Building AI Agents in Python with Pydantic AI",
+      "url": "https://machinelearningmastery.com/building-ai-agents-in-python-with-pydantic-ai/",
+      "published_at": "Wed, 29 Apr 2026 12:00:37 +0000",
+      "summary": "<a href=\"https://machinelearningmastery.",
+      "author": "Bala Priya C",
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://machinelearningmastery.com/?p=24025",
+        "feed_url": "https://machinelearningmastery.com/feed/"
+      }
+    },
+    {
+      "id": "towards-ai:https://towardsai.net/p/artificial-intelligence/langgraph-multi-agent-architecture-building-a-self-critiquing-ai-debate-system",
+      "source": "towards-ai",
+      "source_category": "editorial_practice",
+      "title": "LangGraph Multi-Agent Architecture: Building a Self-Critiquing AI Debate System",
+      "url": "https://towardsai.net/p/machine-learning/langgraph-multi-agent-architecture-building-a-self-critiquing-ai-debate-system",
+      "published_at": "Mon, 04 May 2026 11:41:43 +0000",
+      "summary": "Last Updated on May 4, 2026 by Editorial Team Author(s): Rishav Saigal Originally published on Towards AI. A technical deep-dive into the LangGraph state machine, Pydantic-driven routing, and Critique Agent design powering the LLM Drift Experiment. In the opening piece of this series, we explored the conceptual “why” behind LLM Drift — how AI agents lose their persona, reasoning quality, and behavioral consistency under sustained adversarial pressure. But for the engineers and architects in the room, the “how” is where the real story lives. Building a system designed to intentionally stress-test agent stability requires more than a sequential script. It requires a stateful, resilient, and adversarial architecture — one where failure modes are first-class citizens, not edge cases to be patched later. To build the LLM Drift Experiment, we chose LangGraph. Here is a deep dive into the arch...",
+      "author": "Rishav Saigal",
+      "tags": [
+        "Artificial Intelligence",
+        "Data Science",
+        "Latest",
+        "Machine Learning",
+        "Towards AI - Medium"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://towardsai.net/p/artificial-intelligence/langgraph-multi-agent-architecture-building-a-self-critiquing-ai-debate-system",
+        "feed_url": "https://towardsai.net/feed"
+      }
+    },
+    {
+      "id": "towards-ai:https://towardsai.net/p/artificial-intelligence/automl-on-autopilot",
+      "source": "towards-ai",
+      "source_category": "editorial_practice",
+      "title": "AutoML on Autopilot",
+      "url": "https://towardsai.net/p/machine-learning/automl-on-autopilot",
+      "published_at": "Mon, 04 May 2026 10:13:06 +0000",
+      "summary": "Last Updated on May 4, 2026 by Editorial Team Author(s): Rishav Saigal Originally published on Towards AI. Figure 1 — From a plain-English prompt to a fully tracked MLflow experiment, autonomously. TL;DR Wraps PyCaret’s AutoML engine in a Google ADK agent hierarchy One natural language prompt → plan → code → execution → MLflow tracking Self-corrects up to 10 times on failure; isolates artifacts per session Covers Classification, Regression, Clustering, Anomaly Detection, Time Series If you’ve used PyCaret, you know it already cuts ML boilerplate dramatically. PyCaretAgent goes further: a Root Agent reads your intent, a Planner designs the pipeline, and an Executor writes and runs the code — all without you touching a line of Python. How It Works Three layers. The Root Agent validates your CSV and routes to the right specialist. Each specialist is a SequentialAgent: a Planner designs the...",
+      "author": "Rishav Saigal",
+      "tags": [
+        "Latest",
+        "Machine Learning",
+        "Towards AI - Medium"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://towardsai.net/p/artificial-intelligence/automl-on-autopilot",
+        "feed_url": "https://towardsai.net/feed"
+      }
+    },
+    {
+      "id": "towards-ai:https://towardsai.net/p/artificial-intelligence/i-ran-this-open-source-ai-tool-on-a-messy-codebase-and-got-71x-fewer-tokens-here-is-exactly-what-happened",
+      "source": "towards-ai",
+      "source_category": "editorial_practice",
+      "title": "I Ran This Open-Source AI Tool on a Messy Codebase and Got 71x Fewer Tokens — Here Is Exactly What Happened",
+      "url": "https://towardsai.net/p/machine-learning/i-ran-this-open-source-ai-tool-on-a-messy-codebase-and-got-71x-fewer-tokens-here-is-exactly-what-happened",
+      "published_at": "Mon, 04 May 2026 04:01:01 +0000",
+      "summary": "Last Updated on May 4, 2026 by Editorial Team Author(s): Muhammad Hassan Ali Originally published on Towards AI. I Ran This Open-Source AI Tool on a Messy Codebase and Got 71x Fewer Tokens — Here Is Exactly What Happened I have spent months watching developers copy-paste entire files into Claude, burn through context windows, and still get vague answers. Screenshot of Graphify Github Repo by AuthorThe article discusses the capabilities and benefits of Graphify, an open-source AI coding assistant that transforms files into a queryable knowledge graph. It highlights how Graphify significantly reduces token usage during queries compared to traditional methods and explains its three-pass extraction process, which optimizes the handling of various file types, including code and documents. The author emphasizes the ease of installation and the privacy-focused design of the tool, making it sui...",
+      "author": "Muhammad Hassan Ali",
+      "tags": [
+        "Latest",
+        "Machine Learning",
+        "Towards AI - Medium"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://towardsai.net/p/artificial-intelligence/i-ran-this-open-source-ai-tool-on-a-messy-codebase-and-got-71x-fewer-tokens-here-is-exactly-what-happened",
+        "feed_url": "https://towardsai.net/feed"
+      }
+    },
+    {
+      "id": "towardsdatascience:https://towardsdatascience.com/?p=609013",
+      "source": "towardsdatascience",
+      "source_category": "editorial_practice",
+      "title": "Single Agent vs Multi-Agent: When to Build a Multi-Agent System",
+      "url": "https://towardsdatascience.com/single-agent-vs-multi-agent-when-to-build-a-multi-agent-system/",
+      "published_at": "Mon, 04 May 2026 20:00:00 +0000",
+      "summary": "A practical guide to understanding AI agent design, ReAct workflows, and when to scale from a single agent to a multi-agent system. The post Single Agent vs Multi-Agent: When to Build a Multi-Agent System appeared first on Towards Data Science.",
+      "author": "Ayoola Olafenwa",
+      "tags": [
+        "Agentic AI",
+        "AI Agents",
+        "Artificial Intelligence",
+        "Editors Pick",
+        "Llm",
+        "Rag"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://towardsdatascience.com/?p=609013",
+        "feed_url": "https://towardsdatascience.com/feed"
+      }
+    },
+    {
+      "id": "towardsdatascience:https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models/",
+      "source": "towardsdatascience",
+      "source_category": "editorial_practice",
+      "title": "How to Build an Efficient Knowledge Base for AI Models",
+      "url": "https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models/",
+      "published_at": "Mon, 04 May 2026 17:40:00 +0000",
+      "summary": "Building a knowledge base for AI models isn’t a one-time task but an iterative process of refinement. The post How to Build an Efficient Knowledge Base for AI Models appeared first on Towards Data Science.",
+      "author": "Nidhin Karunakaran Ponon",
+      "tags": [
+        "Large Language Model",
+        "Artificial Intelligence",
+        "Data Engineering",
+        "Knowledge Base",
+        "Llm",
+        "Rag"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models/",
+        "feed_url": "https://towardsdatascience.com/feed"
+      }
+    },
+    {
+      "id": "towardsdatascience:https://towardsdatascience.com/?p=609009",
+      "source": "towardsdatascience",
+      "source_category": "editorial_practice",
+      "title": "Playing Connect Four with Deep Q-Learning",
+      "url": "https://towardsdatascience.com/playing-connect-four-with-deep-q-learning/",
+      "published_at": "Mon, 04 May 2026 13:30:00 +0000",
+      "summary": "Solving multiplayer games with function approximation The post Playing Connect Four with Deep Q-Learning appeared first on Towards Data Science.",
+      "author": "Oliver S",
+      "tags": [
+        "Deep Learning",
+        "Artificial Intelligence",
+        "Editors Pick",
+        "Machine Learning",
+        "Programming",
+        "Reinforcement Learning"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://towardsdatascience.com/?p=609009",
+        "feed_url": "https://towardsdatascience.com/feed"
+      }
+    },
+    {
+      "id": "ai-business:https://aibusiness.com/generative-ai/ai-agents-supercharge-business-model",
+      "source": "ai-business",
+      "source_category": "enterprise_news",
+      "title": "AI and Agents Can Supercharge Your Business Model",
+      "url": "https://aibusiness.com/generative-ai/ai-agents-supercharge-business-model",
+      "published_at": "Mon, 04 May 2026 23:47:35 GMT",
+      "summary": "Equity management firm Carta is an example of how enterprises can use AI and agents to transform and shape their businesses.",
+      "author": "Esther Shittu",
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://aibusiness.com/generative-ai/ai-agents-supercharge-business-model",
+        "feed_url": "https://aibusiness.com/rss.xml"
+      }
+    },
+    {
+      "id": "ai-business:https://aibusiness.com/generative-ai/ibm-pursues-enterprise-ai-agents-hybrid-cloud-mainframes",
+      "source": "ai-business",
+      "source_category": "enterprise_news",
+      "title": "IBM Pursues Enterprise AI With Agents for Hybrid Cloud, Mainframes",
+      "url": "https://aibusiness.com/generative-ai/ibm-pursues-enterprise-ai-agents-hybrid-cloud-mainframes",
+      "published_at": "Mon, 04 May 2026 21:13:13 GMT",
+      "summary": "The long-established tech vendor is retaining its multi-model strategy while fortifying its on-premises AI offerings and the Watsonx Orchestrate system for agents.",
+      "author": "Shaun Sutner",
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://aibusiness.com/generative-ai/ibm-pursues-enterprise-ai-agents-hybrid-cloud-mainframes",
+        "feed_url": "https://aibusiness.com/rss.xml"
+      }
+    },
+    {
+      "id": "ai-business:https://aibusiness.com/generative-ai/pentagon-seals-ai-deal-eight-major-vendors-anthropic-out",
+      "source": "ai-business",
+      "source_category": "enterprise_news",
+      "title": "Pentagon Seals AI Deal with Eight Major Vendors, but Anthropic Out",
+      "url": "https://aibusiness.com/generative-ai/pentagon-seals-ai-deal-eight-major-vendors-anthropic-out",
+      "published_at": "Mon, 04 May 2026 15:31:36 GMT",
+      "summary": "The move follows the Trump administration’s feud with Anthropic.",
+      "author": "Graham Hope",
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://aibusiness.com/generative-ai/pentagon-seals-ai-deal-eight-major-vendors-anthropic-out",
+        "feed_url": "https://aibusiness.com/rss.xml"
+      }
+    },
+    {
+      "id": "arxiv-ai:oai:arXiv.org:2605.00060v1",
+      "source": "arxiv-ai",
+      "source_category": "research_preprint",
+      "title": "TADI: Tool-Augmented Drilling Intelligence via Agentic LLM Orchestration over Heterogeneous Wellsite Data",
+      "url": "https://arxiv.org/abs/2605.00060",
+      "published_at": "Tue, 05 May 2026 00:00:00 -0400",
+      "summary": "arXiv:2605.00060v1 Announce Type: new Abstract: We present TADI (Tool-Augmented Drilling Intelligence), an agentic AI system that transforms drilling operational data into evidence-based analytical intelligence. Applied to the Equinor Volve Field dataset, TADI integrates 1,759 daily drilling reports, selected WITSML real-time objects, 15,634 production records, formation tops, and perforations into a dual-store architecture: DuckDB for structured queries over 12 tables with 65,447 rows, and ChromaDB for semantic search over 36,709 embedded documents. Twelve domain-specialized tools, orchestrated by a large language model via iterative function calling, support multi-step evidence gathering that cross-references structured drilling measurements with daily report narratives. The system parses all 1,759 DDR XML files with zero errors, handles three incompatible well naming conventions, and...",
+      "author": "Rong Lu",
+      "tags": [
+        "cs.AI",
+        "cs.SY",
+        "eess.SY"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "oai:arXiv.org:2605.00060v1",
+        "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+      }
+    },
+    {
+      "id": "arxiv-ai:oai:arXiv.org:2605.00073v1",
+      "source": "arxiv-ai",
+      "source_category": "research_preprint",
+      "title": "AgentReputation: A Decentralized Agentic AI Reputation Framework",
+      "url": "https://arxiv.org/abs/2605.00073",
+      "published_at": "Tue, 05 May 2026 00:00:00 -0400",
+      "summary": "arXiv:2605.00073v1 Announce Type: new Abstract: Decentralized, agentic AI marketplaces are rapidly emerging to support software engineering tasks such as debugging, patch generation, and security auditing, often operating without centralized oversight. However, existing reputation mechanisms fail in this setting for three fundamental reasons: agents can strategically optimize against evaluation procedures; demonstrated competence does not reliably transfer across heterogeneous task contexts; and verification rigor varies widely, from lightweight automated checks to costly expert review. Current approaches to reputation drawing on federated learning, blockchain-based AI platforms, and large language model safety research are unable to address these challenges in combination. We therefore propose \\textbf{AgentReputation}, a decentralized, three-layer reputation framework for agentic AI sy...",
+      "author": "Mohd Sameen Chishti, Damilare Peter Oyinloye, Jingyue Li",
+      "tags": [
+        "cs.AI"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "oai:arXiv.org:2605.00073v1",
+        "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+      }
+    },
+    {
+      "id": "arxiv-ai:oai:arXiv.org:2605.00123v1",
+      "source": "arxiv-ai",
+      "source_category": "research_preprint",
+      "title": "Minimal, Local, Causal Explanations for Jailbreak Success in Large Language Models",
+      "url": "https://arxiv.org/abs/2605.00123",
+      "published_at": "Tue, 05 May 2026 00:00:00 -0400",
+      "summary": "arXiv:2605.00123v1 Announce Type: new Abstract: Safety trained large language models (LLMs) can often be induced to answer harmful requests through jailbreak prompts. Because we lack a robust understanding of why LLMs are susceptible to jailbreaks, future frontier models operating more autonomously in higher-stakes settings may similarly be vulnerable to such attacks. Prior work has studied jailbreak success by examining the model's intermediate representations, identifying directions in this space that causally encode concepts like harmfulness and refusal. Then, they globally explain all jailbreak attacks as attempting to reduce or strengthen these concepts (e.g., reduce harmfulness). However, different jailbreak strategies may succeed by strengthening or suppressing different intermediate concepts, and the same jailbreak strategy may not work for different harmful request categories (...",
+      "author": "Shubham Kumar, Narendra Ahuja",
+      "tags": [
+        "cs.AI"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "oai:arXiv.org:2605.00123v1",
+        "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+      }
+    },
+    {
+      "id": "huggingface-blog:https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+      "source": "huggingface-blog",
+      "source_category": "developer_platform",
+      "title": "AI evals are becoming the new compute bottleneck",
+      "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+      "published_at": "Wed, 29 Apr 2026 16:45:09 GMT",
+      "summary": "",
+      "author": null,
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+        "feed_url": "https://huggingface.co/blog/feed.xml"
+      }
+    },
+    {
+      "id": "huggingface-blog:https://huggingface.co/blog/ibm-granite/granite-4-1",
+      "source": "huggingface-blog",
+      "source_category": "developer_platform",
+      "title": "Granite 4.1 LLMs: How They’re Built",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+      "published_at": "Wed, 29 Apr 2026 15:01:48 GMT",
+      "summary": "",
+      "author": null,
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+        "feed_url": "https://huggingface.co/blog/feed.xml"
+      }
+    },
+    {
+      "id": "huggingface-blog:https://huggingface.co/blog/inference-providers-deepinfra",
+      "source": "huggingface-blog",
+      "source_category": "developer_platform",
+      "title": "DeepInfra on Hugging Face Inference Providers 🔥",
+      "url": "https://huggingface.co/blog/inference-providers-deepinfra",
+      "published_at": "Wed, 29 Apr 2026 00:00:00 GMT",
+      "summary": "",
+      "author": null,
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://huggingface.co/blog/inference-providers-deepinfra",
+        "feed_url": "https://huggingface.co/blog/feed.xml"
+      }
+    },
+    {
+      "id": "analyticsvidhya:https://www.analyticsvidhya.com/?p=254569",
+      "source": "analyticsvidhya",
+      "source_category": "tutorials",
+      "title": "ML Intern in Practice: From Prompt to a Shipped Hugging Face Model",
+      "url": "https://www.analyticsvidhya.com/blog/2026/05/ml-intern-from-prompt-to-a-shipped-hugging-face-model/",
+      "published_at": "Mon, 04 May 2026 11:45:58 +0000",
+      "summary": "Most ML projects do not fail because of model choice. They fail in the messy middle: finding the right dataset, checking usability, writing training code, fixing errors, reading logs, debugging weak results, evaluating outputs, and packaging the model for others. This is where ML Intern fits. It is not just AutoML for model selection and […] The post ML Intern in Practice: From Prompt to a Shipped Hugging Face Model appeared first on Analytics Vidhya.",
+      "author": "Janvi Kumari",
+      "tags": [
+        "Artificial Intelligence",
+        "Beginner",
+        "Machine Learning"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://www.analyticsvidhya.com/?p=254569",
+        "feed_url": "https://www.analyticsvidhya.com/feed/"
+      }
+    },
+    {
+      "id": "analyticsvidhya:https://www.analyticsvidhya.com/?p=254521",
+      "source": "analyticsvidhya",
+      "source_category": "tutorials",
+      "title": "15+ Solved Agentic AI Projects with Github Links",
+      "url": "https://www.analyticsvidhya.com/blog/2026/05/solved-agentic-ai-projects-with-github-links/",
+      "published_at": "Sun, 03 May 2026 03:17:00 +0000",
+      "summary": "Projects are the bridge between understanding AI and actually building with it. While the last couple of years were dominated by generative models, the shift now is toward systems that can think in steps, use tools, and act with a clear objective. This guide brings together over 15 solved agentic AI projects designed to help […] The post 15+ Solved Agentic AI Projects with Github Links appeared first on Analytics Vidhya.",
+      "author": "Vasu Deo Sankrityayan",
+      "tags": [
+        "AI Agents",
+        "Beginner",
+        "Project"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://www.analyticsvidhya.com/?p=254521",
+        "feed_url": "https://www.analyticsvidhya.com/feed/"
+      }
+    },
+    {
+      "id": "analyticsvidhya:https://www.analyticsvidhya.com/?p=254556",
+      "source": "analyticsvidhya",
+      "source_category": "tutorials",
+      "title": "How People are Figuring Out Life With Claude",
+      "url": "https://www.analyticsvidhya.com/blog/2026/05/how-people-are-figuring-out-life-with-claude/",
+      "published_at": "Sat, 02 May 2026 13:24:22 +0000",
+      "summary": "AI chatbots are the new norm. What earlier was “ask Google” has now largely become “ask Claude”. And that is not just a change of platforms. The new form of conversational guidance goes a whole lot deeper than trying to find the best car for you or looking for an upskilling course. It now spills […] The post How People are Figuring Out Life With Claude appeared first on Analytics Vidhya.",
+      "author": "Sarthak Dogra",
+      "tags": [
+        "Artificial Intelligence",
+        "Attention Models",
+        "Beginner"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://www.analyticsvidhya.com/?p=254556",
+        "feed_url": "https://www.analyticsvidhya.com/feed/"
+      }
+    }
+  ],
+  "raw_item_count": 45,
+  "normalized_record_count": 45,
+  "merged_duplicates": 0,
+  "records": [
+    {
+      "record_id": "intake:e821b506cb07754e",
+      "dedupe_key": "https://aibusiness.com/generative-ai/ai-agents-supercharge-business-model",
+      "title": "AI and Agents Can Supercharge Your Business Model",
+      "url": "https://aibusiness.com/generative-ai/ai-agents-supercharge-business-model",
+      "published_at": "Mon, 04 May 2026 23:47:35 GMT",
+      "summary": "Equity management firm Carta is an example of how enterprises can use AI and agents to transform and shape their businesses.",
+      "tags": [],
+      "source_item_ids": [
+        "ai-business:https://aibusiness.com/generative-ai/ai-agents-supercharge-business-model"
+      ],
+      "sources": [
+        "ai-business"
+      ],
+      "source_categories": [
+        "enterprise_news"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "ai-business:https://aibusiness.com/generative-ai/ai-agents-supercharge-business-model",
+          "source": "ai-business",
+          "source_category": "enterprise_news",
+          "title": "AI and Agents Can Supercharge Your Business Model",
+          "url": "https://aibusiness.com/generative-ai/ai-agents-supercharge-business-model",
+          "published_at": "Mon, 04 May 2026 23:47:35 GMT",
+          "summary": "Equity management firm Carta is an example of how enterprises can use AI and agents to transform and shape their businesses.",
+          "author": "Esther Shittu",
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://aibusiness.com/generative-ai/ai-agents-supercharge-business-model",
+            "feed_url": "https://aibusiness.com/rss.xml"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:b46a02e55bcf1463",
+      "dedupe_key": "https://aibusiness.com/generative-ai/ibm-pursues-enterprise-ai-agents-hybrid-cloud-mainframes",
+      "title": "IBM Pursues Enterprise AI With Agents for Hybrid Cloud, Mainframes",
+      "url": "https://aibusiness.com/generative-ai/ibm-pursues-enterprise-ai-agents-hybrid-cloud-mainframes",
+      "published_at": "Mon, 04 May 2026 21:13:13 GMT",
+      "summary": "The long-established tech vendor is retaining its multi-model strategy while fortifying its on-premises AI offerings and the Watsonx Orchestrate system for agents.",
+      "tags": [],
+      "source_item_ids": [
+        "ai-business:https://aibusiness.com/generative-ai/ibm-pursues-enterprise-ai-agents-hybrid-cloud-mainframes"
+      ],
+      "sources": [
+        "ai-business"
+      ],
+      "source_categories": [
+        "enterprise_news"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "ai-business:https://aibusiness.com/generative-ai/ibm-pursues-enterprise-ai-agents-hybrid-cloud-mainframes",
+          "source": "ai-business",
+          "source_category": "enterprise_news",
+          "title": "IBM Pursues Enterprise AI With Agents for Hybrid Cloud, Mainframes",
+          "url": "https://aibusiness.com/generative-ai/ibm-pursues-enterprise-ai-agents-hybrid-cloud-mainframes",
+          "published_at": "Mon, 04 May 2026 21:13:13 GMT",
+          "summary": "The long-established tech vendor is retaining its multi-model strategy while fortifying its on-premises AI offerings and the Watsonx Orchestrate system for agents.",
+          "author": "Shaun Sutner",
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://aibusiness.com/generative-ai/ibm-pursues-enterprise-ai-agents-hybrid-cloud-mainframes",
+            "feed_url": "https://aibusiness.com/rss.xml"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:5208e8bd1033628a",
+      "dedupe_key": "https://aibusiness.com/generative-ai/pentagon-seals-ai-deal-eight-major-vendors-anthropic-out",
+      "title": "Pentagon Seals AI Deal with Eight Major Vendors, but Anthropic Out",
+      "url": "https://aibusiness.com/generative-ai/pentagon-seals-ai-deal-eight-major-vendors-anthropic-out",
+      "published_at": "Mon, 04 May 2026 15:31:36 GMT",
+      "summary": "The move follows the Trump administration’s feud with Anthropic.",
+      "tags": [],
+      "source_item_ids": [
+        "ai-business:https://aibusiness.com/generative-ai/pentagon-seals-ai-deal-eight-major-vendors-anthropic-out"
+      ],
+      "sources": [
+        "ai-business"
+      ],
+      "source_categories": [
+        "enterprise_news"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "ai-business:https://aibusiness.com/generative-ai/pentagon-seals-ai-deal-eight-major-vendors-anthropic-out",
+          "source": "ai-business",
+          "source_category": "enterprise_news",
+          "title": "Pentagon Seals AI Deal with Eight Major Vendors, but Anthropic Out",
+          "url": "https://aibusiness.com/generative-ai/pentagon-seals-ai-deal-eight-major-vendors-anthropic-out",
+          "published_at": "Mon, 04 May 2026 15:31:36 GMT",
+          "summary": "The move follows the Trump administration’s feud with Anthropic.",
+          "author": "Graham Hope",
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://aibusiness.com/generative-ai/pentagon-seals-ai-deal-eight-major-vendors-anthropic-out",
+            "feed_url": "https://aibusiness.com/rss.xml"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:8a0588b08965263b",
+      "dedupe_key": "https://arxiv.org/abs/2605.00060",
+      "title": "TADI: Tool-Augmented Drilling Intelligence via Agentic LLM Orchestration over Heterogeneous Wellsite Data",
+      "url": "https://arxiv.org/abs/2605.00060",
+      "published_at": "Tue, 05 May 2026 00:00:00 -0400",
+      "summary": "arXiv:2605.00060v1 Announce Type: new Abstract: We present TADI (Tool-Augmented Drilling Intelligence), an agentic AI system that transforms drilling operational data into evidence-based analytical intelligence. Applied to the Equinor Volve Field dataset, TADI integrates 1,759 daily drilling reports, selected WITSML real-time objects, 15,634 production records, formation tops, and perforations into a dual-store architecture: DuckDB for structured queries over 12 tables with 65,447 rows, and ChromaDB for semantic search over 36,709 embedded documents. Twelve domain-specialized tools, orchestrated by a large language model via iterative function calling, support multi-step evidence gathering that cross-references structured drilling measurements with daily report narratives. The system parses all 1,759 DDR XML files with zero errors, handles three incompatible well naming conventions, and...",
+      "tags": [
+        "cs.ai",
+        "cs.sy",
+        "eess.sy"
+      ],
+      "source_item_ids": [
+        "arxiv-ai:oai:arXiv.org:2605.00060v1"
+      ],
+      "sources": [
+        "arxiv-ai"
+      ],
+      "source_categories": [
+        "research_preprint"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "arxiv-ai:oai:arXiv.org:2605.00060v1",
+          "source": "arxiv-ai",
+          "source_category": "research_preprint",
+          "title": "TADI: Tool-Augmented Drilling Intelligence via Agentic LLM Orchestration over Heterogeneous Wellsite Data",
+          "url": "https://arxiv.org/abs/2605.00060",
+          "published_at": "Tue, 05 May 2026 00:00:00 -0400",
+          "summary": "arXiv:2605.00060v1 Announce Type: new Abstract: We present TADI (Tool-Augmented Drilling Intelligence), an agentic AI system that transforms drilling operational data into evidence-based analytical intelligence. Applied to the Equinor Volve Field dataset, TADI integrates 1,759 daily drilling reports, selected WITSML real-time objects, 15,634 production records, formation tops, and perforations into a dual-store architecture: DuckDB for structured queries over 12 tables with 65,447 rows, and ChromaDB for semantic search over 36,709 embedded documents. Twelve domain-specialized tools, orchestrated by a large language model via iterative function calling, support multi-step evidence gathering that cross-references structured drilling measurements with daily report narratives. The system parses all 1,759 DDR XML files with zero errors, handles three incompatible well naming conventions, and...",
+          "author": "Rong Lu",
+          "tags": [
+            "cs.AI",
+            "cs.SY",
+            "eess.SY"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "oai:arXiv.org:2605.00060v1",
+            "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:9d70e5b8fd11893a",
+      "dedupe_key": "https://arxiv.org/abs/2605.00073",
+      "title": "AgentReputation: A Decentralized Agentic AI Reputation Framework",
+      "url": "https://arxiv.org/abs/2605.00073",
+      "published_at": "Tue, 05 May 2026 00:00:00 -0400",
+      "summary": "arXiv:2605.00073v1 Announce Type: new Abstract: Decentralized, agentic AI marketplaces are rapidly emerging to support software engineering tasks such as debugging, patch generation, and security auditing, often operating without centralized oversight. However, existing reputation mechanisms fail in this setting for three fundamental reasons: agents can strategically optimize against evaluation procedures; demonstrated competence does not reliably transfer across heterogeneous task contexts; and verification rigor varies widely, from lightweight automated checks to costly expert review. Current approaches to reputation drawing on federated learning, blockchain-based AI platforms, and large language model safety research are unable to address these challenges in combination. We therefore propose \\textbf{AgentReputation}, a decentralized, three-layer reputation framework for agentic AI sy...",
+      "tags": [
+        "cs.ai"
+      ],
+      "source_item_ids": [
+        "arxiv-ai:oai:arXiv.org:2605.00073v1"
+      ],
+      "sources": [
+        "arxiv-ai"
+      ],
+      "source_categories": [
+        "research_preprint"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "arxiv-ai:oai:arXiv.org:2605.00073v1",
+          "source": "arxiv-ai",
+          "source_category": "research_preprint",
+          "title": "AgentReputation: A Decentralized Agentic AI Reputation Framework",
+          "url": "https://arxiv.org/abs/2605.00073",
+          "published_at": "Tue, 05 May 2026 00:00:00 -0400",
+          "summary": "arXiv:2605.00073v1 Announce Type: new Abstract: Decentralized, agentic AI marketplaces are rapidly emerging to support software engineering tasks such as debugging, patch generation, and security auditing, often operating without centralized oversight. However, existing reputation mechanisms fail in this setting for three fundamental reasons: agents can strategically optimize against evaluation procedures; demonstrated competence does not reliably transfer across heterogeneous task contexts; and verification rigor varies widely, from lightweight automated checks to costly expert review. Current approaches to reputation drawing on federated learning, blockchain-based AI platforms, and large language model safety research are unable to address these challenges in combination. We therefore propose \\textbf{AgentReputation}, a decentralized, three-layer reputation framework for agentic AI sy...",
+          "author": "Mohd Sameen Chishti, Damilare Peter Oyinloye, Jingyue Li",
+          "tags": [
+            "cs.AI"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "oai:arXiv.org:2605.00073v1",
+            "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:2572e9f9de7ffc2d",
+      "dedupe_key": "https://arxiv.org/abs/2605.00123",
+      "title": "Minimal, Local, Causal Explanations for Jailbreak Success in Large Language Models",
+      "url": "https://arxiv.org/abs/2605.00123",
+      "published_at": "Tue, 05 May 2026 00:00:00 -0400",
+      "summary": "arXiv:2605.00123v1 Announce Type: new Abstract: Safety trained large language models (LLMs) can often be induced to answer harmful requests through jailbreak prompts. Because we lack a robust understanding of why LLMs are susceptible to jailbreaks, future frontier models operating more autonomously in higher-stakes settings may similarly be vulnerable to such attacks. Prior work has studied jailbreak success by examining the model's intermediate representations, identifying directions in this space that causally encode concepts like harmfulness and refusal. Then, they globally explain all jailbreak attacks as attempting to reduce or strengthen these concepts (e.g., reduce harmfulness). However, different jailbreak strategies may succeed by strengthening or suppressing different intermediate concepts, and the same jailbreak strategy may not work for different harmful request categories (...",
+      "tags": [
+        "cs.ai"
+      ],
+      "source_item_ids": [
+        "arxiv-ai:oai:arXiv.org:2605.00123v1"
+      ],
+      "sources": [
+        "arxiv-ai"
+      ],
+      "source_categories": [
+        "research_preprint"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "arxiv-ai:oai:arXiv.org:2605.00123v1",
+          "source": "arxiv-ai",
+          "source_category": "research_preprint",
+          "title": "Minimal, Local, Causal Explanations for Jailbreak Success in Large Language Models",
+          "url": "https://arxiv.org/abs/2605.00123",
+          "published_at": "Tue, 05 May 2026 00:00:00 -0400",
+          "summary": "arXiv:2605.00123v1 Announce Type: new Abstract: Safety trained large language models (LLMs) can often be induced to answer harmful requests through jailbreak prompts. Because we lack a robust understanding of why LLMs are susceptible to jailbreaks, future frontier models operating more autonomously in higher-stakes settings may similarly be vulnerable to such attacks. Prior work has studied jailbreak success by examining the model's intermediate representations, identifying directions in this space that causally encode concepts like harmfulness and refusal. Then, they globally explain all jailbreak attacks as attempting to reduce or strengthen these concepts (e.g., reduce harmfulness). However, different jailbreak strategies may succeed by strengthening or suppressing different intermediate concepts, and the same jailbreak strategy may not work for different harmful request categories (...",
+          "author": "Shubham Kumar, Narendra Ahuja",
+          "tags": [
+            "cs.AI"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "oai:arXiv.org:2605.00123v1",
+            "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:1280d7239d1116c3",
+      "dedupe_key": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+      "title": "AI evals are becoming the new compute bottleneck",
+      "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+      "published_at": "Wed, 29 Apr 2026 16:45:09 GMT",
+      "summary": "",
+      "tags": [],
+      "source_item_ids": [
+        "huggingface-blog:https://huggingface.co/blog/evaleval/eval-costs-bottleneck"
+      ],
+      "sources": [
+        "huggingface-blog"
+      ],
+      "source_categories": [
+        "developer_platform"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "huggingface-blog:https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+          "source": "huggingface-blog",
+          "source_category": "developer_platform",
+          "title": "AI evals are becoming the new compute bottleneck",
+          "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+          "published_at": "Wed, 29 Apr 2026 16:45:09 GMT",
+          "summary": "",
+          "author": null,
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+            "feed_url": "https://huggingface.co/blog/feed.xml"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:6af9b6a7000314f8",
+      "dedupe_key": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+      "title": "Granite 4.1 LLMs: How They’re Built",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+      "published_at": "Wed, 29 Apr 2026 15:01:48 GMT",
+      "summary": "",
+      "tags": [],
+      "source_item_ids": [
+        "huggingface-blog:https://huggingface.co/blog/ibm-granite/granite-4-1"
+      ],
+      "sources": [
+        "huggingface-blog"
+      ],
+      "source_categories": [
+        "developer_platform"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "huggingface-blog:https://huggingface.co/blog/ibm-granite/granite-4-1",
+          "source": "huggingface-blog",
+          "source_category": "developer_platform",
+          "title": "Granite 4.1 LLMs: How They’re Built",
+          "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+          "published_at": "Wed, 29 Apr 2026 15:01:48 GMT",
+          "summary": "",
+          "author": null,
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+            "feed_url": "https://huggingface.co/blog/feed.xml"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:a89e6f10b7acf213",
+      "dedupe_key": "https://huggingface.co/blog/inference-providers-deepinfra",
+      "title": "DeepInfra on Hugging Face Inference Providers 🔥",
+      "url": "https://huggingface.co/blog/inference-providers-deepinfra",
+      "published_at": "Wed, 29 Apr 2026 00:00:00 GMT",
+      "summary": "",
+      "tags": [],
+      "source_item_ids": [
+        "huggingface-blog:https://huggingface.co/blog/inference-providers-deepinfra"
+      ],
+      "sources": [
+        "huggingface-blog"
+      ],
+      "source_categories": [
+        "developer_platform"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "huggingface-blog:https://huggingface.co/blog/inference-providers-deepinfra",
+          "source": "huggingface-blog",
+          "source_category": "developer_platform",
+          "title": "DeepInfra on Hugging Face Inference Providers 🔥",
+          "url": "https://huggingface.co/blog/inference-providers-deepinfra",
+          "published_at": "Wed, 29 Apr 2026 00:00:00 GMT",
+          "summary": "",
+          "author": null,
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://huggingface.co/blog/inference-providers-deepinfra",
+            "feed_url": "https://huggingface.co/blog/feed.xml"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:281d0c4633a1ec18",
+      "dedupe_key": "https://machinelearningmastery.com/agentic-rag-explained-in-3-levels-of-difficulty",
+      "title": "Agentic RAG Explained in 3 Levels of Difficulty",
+      "url": "https://machinelearningmastery.com/agentic-rag-explained-in-3-levels-of-difficulty",
+      "published_at": "Mon, 04 May 2026 12:00:34 +0000",
+      "summary": "Traditional <a href=\"https://aws.",
+      "tags": [],
+      "source_item_ids": [
+        "machinelearningmastery:https://machinelearningmastery.com/?p=23975"
+      ],
+      "sources": [
+        "machinelearningmastery"
+      ],
+      "source_categories": [
+        "tutorials"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "machinelearningmastery:https://machinelearningmastery.com/?p=23975",
+          "source": "machinelearningmastery",
+          "source_category": "tutorials",
+          "title": "Agentic RAG Explained in 3 Levels of Difficulty",
+          "url": "https://machinelearningmastery.com/agentic-rag-explained-in-3-levels-of-difficulty/",
+          "published_at": "Mon, 04 May 2026 12:00:34 +0000",
+          "summary": "Traditional <a href=\"https://aws.",
+          "author": "Bala Priya C",
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://machinelearningmastery.com/?p=23975",
+            "feed_url": "https://machinelearningmastery.com/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:39726cc2814ec5b6",
+      "dedupe_key": "https://machinelearningmastery.com/building-ai-agents-in-python-with-pydantic-ai",
+      "title": "Building AI Agents in Python with Pydantic AI",
+      "url": "https://machinelearningmastery.com/building-ai-agents-in-python-with-pydantic-ai",
+      "published_at": "Wed, 29 Apr 2026 12:00:37 +0000",
+      "summary": "<a href=\"https://machinelearningmastery.",
+      "tags": [],
+      "source_item_ids": [
+        "machinelearningmastery:https://machinelearningmastery.com/?p=24025"
+      ],
+      "sources": [
+        "machinelearningmastery"
+      ],
+      "source_categories": [
+        "tutorials"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "machinelearningmastery:https://machinelearningmastery.com/?p=24025",
+          "source": "machinelearningmastery",
+          "source_category": "tutorials",
+          "title": "Building AI Agents in Python with Pydantic AI",
+          "url": "https://machinelearningmastery.com/building-ai-agents-in-python-with-pydantic-ai/",
+          "published_at": "Wed, 29 Apr 2026 12:00:37 +0000",
+          "summary": "<a href=\"https://machinelearningmastery.",
+          "author": "Bala Priya C",
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://machinelearningmastery.com/?p=24025",
+            "feed_url": "https://machinelearningmastery.com/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:2f9bdebde63eb26d",
+      "dedupe_key": "https://machinelearningmastery.com/effective-kv-compression-with-turboquant",
+      "title": "Effective KV Compression with TurboQuant",
+      "url": "https://machinelearningmastery.com/effective-kv-compression-with-turboquant",
+      "published_at": "Thu, 30 Apr 2026 12:00:11 +0000",
+      "summary": "TurboQuant has recently been launched by Google as a novel algorithmic suite and library for applying advanced quantization and compression to large language models (LLMs) and vector search engines — an indispensable element of RAG systems.",
+      "tags": [],
+      "source_item_ids": [
+        "machinelearningmastery:https://machinelearningmastery.com/?p=24079"
+      ],
+      "sources": [
+        "machinelearningmastery"
+      ],
+      "source_categories": [
+        "tutorials"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "machinelearningmastery:https://machinelearningmastery.com/?p=24079",
+          "source": "machinelearningmastery",
+          "source_category": "tutorials",
+          "title": "Effective KV Compression with TurboQuant",
+          "url": "https://machinelearningmastery.com/effective-kv-compression-with-turboquant/",
+          "published_at": "Thu, 30 Apr 2026 12:00:11 +0000",
+          "summary": "TurboQuant has recently been launched by Google as a novel algorithmic suite and library for applying advanced quantization and compression to large language models (LLMs) and vector search engines — an indispensable element of RAG systems.",
+          "author": "Iván Palomares Carrascosa",
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://machinelearningmastery.com/?p=24079",
+            "feed_url": "https://machinelearningmastery.com/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:d0c7d5449da94ece",
+      "dedupe_key": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+      "title": "Components of A Coding Agent",
+      "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+      "published_at": "Sat, 04 Apr 2026 11:45:37 GMT",
+      "summary": "How coding agents use tools, memory, and repo context to make LLMs work better in practice",
+      "tags": [],
+      "source_item_ids": [
+        "sebastian-raschka:https://magazine.sebastianraschka.com/p/components-of-a-coding-agent"
+      ],
+      "sources": [
+        "sebastian-raschka"
+      ],
+      "source_categories": [
+        "expert_analysis"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "sebastian-raschka:https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+          "source": "sebastian-raschka",
+          "source_category": "expert_analysis",
+          "title": "Components of A Coding Agent",
+          "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+          "published_at": "Sat, 04 Apr 2026 11:45:37 GMT",
+          "summary": "How coding agents use tools, memory, and repo context to make LLMs work better in practice",
+          "author": "Sebastian Raschka, PhD",
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+            "feed_url": "https://magazine.sebastianraschka.com/feed"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:1ea34ba04923e8e0",
+      "dedupe_key": "https://magazine.sebastianraschka.com/p/visual-attention-variants",
+      "title": "A Visual Guide to Attention Variants in Modern LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/visual-attention-variants",
+      "published_at": "Sun, 22 Mar 2026 11:55:40 GMT",
+      "summary": "From MHA and GQA to MLA, sparse attention, and hybrid architectures",
+      "tags": [],
+      "source_item_ids": [
+        "sebastian-raschka:https://magazine.sebastianraschka.com/p/visual-attention-variants"
+      ],
+      "sources": [
+        "sebastian-raschka"
+      ],
+      "source_categories": [
+        "expert_analysis"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "sebastian-raschka:https://magazine.sebastianraschka.com/p/visual-attention-variants",
+          "source": "sebastian-raschka",
+          "source_category": "expert_analysis",
+          "title": "A Visual Guide to Attention Variants in Modern LLMs",
+          "url": "https://magazine.sebastianraschka.com/p/visual-attention-variants",
+          "published_at": "Sun, 22 Mar 2026 11:55:40 GMT",
+          "summary": "From MHA and GQA to MLA, sparse attention, and hybrid architectures",
+          "author": "Sebastian Raschka, PhD",
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://magazine.sebastianraschka.com/p/visual-attention-variants",
+            "feed_url": "https://magazine.sebastianraschka.com/feed"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:08d82b53d71043d3",
+      "dedupe_key": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
+      "title": "My Workflow for Understanding LLM Architectures",
+      "url": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
+      "published_at": "Sat, 18 Apr 2026 11:24:36 GMT",
+      "summary": "A learning-oriented workflow for understanding new open-weight model releases",
+      "tags": [],
+      "source_item_ids": [
+        "sebastian-raschka:https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms"
+      ],
+      "sources": [
+        "sebastian-raschka"
+      ],
+      "source_categories": [
+        "expert_analysis"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "sebastian-raschka:https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
+          "source": "sebastian-raschka",
+          "source_category": "expert_analysis",
+          "title": "My Workflow for Understanding LLM Architectures",
+          "url": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
+          "published_at": "Sat, 18 Apr 2026 11:24:36 GMT",
+          "summary": "A learning-oriented workflow for understanding new open-weight model releases",
+          "author": "Sebastian Raschka, PhD",
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
+            "feed_url": "https://magazine.sebastianraschka.com/feed"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:2fd94695a0955f7e",
+      "dedupe_key": "https://syncedreview.com/2025/06/16/mit-researchers-unveil-seal-a-new-step-towards-self-improving-ai",
+      "title": "MIT Researchers Unveil “SEAL”: A New Step Towards Self-Improving AI",
+      "url": "https://syncedreview.com/2025/06/16/mit-researchers-unveil-seal-a-new-step-towards-self-improving-ai",
+      "published_at": "Mon, 16 Jun 2025 12:58:37 +0000",
+      "summary": "MIT introduces SEAL, a framework enabling large language models to self-edit and update their weights via reinforcement learning. The post MIT Researchers Unveil “SEAL”: A New Step Towards Self-Improving AI first appeared on Synced.",
+      "tags": [
+        "research"
+      ],
+      "source_item_ids": [
+        "synced:https://syncedreview.com/?p=47227"
+      ],
+      "sources": [
+        "synced"
+      ],
+      "source_categories": [
+        "global_ai_news"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "synced:https://syncedreview.com/?p=47227",
+          "source": "synced",
+          "source_category": "global_ai_news",
+          "title": "MIT Researchers Unveil “SEAL”: A New Step Towards Self-Improving AI",
+          "url": "https://syncedreview.com/2025/06/16/mit-researchers-unveil-seal-a-new-step-towards-self-improving-ai/",
+          "published_at": "Mon, 16 Jun 2025 12:58:37 +0000",
+          "summary": "MIT introduces SEAL, a framework enabling large language models to self-edit and update their weights via reinforcement learning. The post MIT Researchers Unveil “SEAL”: A New Step Towards Self-Improving AI first appeared on Synced.",
+          "author": "Synced",
+          "tags": [
+            "Research"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://syncedreview.com/?p=47227",
+            "feed_url": "https://syncedreview.com/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:ebd1c76eafa44911",
+      "dedupe_key": "https://syncedreview.com/2025/06/24/bytedance-introduces-astra-a-dual-model-architecture-for-autonomous-robot-navigation",
+      "title": "ByteDance Introduces Astra: A Dual-Model Architecture for Autonomous Robot Navigation",
+      "url": "https://syncedreview.com/2025/06/24/bytedance-introduces-astra-a-dual-model-architecture-for-autonomous-robot-navigation",
+      "published_at": "Tue, 24 Jun 2025 09:17:01 +0000",
+      "summary": "ByteDance introduces Astra, an innovative dual-model architecture revolutionizing robot navigation in complex indoor environments. The post ByteDance Introduces Astra: A Dual-Model Architecture for Autonomous Robot Navigation first appeared on Synced.",
+      "tags": [
+        "research"
+      ],
+      "source_item_ids": [
+        "synced:https://syncedreview.com/?p=47236"
+      ],
+      "sources": [
+        "synced"
+      ],
+      "source_categories": [
+        "global_ai_news"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "synced:https://syncedreview.com/?p=47236",
+          "source": "synced",
+          "source_category": "global_ai_news",
+          "title": "ByteDance Introduces Astra: A Dual-Model Architecture for Autonomous Robot Navigation",
+          "url": "https://syncedreview.com/2025/06/24/bytedance-introduces-astra-a-dual-model-architecture-for-autonomous-robot-navigation/",
+          "published_at": "Tue, 24 Jun 2025 09:17:01 +0000",
+          "summary": "ByteDance introduces Astra, an innovative dual-model architecture revolutionizing robot navigation in complex indoor environments. The post ByteDance Introduces Astra: A Dual-Model Architecture for Autonomous Robot Navigation first appeared on Synced.",
+          "author": "Synced",
+          "tags": [
+            "Research"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://syncedreview.com/?p=47236",
+            "feed_url": "https://syncedreview.com/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:9d63ee4c35913bd2",
+      "dedupe_key": "https://syncedreview.com/2025/08/14/which-agent-causes-task-failures-and-whenresearchers-from-psu-and-duke-explores-automated-failure-attribution-of-llm-multi-agent-systems",
+      "title": "Which Agent Causes Task Failures and When?Researchers from PSU and Duke explores automated failure attribution of LLM Multi-Agent Systems",
+      "url": "https://syncedreview.com/2025/08/14/which-agent-causes-task-failures-and-whenresearchers-from-psu-and-duke-explores-automated-failure-attribution-of-llm-multi-agent-systems",
+      "published_at": "Thu, 14 Aug 2025 06:31:20 +0000",
+      "summary": "In recent years, LLM Multi-Agent systems have garnered widespread attention for their collaborative approach to solving complex problems. However, it's a common scenario for these systems to fail at a task despite a flurry of activity. The post Which Agent Causes Task Failures and When?Researchers from PSU and Duke explores automated failure attribution of LLM Multi-Agent Systems first appeared on Synced.",
+      "tags": [
+        "research"
+      ],
+      "source_item_ids": [
+        "synced:https://syncedreview.com/?p=47256"
+      ],
+      "sources": [
+        "synced"
+      ],
+      "source_categories": [
+        "global_ai_news"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "synced:https://syncedreview.com/?p=47256",
+          "source": "synced",
+          "source_category": "global_ai_news",
+          "title": "Which Agent Causes Task Failures and When?Researchers from PSU and Duke explores automated failure attribution of LLM Multi-Agent Systems",
+          "url": "https://syncedreview.com/2025/08/14/which-agent-causes-task-failures-and-whenresearchers-from-psu-and-duke-explores-automated-failure-attribution-of-llm-multi-agent-systems/",
+          "published_at": "Thu, 14 Aug 2025 06:31:20 +0000",
+          "summary": "In recent years, LLM Multi-Agent systems have garnered widespread attention for their collaborative approach to solving complex problems. However, it's a common scenario for these systems to fail at a task despite a flurry of activity. The post Which Agent Causes Task Failures and When?Researchers from PSU and Duke explores automated failure attribution of LLM Multi-Agent Systems first appeared on Synced.",
+          "author": "Synced",
+          "tags": [
+            "Research"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://syncedreview.com/?p=47256",
+            "feed_url": "https://syncedreview.com/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:53b2141813edae8c",
+      "dedupe_key": "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs",
+      "title": "As workers worry about AI, Nvidia’s Jensen Huang says AI is ‘creating an enormous number of jobs’",
+      "url": "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs",
+      "published_at": "Tue, 05 May 2026 03:31:54 +0000",
+      "summary": "The Nvidia CEO seems to feel that claims of AI's job-killing potential have been greatly exaggerated.",
+      "tags": [
+        "ai",
+        "chips",
+        "jensen huang",
+        "nvidia"
+      ],
+      "source_item_ids": [
+        "techcrunch-ai:https://techcrunch.com/?p=3119100"
+      ],
+      "sources": [
+        "techcrunch-ai"
+      ],
+      "source_categories": [
+        "industry_news"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/?p=3119100",
+          "source": "techcrunch-ai",
+          "source_category": "industry_news",
+          "title": "As workers worry about AI, Nvidia’s Jensen Huang says AI is ‘creating an enormous number of jobs’",
+          "url": "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs/",
+          "published_at": "Tue, 05 May 2026 03:31:54 +0000",
+          "summary": "The Nvidia CEO seems to feel that claims of AI's job-killing potential have been greatly exaggerated.",
+          "author": "Lucas Ropek",
+          "tags": [
+            "AI",
+            "chips",
+            "Jensen Huang",
+            "nvidia"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://techcrunch.com/?p=3119100",
+            "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:4a89197e6a5002b8",
+      "dedupe_key": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades",
+      "title": "Image AI models now drive app growth, beating chatbot upgrades",
+      "url": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades",
+      "published_at": "Mon, 04 May 2026 19:12:49 +0000",
+      "summary": "Appfigures finds visual model launches generate 6.5x more downloads — but most don’t convert that spike into revenue.",
+      "tags": [
+        "ai",
+        "ai apps",
+        "apps",
+        "chatgpt",
+        "gemini",
+        "image models",
+        "meta ai"
+      ],
+      "source_item_ids": [
+        "techcrunch-ai:https://techcrunch.com/?p=3118889"
+      ],
+      "sources": [
+        "techcrunch-ai"
+      ],
+      "source_categories": [
+        "industry_news"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/?p=3118889",
+          "source": "techcrunch-ai",
+          "source_category": "industry_news",
+          "title": "Image AI models now drive app growth, beating chatbot upgrades",
+          "url": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/",
+          "published_at": "Mon, 04 May 2026 19:12:49 +0000",
+          "summary": "Appfigures finds visual model launches generate 6.5x more downloads — but most don’t convert that spike into revenue.",
+          "author": "Sarah Perez",
+          "tags": [
+            "AI",
+            "Apps",
+            "ai apps",
+            "ChatGPT",
+            "gemini",
+            "image models",
+            "meta ai"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://techcrunch.com/?p=3118889",
+            "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:0562aa16094af023",
+      "dedupe_key": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo",
+      "title": "OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO",
+      "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo",
+      "published_at": "Mon, 04 May 2026 21:53:21 +0000",
+      "summary": "AI chip maker Cerebras is heading for a blockbuster IPO that could value it at $26.6 billion or more. Its relationship with OpenAI is deep and rich.",
+      "tags": [
+        "ai",
+        "cerebras systems",
+        "ipo",
+        "openai",
+        "startups",
+        "tc"
+      ],
+      "source_item_ids": [
+        "techcrunch-ai:https://techcrunch.com/?p=3118909"
+      ],
+      "sources": [
+        "techcrunch-ai"
+      ],
+      "source_categories": [
+        "industry_news"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/?p=3118909",
+          "source": "techcrunch-ai",
+          "source_category": "industry_news",
+          "title": "OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO",
+          "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+          "published_at": "Mon, 04 May 2026 21:53:21 +0000",
+          "summary": "AI chip maker Cerebras is heading for a blockbuster IPO that could value it at $26.6 billion or more. Its relationship with OpenAI is deep and rich.",
+          "author": "Julie Bort",
+          "tags": [
+            "AI",
+            "Startups",
+            "TC",
+            "cerebras systems",
+            "IPO",
+            "OpenAI"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://techcrunch.com/?p=3118909",
+            "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:255d0fc950f33d7a",
+      "dedupe_key": "https://thegradient.pub/agi-is-not-multimodal",
+      "title": "AGI Is Not Multimodal",
+      "url": "https://thegradient.pub/agi-is-not-multimodal",
+      "published_at": "Wed, 04 Jun 2025 14:00:29 GMT",
+      "summary": "\"In projecting language back as the model for thought, we lose sight of the tacit embodied understanding that undergirds our intelligence.\" –Terry Winograd The recent successes of generative AI models have convinced some that AGI is imminent. While these models appear to capture the essence of human",
+      "tags": [
+        "perspectives",
+        "trends"
+      ],
+      "source_item_ids": [
+        "thegradient:683fb98b77c3d76051ac142c"
+      ],
+      "sources": [
+        "thegradient"
+      ],
+      "source_categories": [
+        "research_commentary"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "thegradient:683fb98b77c3d76051ac142c",
+          "source": "thegradient",
+          "source_category": "research_commentary",
+          "title": "AGI Is Not Multimodal",
+          "url": "https://thegradient.pub/agi-is-not-multimodal/",
+          "published_at": "Wed, 04 Jun 2025 14:00:29 GMT",
+          "summary": "\"In projecting language back as the model for thought, we lose sight of the tacit embodied understanding that undergirds our intelligence.\" –Terry Winograd The recent successes of generative AI models have convinced some that AGI is imminent. While these models appear to capture the essence of human",
+          "author": "Benjamin A. Spiegel",
+          "tags": [
+            "Perspectives",
+            "Trends"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "683fb98b77c3d76051ac142c",
+            "feed_url": "https://thegradient.pub/rss/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:70e3dc831fe6f660",
+      "dedupe_key": "https://thegradient.pub/shape-symmetry-structure",
+      "title": "Shape, Symmetries, and Structure: The Changing Role of Mathematics in Machine Learning Research",
+      "url": "https://thegradient.pub/shape-symmetry-structure",
+      "published_at": "Sat, 16 Nov 2024 16:46:15 GMT",
+      "summary": "What is the Role of Mathematics in Modern Machine Learning? The past decade has witnessed a shift in how progress is made in machine learning. Research involving carefully designed and mathematically principled architectures result in only marginal improvements while compute-intensive and engineering-first efforts that scale to ever larger training sets",
+      "tags": [],
+      "source_item_ids": [
+        "thegradient:673686c693571d5c8c155078"
+      ],
+      "sources": [
+        "thegradient"
+      ],
+      "source_categories": [
+        "research_commentary"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "thegradient:673686c693571d5c8c155078",
+          "source": "thegradient",
+          "source_category": "research_commentary",
+          "title": "Shape, Symmetries, and Structure: The Changing Role of Mathematics in Machine Learning Research",
+          "url": "https://thegradient.pub/shape-symmetry-structure/",
+          "published_at": "Sat, 16 Nov 2024 16:46:15 GMT",
+          "summary": "What is the Role of Mathematics in Modern Machine Learning? The past decade has witnessed a shift in how progress is made in machine learning. Research involving carefully designed and mathematically principled architectures result in only marginal improvements while compute-intensive and engineering-first efforts that scale to ever larger training sets",
+          "author": "Henry Kvinge",
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "guid": "673686c693571d5c8c155078",
+            "feed_url": "https://thegradient.pub/rss/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:9d59ee8f065a355f",
+      "dedupe_key": "https://thegradient.pub/virtue-ethics-ai-alignment",
+      "title": "After Orthogonality: Virtue-Ethical Agency and AI Alignment",
+      "url": "https://thegradient.pub/virtue-ethics-ai-alignment",
+      "published_at": "Wed, 18 Feb 2026 23:25:52 GMT",
+      "summary": "Preface This essay argues that rational people don’t have goals, and that rational AIs shouldn’t have goals. Human actions are rational not because we direct them at some final ‘goals,’ but because we align actions to practices [1]: networks of actions, action-dispositions, action-evaluation criteria,",
+      "tags": [
+        "ethics",
+        "human factors",
+        "impacts"
+      ],
+      "source_item_ids": [
+        "thegradient:69879dd077c3d76051ac158f"
+      ],
+      "sources": [
+        "thegradient"
+      ],
+      "source_categories": [
+        "research_commentary"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "thegradient:69879dd077c3d76051ac158f",
+          "source": "thegradient",
+          "source_category": "research_commentary",
+          "title": "After Orthogonality: Virtue-Ethical Agency and AI Alignment",
+          "url": "https://thegradient.pub/virtue-ethics-ai-alignment/",
+          "published_at": "Wed, 18 Feb 2026 23:25:52 GMT",
+          "summary": "Preface This essay argues that rational people don’t have goals, and that rational AIs shouldn’t have goals. Human actions are rational not because we direct them at some final ‘goals,’ but because we align actions to practices [1]: networks of actions, action-dispositions, action-evaluation criteria,",
+          "author": "Peli Grietzer",
+          "tags": [
+            "Ethics",
+            "Human factors",
+            "Impacts"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "69879dd077c3d76051ac158f",
+            "feed_url": "https://thegradient.pub/rss/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:286d47c99a6f42fb",
+      "dedupe_key": "https://towardsai.net/p/machine-learning/automl-on-autopilot",
+      "title": "AutoML on Autopilot",
+      "url": "https://towardsai.net/p/machine-learning/automl-on-autopilot",
+      "published_at": "Mon, 04 May 2026 10:13:06 +0000",
+      "summary": "Last Updated on May 4, 2026 by Editorial Team Author(s): Rishav Saigal Originally published on Towards AI. Figure 1 — From a plain-English prompt to a fully tracked MLflow experiment, autonomously. TL;DR Wraps PyCaret’s AutoML engine in a Google ADK agent hierarchy One natural language prompt → plan → code → execution → MLflow tracking Self-corrects up to 10 times on failure; isolates artifacts per session Covers Classification, Regression, Clustering, Anomaly Detection, Time Series If you’ve used PyCaret, you know it already cuts ML boilerplate dramatically. PyCaretAgent goes further: a Root Agent reads your intent, a Planner designs the pipeline, and an Executor writes and runs the code — all without you touching a line of Python. How It Works Three layers. The Root Agent validates your CSV and routes to the right specialist. Each specialist is a SequentialAgent: a Planner designs the...",
+      "tags": [
+        "latest",
+        "machine learning",
+        "towards ai - medium"
+      ],
+      "source_item_ids": [
+        "towards-ai:https://towardsai.net/p/artificial-intelligence/automl-on-autopilot"
+      ],
+      "sources": [
+        "towards-ai"
+      ],
+      "source_categories": [
+        "editorial_practice"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "towards-ai:https://towardsai.net/p/artificial-intelligence/automl-on-autopilot",
+          "source": "towards-ai",
+          "source_category": "editorial_practice",
+          "title": "AutoML on Autopilot",
+          "url": "https://towardsai.net/p/machine-learning/automl-on-autopilot",
+          "published_at": "Mon, 04 May 2026 10:13:06 +0000",
+          "summary": "Last Updated on May 4, 2026 by Editorial Team Author(s): Rishav Saigal Originally published on Towards AI. Figure 1 — From a plain-English prompt to a fully tracked MLflow experiment, autonomously. TL;DR Wraps PyCaret’s AutoML engine in a Google ADK agent hierarchy One natural language prompt → plan → code → execution → MLflow tracking Self-corrects up to 10 times on failure; isolates artifacts per session Covers Classification, Regression, Clustering, Anomaly Detection, Time Series If you’ve used PyCaret, you know it already cuts ML boilerplate dramatically. PyCaretAgent goes further: a Root Agent reads your intent, a Planner designs the pipeline, and an Executor writes and runs the code — all without you touching a line of Python. How It Works Three layers. The Root Agent validates your CSV and routes to the right specialist. Each specialist is a SequentialAgent: a Planner designs the...",
+          "author": "Rishav Saigal",
+          "tags": [
+            "Latest",
+            "Machine Learning",
+            "Towards AI - Medium"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://towardsai.net/p/artificial-intelligence/automl-on-autopilot",
+            "feed_url": "https://towardsai.net/feed"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:e5ecb1939f1314ce",
+      "dedupe_key": "https://towardsai.net/p/machine-learning/i-ran-this-open-source-ai-tool-on-a-messy-codebase-and-got-71x-fewer-tokens-here-is-exactly-what-happened",
+      "title": "I Ran This Open-Source AI Tool on a Messy Codebase and Got 71x Fewer Tokens — Here Is Exactly What Happened",
+      "url": "https://towardsai.net/p/machine-learning/i-ran-this-open-source-ai-tool-on-a-messy-codebase-and-got-71x-fewer-tokens-here-is-exactly-what-happened",
+      "published_at": "Mon, 04 May 2026 04:01:01 +0000",
+      "summary": "Last Updated on May 4, 2026 by Editorial Team Author(s): Muhammad Hassan Ali Originally published on Towards AI. I Ran This Open-Source AI Tool on a Messy Codebase and Got 71x Fewer Tokens — Here Is Exactly What Happened I have spent months watching developers copy-paste entire files into Claude, burn through context windows, and still get vague answers. Screenshot of Graphify Github Repo by AuthorThe article discusses the capabilities and benefits of Graphify, an open-source AI coding assistant that transforms files into a queryable knowledge graph. It highlights how Graphify significantly reduces token usage during queries compared to traditional methods and explains its three-pass extraction process, which optimizes the handling of various file types, including code and documents. The author emphasizes the ease of installation and the privacy-focused design of the tool, making it sui...",
+      "tags": [
+        "latest",
+        "machine learning",
+        "towards ai - medium"
+      ],
+      "source_item_ids": [
+        "towards-ai:https://towardsai.net/p/artificial-intelligence/i-ran-this-open-source-ai-tool-on-a-messy-codebase-and-got-71x-fewer-tokens-here-is-exactly-what-happened"
+      ],
+      "sources": [
+        "towards-ai"
+      ],
+      "source_categories": [
+        "editorial_practice"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "towards-ai:https://towardsai.net/p/artificial-intelligence/i-ran-this-open-source-ai-tool-on-a-messy-codebase-and-got-71x-fewer-tokens-here-is-exactly-what-happened",
+          "source": "towards-ai",
+          "source_category": "editorial_practice",
+          "title": "I Ran This Open-Source AI Tool on a Messy Codebase and Got 71x Fewer Tokens — Here Is Exactly What Happened",
+          "url": "https://towardsai.net/p/machine-learning/i-ran-this-open-source-ai-tool-on-a-messy-codebase-and-got-71x-fewer-tokens-here-is-exactly-what-happened",
+          "published_at": "Mon, 04 May 2026 04:01:01 +0000",
+          "summary": "Last Updated on May 4, 2026 by Editorial Team Author(s): Muhammad Hassan Ali Originally published on Towards AI. I Ran This Open-Source AI Tool on a Messy Codebase and Got 71x Fewer Tokens — Here Is Exactly What Happened I have spent months watching developers copy-paste entire files into Claude, burn through context windows, and still get vague answers. Screenshot of Graphify Github Repo by AuthorThe article discusses the capabilities and benefits of Graphify, an open-source AI coding assistant that transforms files into a queryable knowledge graph. It highlights how Graphify significantly reduces token usage during queries compared to traditional methods and explains its three-pass extraction process, which optimizes the handling of various file types, including code and documents. The author emphasizes the ease of installation and the privacy-focused design of the tool, making it sui...",
+          "author": "Muhammad Hassan Ali",
+          "tags": [
+            "Latest",
+            "Machine Learning",
+            "Towards AI - Medium"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://towardsai.net/p/artificial-intelligence/i-ran-this-open-source-ai-tool-on-a-messy-codebase-and-got-71x-fewer-tokens-here-is-exactly-what-happened",
+            "feed_url": "https://towardsai.net/feed"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:fbe604c2809a8517",
+      "dedupe_key": "https://towardsai.net/p/machine-learning/langgraph-multi-agent-architecture-building-a-self-critiquing-ai-debate-system",
+      "title": "LangGraph Multi-Agent Architecture: Building a Self-Critiquing AI Debate System",
+      "url": "https://towardsai.net/p/machine-learning/langgraph-multi-agent-architecture-building-a-self-critiquing-ai-debate-system",
+      "published_at": "Mon, 04 May 2026 11:41:43 +0000",
+      "summary": "Last Updated on May 4, 2026 by Editorial Team Author(s): Rishav Saigal Originally published on Towards AI. A technical deep-dive into the LangGraph state machine, Pydantic-driven routing, and Critique Agent design powering the LLM Drift Experiment. In the opening piece of this series, we explored the conceptual “why” behind LLM Drift — how AI agents lose their persona, reasoning quality, and behavioral consistency under sustained adversarial pressure. But for the engineers and architects in the room, the “how” is where the real story lives. Building a system designed to intentionally stress-test agent stability requires more than a sequential script. It requires a stateful, resilient, and adversarial architecture — one where failure modes are first-class citizens, not edge cases to be patched later. To build the LLM Drift Experiment, we chose LangGraph. Here is a deep dive into the arch...",
+      "tags": [
+        "artificial intelligence",
+        "data science",
+        "latest",
+        "machine learning",
+        "towards ai - medium"
+      ],
+      "source_item_ids": [
+        "towards-ai:https://towardsai.net/p/artificial-intelligence/langgraph-multi-agent-architecture-building-a-self-critiquing-ai-debate-system"
+      ],
+      "sources": [
+        "towards-ai"
+      ],
+      "source_categories": [
+        "editorial_practice"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "towards-ai:https://towardsai.net/p/artificial-intelligence/langgraph-multi-agent-architecture-building-a-self-critiquing-ai-debate-system",
+          "source": "towards-ai",
+          "source_category": "editorial_practice",
+          "title": "LangGraph Multi-Agent Architecture: Building a Self-Critiquing AI Debate System",
+          "url": "https://towardsai.net/p/machine-learning/langgraph-multi-agent-architecture-building-a-self-critiquing-ai-debate-system",
+          "published_at": "Mon, 04 May 2026 11:41:43 +0000",
+          "summary": "Last Updated on May 4, 2026 by Editorial Team Author(s): Rishav Saigal Originally published on Towards AI. A technical deep-dive into the LangGraph state machine, Pydantic-driven routing, and Critique Agent design powering the LLM Drift Experiment. In the opening piece of this series, we explored the conceptual “why” behind LLM Drift — how AI agents lose their persona, reasoning quality, and behavioral consistency under sustained adversarial pressure. But for the engineers and architects in the room, the “how” is where the real story lives. Building a system designed to intentionally stress-test agent stability requires more than a sequential script. It requires a stateful, resilient, and adversarial architecture — one where failure modes are first-class citizens, not edge cases to be patched later. To build the LLM Drift Experiment, we chose LangGraph. Here is a deep dive into the arch...",
+          "author": "Rishav Saigal",
+          "tags": [
+            "Artificial Intelligence",
+            "Data Science",
+            "Latest",
+            "Machine Learning",
+            "Towards AI - Medium"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://towardsai.net/p/artificial-intelligence/langgraph-multi-agent-architecture-building-a-self-critiquing-ai-debate-system",
+            "feed_url": "https://towardsai.net/feed"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:42d05b846cc1599b",
+      "dedupe_key": "https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models",
+      "title": "How to Build an Efficient Knowledge Base for AI Models",
+      "url": "https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models",
+      "published_at": "Mon, 04 May 2026 17:40:00 +0000",
+      "summary": "Building a knowledge base for AI models isn’t a one-time task but an iterative process of refinement. The post How to Build an Efficient Knowledge Base for AI Models appeared first on Towards Data Science.",
+      "tags": [
+        "artificial intelligence",
+        "data engineering",
+        "knowledge base",
+        "large language model",
+        "llm",
+        "rag"
+      ],
+      "source_item_ids": [
+        "towardsdatascience:https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models/"
+      ],
+      "sources": [
+        "towardsdatascience"
+      ],
+      "source_categories": [
+        "editorial_practice"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "towardsdatascience:https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models/",
+          "source": "towardsdatascience",
+          "source_category": "editorial_practice",
+          "title": "How to Build an Efficient Knowledge Base for AI Models",
+          "url": "https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models/",
+          "published_at": "Mon, 04 May 2026 17:40:00 +0000",
+          "summary": "Building a knowledge base for AI models isn’t a one-time task but an iterative process of refinement. The post How to Build an Efficient Knowledge Base for AI Models appeared first on Towards Data Science.",
+          "author": "Nidhin Karunakaran Ponon",
+          "tags": [
+            "Large Language Model",
+            "Artificial Intelligence",
+            "Data Engineering",
+            "Knowledge Base",
+            "Llm",
+            "Rag"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models/",
+            "feed_url": "https://towardsdatascience.com/feed"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:001204d68e8c8766",
+      "dedupe_key": "https://towardsdatascience.com/playing-connect-four-with-deep-q-learning",
+      "title": "Playing Connect Four with Deep Q-Learning",
+      "url": "https://towardsdatascience.com/playing-connect-four-with-deep-q-learning",
+      "published_at": "Mon, 04 May 2026 13:30:00 +0000",
+      "summary": "Solving multiplayer games with function approximation The post Playing Connect Four with Deep Q-Learning appeared first on Towards Data Science.",
+      "tags": [
+        "artificial intelligence",
+        "deep learning",
+        "editors pick",
+        "machine learning",
+        "programming",
+        "reinforcement learning"
+      ],
+      "source_item_ids": [
+        "towardsdatascience:https://towardsdatascience.com/?p=609009"
+      ],
+      "sources": [
+        "towardsdatascience"
+      ],
+      "source_categories": [
+        "editorial_practice"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "towardsdatascience:https://towardsdatascience.com/?p=609009",
+          "source": "towardsdatascience",
+          "source_category": "editorial_practice",
+          "title": "Playing Connect Four with Deep Q-Learning",
+          "url": "https://towardsdatascience.com/playing-connect-four-with-deep-q-learning/",
+          "published_at": "Mon, 04 May 2026 13:30:00 +0000",
+          "summary": "Solving multiplayer games with function approximation The post Playing Connect Four with Deep Q-Learning appeared first on Towards Data Science.",
+          "author": "Oliver S",
+          "tags": [
+            "Deep Learning",
+            "Artificial Intelligence",
+            "Editors Pick",
+            "Machine Learning",
+            "Programming",
+            "Reinforcement Learning"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://towardsdatascience.com/?p=609009",
+            "feed_url": "https://towardsdatascience.com/feed"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:df94b0aa4bca876b",
+      "dedupe_key": "https://towardsdatascience.com/single-agent-vs-multi-agent-when-to-build-a-multi-agent-system",
+      "title": "Single Agent vs Multi-Agent: When to Build a Multi-Agent System",
+      "url": "https://towardsdatascience.com/single-agent-vs-multi-agent-when-to-build-a-multi-agent-system",
+      "published_at": "Mon, 04 May 2026 20:00:00 +0000",
+      "summary": "A practical guide to understanding AI agent design, ReAct workflows, and when to scale from a single agent to a multi-agent system. The post Single Agent vs Multi-Agent: When to Build a Multi-Agent System appeared first on Towards Data Science.",
+      "tags": [
+        "agentic ai",
+        "ai agents",
+        "artificial intelligence",
+        "editors pick",
+        "llm",
+        "rag"
+      ],
+      "source_item_ids": [
+        "towardsdatascience:https://towardsdatascience.com/?p=609013"
+      ],
+      "sources": [
+        "towardsdatascience"
+      ],
+      "source_categories": [
+        "editorial_practice"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "towardsdatascience:https://towardsdatascience.com/?p=609013",
+          "source": "towardsdatascience",
+          "source_category": "editorial_practice",
+          "title": "Single Agent vs Multi-Agent: When to Build a Multi-Agent System",
+          "url": "https://towardsdatascience.com/single-agent-vs-multi-agent-when-to-build-a-multi-agent-system/",
+          "published_at": "Mon, 04 May 2026 20:00:00 +0000",
+          "summary": "A practical guide to understanding AI agent design, ReAct workflows, and when to scale from a single agent to a multi-agent system. The post Single Agent vs Multi-Agent: When to Build a Multi-Agent System appeared first on Towards Data Science.",
+          "author": "Ayoola Olafenwa",
+          "tags": [
+            "Agentic AI",
+            "AI Agents",
+            "Artificial Intelligence",
+            "Editors Pick",
+            "Llm",
+            "Rag"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://towardsdatascience.com/?p=609013",
+            "feed_url": "https://towardsdatascience.com/feed"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:7f96b809b58cabb1",
+      "dedupe_key": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+      "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "published_at": "Mon, 19 Jan 2026 14:00:00 GMT",
+      "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive. Claude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing — ranging from $20 to $200 per month depending on usage — has sparked a growing rebellion among the very programmers it aims to serve. Now, a free alternative is gaining traction. Goose, an open-source AI agent developed by Block (the financial technology company formerly known as Square), offers nearly identical functionality to Claude Code but runs entirely on a user's local machine. No subscription fees. No cloud dependency. No rate limits that reset every five hours. \"Your data stays with you, period,\" said Parth Sareen, a software engineer who demonstrated the tool during a recent livestream. The comment captures the core a...",
+      "tags": [
+        "ai",
+        "infrastructure"
+      ],
+      "source_item_ids": [
+        "venturebeat-ai:2CUHNkdUg4dnjDFiMtJJQ"
+      ],
+      "sources": [
+        "venturebeat-ai"
+      ],
+      "source_categories": [
+        "industry_news"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "venturebeat-ai:2CUHNkdUg4dnjDFiMtJJQ",
+          "source": "venturebeat-ai",
+          "source_category": "industry_news",
+          "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+          "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+          "published_at": "Mon, 19 Jan 2026 14:00:00 GMT",
+          "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive. Claude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing — ranging from $20 to $200 per month depending on usage — has sparked a growing rebellion among the very programmers it aims to serve. Now, a free alternative is gaining traction. Goose, an open-source AI agent developed by Block (the financial technology company formerly known as Square), offers nearly identical functionality to Claude Code but runs entirely on a user's local machine. No subscription fees. No cloud dependency. No rate limits that reset every five hours. \"Your data stays with you, period,\" said Parth Sareen, a software engineer who demonstrated the tool during a recent livestream. The comment captures the core a...",
+          "author": "michael.nunez@venturebeat.com (Michael Nuñez)",
+          "tags": [
+            "AI",
+            "Infrastructure"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "2CUHNkdUg4dnjDFiMtJJQ",
+            "feed_url": "https://venturebeat.com/category/ai/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:153f3066406ba974",
+      "dedupe_key": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+      "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "published_at": "Thu, 22 Jan 2026 14:00:00 GMT",
+      "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of legacy cloud infrastructure. TQ Ventures led the round, with participation from FPV Ventures, Redpoint, and Unusual Ventures. The investment values Railway as one of the most significant infrastructure startups to emerge during the AI boom, capitalizing on developer frustration with the complexity and cost of traditional platforms like Amazon Web Services and Google Cloud. \"As AI models get better at writing code, more and more people are asking the age-old question: where, and how, do I run my applications?\" said Jake Cooper, Railway's 28-year-old founder and chief executive, in an exclusive int...",
+      "tags": [
+        "ai",
+        "infrastructure"
+      ],
+      "source_item_ids": [
+        "venturebeat-ai:1l2gUXhw9OMzMzsSp8yAFk"
+      ],
+      "sources": [
+        "venturebeat-ai"
+      ],
+      "source_categories": [
+        "industry_news"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "venturebeat-ai:1l2gUXhw9OMzMzsSp8yAFk",
+          "source": "venturebeat-ai",
+          "source_category": "industry_news",
+          "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+          "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+          "published_at": "Thu, 22 Jan 2026 14:00:00 GMT",
+          "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of legacy cloud infrastructure. TQ Ventures led the round, with participation from FPV Ventures, Redpoint, and Unusual Ventures. The investment values Railway as one of the most significant infrastructure startups to emerge during the AI boom, capitalizing on developer frustration with the complexity and cost of traditional platforms like Amazon Web Services and Google Cloud. \"As AI models get better at writing code, more and more people are asking the age-old question: where, and how, do I run my applications?\" said Jake Cooper, Railway's 28-year-old founder and chief executive, in an exclusive int...",
+          "author": "michael.nunez@venturebeat.com (Michael Nuñez)",
+          "tags": [
+            "Infrastructure",
+            "AI"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "1l2gUXhw9OMzMzsSp8yAFk",
+            "feed_url": "https://venturebeat.com/category/ai/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:26adfe0141708171",
+      "dedupe_key": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+      "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+      "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+      "published_at": "Fri, 16 Jan 2026 14:01:00 GMT",
+      "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,000 — a fifth of his marketing budget — on a billboard in San Francisco displaying what looked like gibberish: five strings of random numbers. The numbers were actually AI tokens. Decoded, they led to a coding challenge: build an algorithm to act as a digital bouncer at Berghain, the Berlin nightclub famous for rejecting nearly everyone at the door. Within days, thousands attempted the puzzle. 430 cracked it. Some got hired. The winner flew to Berlin, all expenses paid. That unconventional approach has now attracted $69 million in Series B funding, led by Ribbit Capital with participation from Evantic and existing investors Sequoia Capital, Conviction, and Pear VC. The round values Listen L...",
+      "tags": [
+        "ai",
+        "technology"
+      ],
+      "source_item_ids": [
+        "venturebeat-ai:wOG0z6nm91FOeUqhpizqI"
+      ],
+      "sources": [
+        "venturebeat-ai"
+      ],
+      "source_categories": [
+        "industry_news"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "venturebeat-ai:wOG0z6nm91FOeUqhpizqI",
+          "source": "venturebeat-ai",
+          "source_category": "industry_news",
+          "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+          "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+          "published_at": "Fri, 16 Jan 2026 14:01:00 GMT",
+          "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,000 — a fifth of his marketing budget — on a billboard in San Francisco displaying what looked like gibberish: five strings of random numbers. The numbers were actually AI tokens. Decoded, they led to a coding challenge: build an algorithm to act as a digital bouncer at Berghain, the Berlin nightclub famous for rejecting nearly everyone at the door. Within days, thousands attempted the puzzle. 430 cracked it. Some got hired. The winner flew to Berlin, all expenses paid. That unconventional approach has now attracted $69 million in Series B funding, led by Ribbit Capital with participation from Evantic and existing investors Sequoia Capital, Conviction, and Pear VC. The round values Listen L...",
+          "author": "michael.nunez@venturebeat.com (Michael Nuñez)",
+          "tags": [
+            "Technology",
+            "AI"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "wOG0z6nm91FOeUqhpizqI",
+            "feed_url": "https://venturebeat.com/category/ai/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:91133cadd5c81858",
+      "dedupe_key": "https://www.analyticsvidhya.com/blog/2026/05/how-people-are-figuring-out-life-with-claude",
+      "title": "How People are Figuring Out Life With Claude",
+      "url": "https://www.analyticsvidhya.com/blog/2026/05/how-people-are-figuring-out-life-with-claude",
+      "published_at": "Sat, 02 May 2026 13:24:22 +0000",
+      "summary": "AI chatbots are the new norm. What earlier was “ask Google” has now largely become “ask Claude”. And that is not just a change of platforms. The new form of conversational guidance goes a whole lot deeper than trying to find the best car for you or looking for an upskilling course. It now spills […] The post How People are Figuring Out Life With Claude appeared first on Analytics Vidhya.",
+      "tags": [
+        "artificial intelligence",
+        "attention models",
+        "beginner"
+      ],
+      "source_item_ids": [
+        "analyticsvidhya:https://www.analyticsvidhya.com/?p=254556"
+      ],
+      "sources": [
+        "analyticsvidhya"
+      ],
+      "source_categories": [
+        "tutorials"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "analyticsvidhya:https://www.analyticsvidhya.com/?p=254556",
+          "source": "analyticsvidhya",
+          "source_category": "tutorials",
+          "title": "How People are Figuring Out Life With Claude",
+          "url": "https://www.analyticsvidhya.com/blog/2026/05/how-people-are-figuring-out-life-with-claude/",
+          "published_at": "Sat, 02 May 2026 13:24:22 +0000",
+          "summary": "AI chatbots are the new norm. What earlier was “ask Google” has now largely become “ask Claude”. And that is not just a change of platforms. The new form of conversational guidance goes a whole lot deeper than trying to find the best car for you or looking for an upskilling course. It now spills […] The post How People are Figuring Out Life With Claude appeared first on Analytics Vidhya.",
+          "author": "Sarthak Dogra",
+          "tags": [
+            "Artificial Intelligence",
+            "Attention Models",
+            "Beginner"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://www.analyticsvidhya.com/?p=254556",
+            "feed_url": "https://www.analyticsvidhya.com/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:2bdc162362a19afe",
+      "dedupe_key": "https://www.analyticsvidhya.com/blog/2026/05/ml-intern-from-prompt-to-a-shipped-hugging-face-model",
+      "title": "ML Intern in Practice: From Prompt to a Shipped Hugging Face Model",
+      "url": "https://www.analyticsvidhya.com/blog/2026/05/ml-intern-from-prompt-to-a-shipped-hugging-face-model",
+      "published_at": "Mon, 04 May 2026 11:45:58 +0000",
+      "summary": "Most ML projects do not fail because of model choice. They fail in the messy middle: finding the right dataset, checking usability, writing training code, fixing errors, reading logs, debugging weak results, evaluating outputs, and packaging the model for others. This is where ML Intern fits. It is not just AutoML for model selection and […] The post ML Intern in Practice: From Prompt to a Shipped Hugging Face Model appeared first on Analytics Vidhya.",
+      "tags": [
+        "artificial intelligence",
+        "beginner",
+        "machine learning"
+      ],
+      "source_item_ids": [
+        "analyticsvidhya:https://www.analyticsvidhya.com/?p=254569"
+      ],
+      "sources": [
+        "analyticsvidhya"
+      ],
+      "source_categories": [
+        "tutorials"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "analyticsvidhya:https://www.analyticsvidhya.com/?p=254569",
+          "source": "analyticsvidhya",
+          "source_category": "tutorials",
+          "title": "ML Intern in Practice: From Prompt to a Shipped Hugging Face Model",
+          "url": "https://www.analyticsvidhya.com/blog/2026/05/ml-intern-from-prompt-to-a-shipped-hugging-face-model/",
+          "published_at": "Mon, 04 May 2026 11:45:58 +0000",
+          "summary": "Most ML projects do not fail because of model choice. They fail in the messy middle: finding the right dataset, checking usability, writing training code, fixing errors, reading logs, debugging weak results, evaluating outputs, and packaging the model for others. This is where ML Intern fits. It is not just AutoML for model selection and […] The post ML Intern in Practice: From Prompt to a Shipped Hugging Face Model appeared first on Analytics Vidhya.",
+          "author": "Janvi Kumari",
+          "tags": [
+            "Artificial Intelligence",
+            "Beginner",
+            "Machine Learning"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://www.analyticsvidhya.com/?p=254569",
+            "feed_url": "https://www.analyticsvidhya.com/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:614eefb2948371d1",
+      "dedupe_key": "https://www.analyticsvidhya.com/blog/2026/05/solved-agentic-ai-projects-with-github-links",
+      "title": "15+ Solved Agentic AI Projects with Github Links",
+      "url": "https://www.analyticsvidhya.com/blog/2026/05/solved-agentic-ai-projects-with-github-links",
+      "published_at": "Sun, 03 May 2026 03:17:00 +0000",
+      "summary": "Projects are the bridge between understanding AI and actually building with it. While the last couple of years were dominated by generative models, the shift now is toward systems that can think in steps, use tools, and act with a clear objective. This guide brings together over 15 solved agentic AI projects designed to help […] The post 15+ Solved Agentic AI Projects with Github Links appeared first on Analytics Vidhya.",
+      "tags": [
+        "ai agents",
+        "beginner",
+        "project"
+      ],
+      "source_item_ids": [
+        "analyticsvidhya:https://www.analyticsvidhya.com/?p=254521"
+      ],
+      "sources": [
+        "analyticsvidhya"
+      ],
+      "source_categories": [
+        "tutorials"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "analyticsvidhya:https://www.analyticsvidhya.com/?p=254521",
+          "source": "analyticsvidhya",
+          "source_category": "tutorials",
+          "title": "15+ Solved Agentic AI Projects with Github Links",
+          "url": "https://www.analyticsvidhya.com/blog/2026/05/solved-agentic-ai-projects-with-github-links/",
+          "published_at": "Sun, 03 May 2026 03:17:00 +0000",
+          "summary": "Projects are the bridge between understanding AI and actually building with it. While the last couple of years were dominated by generative models, the shift now is toward systems that can think in steps, use tools, and act with a clear objective. This guide brings together over 15 solved agentic AI projects designed to help […] The post 15+ Solved Agentic AI Projects with Github Links appeared first on Analytics Vidhya.",
+          "author": "Vasu Deo Sankrityayan",
+          "tags": [
+            "AI Agents",
+            "Beginner",
+            "Project"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://www.analyticsvidhya.com/?p=254521",
+            "feed_url": "https://www.analyticsvidhya.com/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:26713a40b64e7337",
+      "dedupe_key": "https://www.artificialintelligence-news.com/news/agentic-ai-governance-enterprise-readiness-google",
+      "title": "Google made agentic AI governance a product. Enterprises still have to catch up.",
+      "url": "https://www.artificialintelligence-news.com/news/agentic-ai-governance-enterprise-readiness-google",
+      "published_at": "Mon, 04 May 2026 10:00:00 +0000",
+      "summary": "Two weeks ago at Google Cloud Next ’26 in Las Vegas, Google did something the enterprise AI industry has been dancing around for the better part of two years: it made agentic AI governance a native product feature, not an afterthought. The centrepiece announcement was the Gemini Enterprise Agent Platform, pitched as the successor to Vertex AI […] The post Google made agentic AI governance a product. Enterprises still have to catch up. appeared first on AI News.",
+      "tags": [
+        "agentic ai",
+        "ai agents",
+        "ai business strategy",
+        "ai governance",
+        "ai in action",
+        "ai infrastructure",
+        "ai market trends",
+        "ai security",
+        "artificial intelligence",
+        "enterprise ai",
+        "featured news",
+        "gemini",
+        "google cloud",
+        "google cloud next",
+        "governance, regulation & policy",
+        "inside ai"
+      ],
+      "source_item_ids": [
+        "ai-news:https://www.artificialintelligence-news.com/?p=113300"
+      ],
+      "sources": [
+        "ai-news"
+      ],
+      "source_categories": [
+        "industry_news"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "ai-news:https://www.artificialintelligence-news.com/?p=113300",
+          "source": "ai-news",
+          "source_category": "industry_news",
+          "title": "Google made agentic AI governance a product. Enterprises still have to catch up.",
+          "url": "https://www.artificialintelligence-news.com/news/agentic-ai-governance-enterprise-readiness-google/",
+          "published_at": "Mon, 04 May 2026 10:00:00 +0000",
+          "summary": "Two weeks ago at Google Cloud Next ’26 in Las Vegas, Google did something the enterprise AI industry has been dancing around for the better part of two years: it made agentic AI governance a native product feature, not an afterthought. The centrepiece announcement was the Gemini Enterprise Agent Platform, pitched as the successor to Vertex AI […] The post Google made agentic AI governance a product. Enterprises still have to catch up. appeared first on AI News.",
+          "author": "Dashveenjit Kaur",
+          "tags": [
+            "AI Business Strategy",
+            "AI in Action",
+            "AI Market Trends",
+            "Artificial Intelligence",
+            "Featured News",
+            "Governance, Regulation & Policy",
+            "Inside AI",
+            "agentic ai",
+            "AI agents",
+            "ai governance",
+            "ai infrastructure",
+            "ai security",
+            "enterprise AI",
+            "gemini",
+            "google cloud",
+            "Google Cloud Next"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://www.artificialintelligence-news.com/?p=113300",
+            "feed_url": "https://www.artificialintelligence-news.com/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:0031a7c81a9a6c03",
+      "dedupe_key": "https://www.artificialintelligence-news.com/news/physical-ai-governance-autonomous-systems",
+      "title": "Physical AI raises governance questions for autonomous systems",
+      "url": "https://www.artificialintelligence-news.com/news/physical-ai-governance-autonomous-systems",
+      "published_at": "Mon, 04 May 2026 11:00:00 +0000",
+      "summary": "Governance around Physical AI is becoming harder as autonomous AI systems move into robots, sensors, and industrial equipment. The issue is not only whether AI agents can complete tasks. It is how their actions are tested, monitored, and stopped when they interact with real-world systems. Industrial robotics already provides a large base for that discussion. […] The post Physical AI raises governance questions for autonomous systems appeared first on AI News.",
+      "tags": [
+        "ai",
+        "artificial intelligence",
+        "governance",
+        "governance, regulation & policy",
+        "manufacturing",
+        "manufacturing & engineering ai",
+        "multimodal ai",
+        "physical ai",
+        "techex events"
+      ],
+      "source_item_ids": [
+        "ai-news:https://www.artificialintelligence-news.com/?p=113301"
+      ],
+      "sources": [
+        "ai-news"
+      ],
+      "source_categories": [
+        "industry_news"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "ai-news:https://www.artificialintelligence-news.com/?p=113301",
+          "source": "ai-news",
+          "source_category": "industry_news",
+          "title": "Physical AI raises governance questions for autonomous systems",
+          "url": "https://www.artificialintelligence-news.com/news/physical-ai-governance-autonomous-systems/",
+          "published_at": "Mon, 04 May 2026 11:00:00 +0000",
+          "summary": "Governance around Physical AI is becoming harder as autonomous AI systems move into robots, sensors, and industrial equipment. The issue is not only whether AI agents can complete tasks. It is how their actions are tested, monitored, and stopped when they interact with real-world systems. Industrial robotics already provides a large base for that discussion. […] The post Physical AI raises governance questions for autonomous systems appeared first on AI News.",
+          "author": "Muhammad Zulhusni",
+          "tags": [
+            "Artificial Intelligence",
+            "Governance, Regulation & Policy",
+            "Manufacturing & Engineering AI",
+            "Multimodal AI",
+            "Physical AI",
+            "TechEx Events",
+            "ai",
+            "governance",
+            "manufacturing",
+            "multimodal AI",
+            "physical ai"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://www.artificialintelligence-news.com/?p=113301",
+            "feed_url": "https://www.artificialintelligence-news.com/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:189bb62efe80816d",
+      "dedupe_key": "https://www.artificialintelligence-news.com/news/sap-how-enterprise-ai-governance-secures-profit-margins",
+      "title": "SAP: How enterprise AI governance secures profit margins",
+      "url": "https://www.artificialintelligence-news.com/news/sap-how-enterprise-ai-governance-secures-profit-margins",
+      "published_at": "Fri, 01 May 2026 13:05:37 +0000",
+      "summary": "According to SAP, enterprise AI governance secures profit margins by replacing statistical guesses with deterministic control. Ask a consumer-grade model to count the words in a document, and it will often miss the mark by ten percent. Manos Raptopoulos, Global President of Customer Success Europe, APAC, Middle East & Africa at SAP, observes that the […] The post SAP: How enterprise AI governance secures profit margins appeared first on AI News.",
+      "tags": [
+        "agentic ai",
+        "agents",
+        "ai and us",
+        "ai business strategy",
+        "ai market trends",
+        "automation",
+        "data engineering & mlops",
+        "deep dives",
+        "enterprise",
+        "featured news",
+        "features",
+        "governance",
+        "governance, regulation & policy",
+        "human-ai relationships",
+        "inside ai",
+        "natural language processing (nlp)",
+        "opinion",
+        "sap",
+        "strategy",
+        "trends",
+        "trust, bias & fairness",
+        "world of work"
+      ],
+      "source_item_ids": [
+        "ai-news:https://www.artificialintelligence-news.com/?p=113292"
+      ],
+      "sources": [
+        "ai-news"
+      ],
+      "source_categories": [
+        "industry_news"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "ai-news:https://www.artificialintelligence-news.com/?p=113292",
+          "source": "ai-news",
+          "source_category": "industry_news",
+          "title": "SAP: How enterprise AI governance secures profit margins",
+          "url": "https://www.artificialintelligence-news.com/news/sap-how-enterprise-ai-governance-secures-profit-margins/",
+          "published_at": "Fri, 01 May 2026 13:05:37 +0000",
+          "summary": "According to SAP, enterprise AI governance secures profit margins by replacing statistical guesses with deterministic control. Ask a consumer-grade model to count the words in a document, and it will often miss the mark by ten percent. Manos Raptopoulos, Global President of Customer Success Europe, APAC, Middle East & Africa at SAP, observes that the […] The post SAP: How enterprise AI governance secures profit margins appeared first on AI News.",
+          "author": "Ryan Daws",
+          "tags": [
+            "AI and Us",
+            "AI Business Strategy",
+            "AI Market Trends",
+            "Data Engineering & MLOps",
+            "Deep Dives",
+            "Featured News",
+            "Features",
+            "Governance, Regulation & Policy",
+            "Human-AI Relationships",
+            "Inside AI",
+            "Natural Language Processing (NLP)",
+            "Opinion",
+            "Trust, Bias & Fairness",
+            "World of Work",
+            "agentic ai",
+            "agents",
+            "automation",
+            "enterprise",
+            "governance",
+            "sap",
+            "strategy",
+            "trends"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://www.artificialintelligence-news.com/?p=113292",
+            "feed_url": "https://www.artificialintelligence-news.com/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:e7d935d9dcf00592",
+      "dedupe_key": "https://www.marktechpost.com/2026/05/04/a-coding-guide-to-survey-bias-correction-using-facebook-research-balance-with-ipw-cbps-ranking-and-post-stratification-methods",
+      "title": "A Coding Guide to Survey Bias Correction Using Facebook Research Balance with IPW CBPS Ranking and Post Stratification Methods",
+      "url": "https://www.marktechpost.com/2026/05/04/a-coding-guide-to-survey-bias-correction-using-facebook-research-balance-with-ipw-cbps-ranking-and-post-stratification-methods",
+      "published_at": "Tue, 05 May 2026 04:46:45 +0000",
+      "summary": "In this tutorial, we walk through a complete, end-to-end workflow for correcting bias in survey data using the balance library. We simulate a realistic population, deliberately introduce sampling bias, and then apply multiple re-weighting techniques to recover unbiased estimates. We focus on four widely used methods: Inverse Probability Weighting (IPW), Covariate Balancing Propensity Scores (CBPS), […] The post A Coding Guide to Survey Bias Correction Using Facebook Research Balance with IPW CBPS Ranking and Post Stratification Methods appeared first on MarkTechPost.",
+      "tags": [
+        "applications",
+        "artificial intelligence",
+        "data science",
+        "deep learning",
+        "editors pick",
+        "machine learning",
+        "software engineering",
+        "staff",
+        "technology",
+        "tutorials"
+      ],
+      "source_item_ids": [
+        "marktechpost-ai:https://www.marktechpost.com/?p=79514"
+      ],
+      "sources": [
+        "marktechpost-ai"
+      ],
+      "source_categories": [
+        "technical_news"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "marktechpost-ai:https://www.marktechpost.com/?p=79514",
+          "source": "marktechpost-ai",
+          "source_category": "technical_news",
+          "title": "A Coding Guide to Survey Bias Correction Using Facebook Research Balance with IPW CBPS Ranking and Post Stratification Methods",
+          "url": "https://www.marktechpost.com/2026/05/04/a-coding-guide-to-survey-bias-correction-using-facebook-research-balance-with-ipw-cbps-ranking-and-post-stratification-methods/",
+          "published_at": "Tue, 05 May 2026 04:46:45 +0000",
+          "summary": "In this tutorial, we walk through a complete, end-to-end workflow for correcting bias in survey data using the balance library. We simulate a realistic population, deliberately introduce sampling bias, and then apply multiple re-weighting techniques to recover unbiased estimates. We focus on four widely used methods: Inverse Probability Weighting (IPW), Covariate Balancing Propensity Scores (CBPS), […] The post A Coding Guide to Survey Bias Correction Using Facebook Research Balance with IPW CBPS Ranking and Post Stratification Methods appeared first on MarkTechPost.",
+          "author": "Sana Hassan",
+          "tags": [
+            "Applications",
+            "Artificial Intelligence",
+            "Data Science",
+            "Deep Learning",
+            "Editors Pick",
+            "Machine Learning",
+            "Software Engineering",
+            "Staff",
+            "Technology",
+            "Tutorials"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://www.marktechpost.com/?p=79514",
+            "feed_url": "https://www.marktechpost.com/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:ab8909a0d8ccae88",
+      "dedupe_key": "https://www.marktechpost.com/2026/05/05/google-adds-event-driven-webhooks-to-the-gemini-api-eliminating-the-need-for-polling-in-long-running-ai-jobs",
+      "title": "Google Adds Event-Driven Webhooks to the Gemini API, Eliminating the Need for Polling in Long-Running AI Jobs",
+      "url": "https://www.marktechpost.com/2026/05/05/google-adds-event-driven-webhooks-to-the-gemini-api-eliminating-the-need-for-polling-in-long-running-ai-jobs",
+      "published_at": "Tue, 05 May 2026 07:01:53 +0000",
+      "summary": "A push-based notification system for Batch API, Deep Research, and video generation tasks arrives with built-in security, retry guarantees, and two configuration modes. The post Google Adds Event-Driven Webhooks to the Gemini API, Eliminating the Need for Polling in Long-Running AI Jobs appeared first on MarkTechPost.",
+      "tags": [
+        "agentic ai",
+        "ai shorts",
+        "artificial intelligence",
+        "editors pick",
+        "new releases",
+        "software engineering",
+        "technology"
+      ],
+      "source_item_ids": [
+        "marktechpost-ai:https://www.marktechpost.com/?p=79521"
+      ],
+      "sources": [
+        "marktechpost-ai"
+      ],
+      "source_categories": [
+        "technical_news"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "marktechpost-ai:https://www.marktechpost.com/?p=79521",
+          "source": "marktechpost-ai",
+          "source_category": "technical_news",
+          "title": "Google Adds Event-Driven Webhooks to the Gemini API, Eliminating the Need for Polling in Long-Running AI Jobs",
+          "url": "https://www.marktechpost.com/2026/05/05/google-adds-event-driven-webhooks-to-the-gemini-api-eliminating-the-need-for-polling-in-long-running-ai-jobs/",
+          "published_at": "Tue, 05 May 2026 07:01:53 +0000",
+          "summary": "A push-based notification system for Batch API, Deep Research, and video generation tasks arrives with built-in security, retry guarantees, and two configuration modes. The post Google Adds Event-Driven Webhooks to the Gemini API, Eliminating the Need for Polling in Long-Running AI Jobs appeared first on MarkTechPost.",
+          "author": "Michal Sutter",
+          "tags": [
+            "Agentic AI",
+            "AI Shorts",
+            "Artificial Intelligence",
+            "Editors Pick",
+            "New Releases",
+            "Software Engineering",
+            "Technology"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://www.marktechpost.com/?p=79521",
+            "feed_url": "https://www.marktechpost.com/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:5adc4ac1d4ca1fb0",
+      "dedupe_key": "https://www.marktechpost.com/2026/05/05/why-gradient-descent-zigzags-and-how-momentum-fixes-it",
+      "title": "Why Gradient Descent Zigzags and How Momentum Fixes It",
+      "url": "https://www.marktechpost.com/2026/05/05/why-gradient-descent-zigzags-and-how-momentum-fixes-it",
+      "published_at": "Tue, 05 May 2026 07:26:29 +0000",
+      "summary": "How momentum optimizes gradient descent by dampening oscillations and accelerating convergence on complex The post Why Gradient Descent Zigzags and How Momentum Fixes It appeared first on MarkTechPost.",
+      "tags": [
+        "data science",
+        "editors pick",
+        "staff",
+        "technology"
+      ],
+      "source_item_ids": [
+        "marktechpost-ai:https://www.marktechpost.com/?p=79524"
+      ],
+      "sources": [
+        "marktechpost-ai"
+      ],
+      "source_categories": [
+        "technical_news"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "marktechpost-ai:https://www.marktechpost.com/?p=79524",
+          "source": "marktechpost-ai",
+          "source_category": "technical_news",
+          "title": "Why Gradient Descent Zigzags and How Momentum Fixes It",
+          "url": "https://www.marktechpost.com/2026/05/05/why-gradient-descent-zigzags-and-how-momentum-fixes-it/",
+          "published_at": "Tue, 05 May 2026 07:26:29 +0000",
+          "summary": "How momentum optimizes gradient descent by dampening oscillations and accelerating convergence on complex The post Why Gradient Descent Zigzags and How Momentum Fixes It appeared first on MarkTechPost.",
+          "author": "Arham Islam",
+          "tags": [
+            "Data Science",
+            "Editors Pick",
+            "Staff",
+            "Technology"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://www.marktechpost.com/?p=79524",
+            "feed_url": "https://www.marktechpost.com/feed/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:d5cf1fb5a5ed5e98",
+      "dedupe_key": "https://www.therundown.ai/p/ai-data-centers-head-for-the-ocean",
+      "title": "AI data centers head for the ocean",
+      "url": "https://www.therundown.ai/p/ai-data-centers-head-for-the-ocean",
+      "published_at": "Tue, 05 May 2026 09:00:00 +0000",
+      "summary": "PLUS: How to replace Siri with a free local model",
+      "tags": [],
+      "source_item_ids": [
+        "rundown-ai:https://www.therundown.ai/p/ai-data-centers-head-for-the-ocean"
+      ],
+      "sources": [
+        "rundown-ai"
+      ],
+      "source_categories": [
+        "newsletter"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "rundown-ai:https://www.therundown.ai/p/ai-data-centers-head-for-the-ocean",
+          "source": "rundown-ai",
+          "source_category": "newsletter",
+          "title": "AI data centers head for the ocean",
+          "url": "https://www.therundown.ai/p/ai-data-centers-head-for-the-ocean",
+          "published_at": "Tue, 05 May 2026 09:00:00 +0000",
+          "summary": "PLUS: How to replace Siri with a free local model",
+          "author": "Zach Mink",
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://www.therundown.ai/p/ai-data-centers-head-for-the-ocean",
+            "feed_url": "https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:35ac8d248b0e2c47",
+      "dedupe_key": "https://www.therundown.ai/p/ai-shows-its-skills-in-the-emergency-room",
+      "title": "AI shows its skills in the emergency room",
+      "url": "https://www.therundown.ai/p/ai-shows-its-skills-in-the-emergency-room",
+      "published_at": "Mon, 04 May 2026 09:00:00 +0000",
+      "summary": "PLUS: Create converting landing pages in Claude Design",
+      "tags": [],
+      "source_item_ids": [
+        "rundown-ai:https://www.therundown.ai/p/ai-shows-its-skills-in-the-emergency-room"
+      ],
+      "sources": [
+        "rundown-ai"
+      ],
+      "source_categories": [
+        "newsletter"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "rundown-ai:https://www.therundown.ai/p/ai-shows-its-skills-in-the-emergency-room",
+          "source": "rundown-ai",
+          "source_category": "newsletter",
+          "title": "AI shows its skills in the emergency room",
+          "url": "https://www.therundown.ai/p/ai-shows-its-skills-in-the-emergency-room",
+          "published_at": "Mon, 04 May 2026 09:00:00 +0000",
+          "summary": "PLUS: Create converting landing pages in Claude Design",
+          "author": "Zach Mink",
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://www.therundown.ai/p/ai-shows-its-skills-in-the-emergency-room",
+            "feed_url": "https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:ffd316eeccc45cfd",
+      "dedupe_key": "https://www.therundown.ai/p/exclusive-uipath-cmo-michael-atalla-on-ai-at-work",
+      "title": "Exclusive: UiPath CMO Michael Atalla on AI at work",
+      "url": "https://www.therundown.ai/p/exclusive-uipath-cmo-michael-atalla-on-ai-at-work",
+      "published_at": "Sun, 03 May 2026 10:00:00 +0000",
+      "summary": "Why most AI projects fail, what the cloud era teaches us, and what the whole AI shift means for your job",
+      "tags": [],
+      "source_item_ids": [
+        "rundown-ai:https://www.therundown.ai/p/exclusive-uipath-cmo-michael-atalla-on-ai-at-work"
+      ],
+      "sources": [
+        "rundown-ai"
+      ],
+      "source_categories": [
+        "newsletter"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "rundown-ai:https://www.therundown.ai/p/exclusive-uipath-cmo-michael-atalla-on-ai-at-work",
+          "source": "rundown-ai",
+          "source_category": "newsletter",
+          "title": "Exclusive: UiPath CMO Michael Atalla on AI at work",
+          "url": "https://www.therundown.ai/p/exclusive-uipath-cmo-michael-atalla-on-ai-at-work",
+          "published_at": "Sun, 03 May 2026 10:00:00 +0000",
+          "summary": "Why most AI projects fail, what the cloud era teaches us, and what the whole AI shift means for your job",
+          "author": "Shubham Sharma",
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://www.therundown.ai/p/exclusive-uipath-cmo-michael-atalla-on-ai-at-work",
+            "feed_url": "https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml"
+          }
+        }
+      ]
+    }
+  ],
+  "output_path": "Runtime/validation_multi_editorial_and_research.json"
+}

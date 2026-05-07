@@ -1,0 +1,341 @@
+[
+  {
+    "id": "t1",
+    "title": "Await human resolution of two BLOCKING design questions (SUPERSEDED)",
+    "description": "Superseded 2026-05-05 by ep.20260505T102200Z (design rewrite per human feedback mail.20260505T102039Z.001). The original Q1/Q2 are now folded into the new ≤100-line design as concrete defaults: Q1 delivery channel → workdir file under Runtime/ with optional mailbox push (BLOCKING in §7 of the new design, surfaced via mail.20260505T102846Z.001); Q2 rubric write-back → in-process delta default (DEFAULT). The original separate-ping shape is obsolete. Tracking continues via the new design's Open Questions and the t2 precondition.",
+    "subtasks": [
+      {
+        "id": 1,
+        "text": "Check mailbox each heartbeat for human reply on Q1 (delivery channel)",
+        "done": true
+      },
+      {
+        "id": 2,
+        "text": "Check mailbox each heartbeat for human reply on Q2 (rubric write-back shape)",
+        "done": true
+      },
+      {
+        "id": 3,
+        "text": "Once both answered, mark this Todo done and unblock t2",
+        "done": true
+      }
+    ],
+    "done": true
+  },
+  {
+    "id": "t2",
+    "title": "Scaffold AI Informer Codex agent per approved (rewritten) design",
+    "description": "Updated 2026-05-06 to reference the build manual at implement_plan.md (workdir root) — that file is the contract for subtasks 2-9 and pre-specifies the post-scaffold directory layout, the build sequence, and the smoke gates. Earlier note: references the 67-line rewritten design at design/ai_informer_agent_design.md. Precondition: wait on human reply to mail.20260505T102846Z.001 on Q1 (delivery channel BLOCKING). If no reply by next heartbeat, accept the design's stated default (workdir file under Runtime/digests/<ts>.txt with optional mailbox push) and proceed; do NOT block scaffolding indefinitely on Q1. Q2 (rubric write-back) and Q3 (HN amplifier direction) already have DEFAULT decisions in the design. Scaffold per build-a-codex-agent skill: run copy.sh to seed basic-agent, then author AGENTS.md from design §2-§3, write .codex/agents/screener.toml and .codex/agents/researcher.toml from design §4 (skeleton task packets and natural-language return contracts), create three window skills (window-08-urgency, window-12-opinion, window-18-deep) plus the shared helper script .agents/skills/_shared/scripts/strip_for_screener.py per §5, wire ai_sources.collect per §3 pipeline. Do NOT add 08/12/18 cron until a smoke run succeeds.",
+    "subtasks": [
+      {
+        "id": 1,
+        "text": "Decide Q1 delivery channel — Resolved 2026-05-05: Feishu group webhook, ref impl https://github.com/Tom-0727/AInformer/blob/main/core/utils/inform.py, configured URL recorded inline in design.",
+        "done": true
+      },
+      {
+        "id": 2,
+        "text": "Run build-a-codex-agent copy.sh to seed basic-agent into the workdir",
+        "done": true
+      },
+      {
+        "id": 3,
+        "text": "Author AGENTS.md from design §2 + §3 (business identity, three-layer model, runtime mechanism)",
+        "done": true
+      },
+      {
+        "id": 4,
+        "text": "Write .codex/agents/screener.toml from design/subagents/screener.md (single responsibility, file-mediated I/O, natural-language filtering summary plus shortlist.json path return)",
+        "done": true
+      },
+      {
+        "id": 5,
+        "text": "Write .codex/agents/researcher.toml from design/subagents/researcher.md (per-record, bounded web-read in read-only sandbox, natural-language briefing return)",
+        "done": true
+      },
+      {
+        "id": 6,
+        "text": "Create three window skills (window-08-urgency, window-12-opinion, window-18-deep) plus the shared helper script .agents/skills/_shared/scripts/strip_for_screener.py — per design §5 and implement_plan.md steps 5-8",
+        "done": true
+      },
+      {
+        "id": 7,
+        "text": "Wire the per-run pipeline (wake-up → load window skill → ai_sources.collect → strip raw_items → screener → researcher → synthesis → output) per design §3",
+        "done": true
+      },
+      {
+        "id": 8,
+        "text": "Implement ai_informer/notifications/ module (CLI entrypoint cli.py, channel adapters under channels/<type>.py, broadcast-by-default with --channel override) and create config/notifications.json with the configured Feishu channel — per design/notifications.md",
+        "done": true
+      },
+      {
+        "id": 9,
+        "text": "Smoke run for one window without cron; verify pipeline end-to-end before adding cron entries",
+        "done": false
+      }
+    ],
+    "done": false
+  },
+  {
+    "id": "t3",
+    "title": "Multi-source ai_sources.collect validation (gap-filler)",
+    "description": "Resolved 2026-05-05 by ep.20260505T093400Z.design.ai-informer-design-validation-v2 (PASS r1). Both runs (official_labs n=24, editorial_and_research n=45) yielded merged_item_count and len(sources) of 1 across all 69 records; merged_duplicates=0. Mechanism: dedupe_key is canonical-URL-based. Findings recorded in design/ai_informer_design_validation_v2.md and as inline patches at design §3.4 (lines 213, 215) and §7.5 (line 388). Knowledge note narrowly updated. Magnitude-signal-fallback rubric implication promoted to t5.",
+    "subtasks": [
+      {
+        "id": 1,
+        "text": "Run python -m ai_sources.core.cli --source-set official_labs --profile quick --limit 3 --output Runtime/validation_multi_official_labs.json",
+        "done": true
+      },
+      {
+        "id": 2,
+        "text": "Inspect records[*].merged_item_count and len(records[*].sources) distribution; record findings in design/ai_informer_design_validation_v2.md",
+        "done": true
+      },
+      {
+        "id": 3,
+        "text": "Patch design §3.4 magnitude bullet inline only if multi-source data warrants a sentence-level refinement",
+        "done": true
+      }
+    ],
+    "done": true
+  },
+  {
+    "id": "t4",
+    "title": "Investigate github_trending stars=0 anomaly (post-implementation phase)",
+    "description": "Low-priority post-unblock work. The 2026-05-05 validation showed all 5 github-trending records had source_metrics.stars=0, which looks like an adapter parser default rather than real data. Out of scope while ai_sources is read-only this design phase; queue for the implementation round once ai_sources mutation is permitted. Reference: validation memo Open Question #2 and Memory/knowledge/factual/factual--ai-sources--adapter-contract-v1.md.",
+    "subtasks": [
+      {
+        "id": 1,
+        "text": "Re-run with --no-enrich and inspect raw HTML to confirm stars actually appear in the source",
+        "done": false
+      },
+      {
+        "id": 2,
+        "text": "If parser bug confirmed, patch ai_sources/core/sources/github_trending.py and update factual--ai-sources--adapter-contract-v1.md",
+        "done": false
+      }
+    ],
+    "done": false
+  },
+  {
+    "id": "t5",
+    "title": "Bundle magnitude-fallback decision into next human message (FOLDED INTO DESIGN)",
+    "description": "Folded 2026-05-05 into the rewritten design (ep.20260505T102200Z). Q3 magnitude-fallback now lives as design §7 Q3 with a stated DEFAULT (HN reverse-lookup amplifier with collected_at recency; reddit-ai deferred to t7). The eventual t2 scaffolding episode reads §6 + §7 directly; no separate human ping needed unless the human pushes back on the default in mail.20260505T102846Z.001's reply.",
+    "subtasks": [
+      {
+        "id": 1,
+        "text": "Q3 magnitude-fallback wording folded into design §6 + §7 with DEFAULT choice",
+        "done": true
+      },
+      {
+        "id": 2,
+        "text": "If human pushes back on Q3 in reply to mail.20260505T102846Z.001, revisit",
+        "done": false
+      }
+    ],
+    "done": true
+  },
+  {
+    "id": "t6",
+    "title": "meta-ai-blog HTTP 400 adapter follow-up (post-implementation phase)",
+    "description": "Low-priority post-unblock work. The 2026-05-05 official_labs run had meta-ai-blog return 0 records with HTTP 400 on https://ai.meta.com/blog/ — likely upstream URL change or html_index parser drift. Design §4.1 names meta-ai-blog as a primary 08-window official_lab source, so this matters for window coverage. Out of scope while ai_sources is read-only; queue for the implementation phase alongside t4.",
+    "subtasks": [
+      {
+        "id": 1,
+        "text": "Inspect the 400 response body; check whether the meta blog URL changed or whether the html_index selectors need updating",
+        "done": false
+      },
+      {
+        "id": 2,
+        "text": "Patch ai_sources/core/sources/<adapter> or the meta-ai-blog source profile config; revalidate",
+        "done": false
+      }
+    ],
+    "done": false
+  },
+  {
+    "id": "t7",
+    "title": "reddit-ai HTTP 403 adapter-health follow-up (post-implementation phase)",
+    "description": "Low-priority post-unblock work. Validation v3 (ep.20260505T094200Z, PASS r1) found reddit-ai hard-403'd on https://www.reddit.com/r/LocalLLaMA/hot.json?limit=10&raw_json=1 — Reddit blocks unauthenticated UA aggressively. ai_sources/core/sources/reddit.py likely needs a UA override (or OAuth path) before reddit-ai can serve as a community-signal amplifier. Design §7.5 currently NOT-recommends reddit-ai until this is resolved; t5 Q3 wording mirrors that. Out of scope while ai_sources is read-only; queue for the implementation phase alongside t4 and t6 on the adapter-health queue.",
+    "subtasks": [
+      {
+        "id": 1,
+        "text": "Add a User-Agent override (e.g. AI-Informer/0.1) in ai_sources/core/sources/reddit.py; re-run --source reddit-ai --profile quick --limit 5",
+        "done": false
+      },
+      {
+        "id": 2,
+        "text": "If 403 persists, evaluate Reddit OAuth (script-app credential) as the access path; document in factual--ai-sources--adapter-contract-v1.md",
+        "done": false
+      },
+      {
+        "id": 3,
+        "text": "After resolution, re-run validation v3-style sample for reddit-ai; if metrics look usable, propose folding reddit-ai into the magnitude-fallback amplifier set",
+        "done": false
+      }
+    ],
+    "done": false
+  },
+  {
+    "id": "t8",
+    "title": "Unblock basic-agent scaffold SDK pin so probe-stream passes (gates t2 subtask 2)",
+    "description": "Created 2026-05-06 by ep.20260506T010000Z (status: failed, execution-blocking obstacle). The scaffold at /home/ubuntu/agents/long-run-agent-harness/engine/scaffolds/basic-agent/ pins @openai/codex-sdk ^0.121.0; the SDK uses its own findCodexPath() to bind to a vendored codex-cli 0.121.0 at node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex. Upgrading the system codex-cli does NOT help. The bundled CLI's request is rejected by the API with 400 invalid_request_error: \"The 'gpt-5.5' model requires a newer version of Codex.\" Diagnostic verified: system codex-cli 0.128.0 succeeds on the same `codex exec --experimental-json` path; vendored 0.121.0 reproduces the 400 even outside the SDK. Probe-stream therefore fails at the staging smoke gate and step 1 of implement_plan.md cannot complete. Awaiting human direction on which unblocker to apply (option a/b/c). t2 subtask 2 stays false until unblocked. Reference: Memory/episodes/2026/05/ep--20260506T010000Z--build--ai-informer-seed-scaffold-step1.md and the await-reply mailbox sent to human.",
+    "subtasks": [
+      {
+        "id": 1,
+        "text": "Wait for human reply on mailbox await-reply choosing among: (a) bump @openai/codex-sdk pin in engine scaffold's package.json to a CLI-API-compatible version; (b) inject a working model override into probes/probe-stream.mjs (Codex constructor's model arg); (c) defer until upstream scaffold publishes an SDK refresh.",
+        "done": true
+      },
+      {
+        "id": 2,
+        "text": "Apply chosen unblocker (engine-scaffold edit if a/b; wait if c). NOTE: option (a) and (b) edit the shared engine scaffold under /home/ubuntu/agents/long-run-agent-harness/engine/scaffolds/basic-agent/ and require explicit human go-ahead.",
+        "done": true
+      },
+      {
+        "id": 3,
+        "text": "Re-run ep.20260506T010000Z's staging-then-move flow; probe-stream must verdict pass in both staging and workdir.",
+        "done": true
+      },
+      {
+        "id": 4,
+        "text": "Once probe-stream passes in workdir, mark t2 subtask 2 done and proceed to step 2 of implement_plan.md (AGENTS.md replacement).",
+        "done": true
+      }
+    ],
+    "done": true
+  },
+  {
+    "id": "t9",
+    "title": "Unblock Codex sandbox network gap so PATH A autonomous broadcast works (gates t2 subtask 9 + t2 + cron install)",
+    "description": "Created 2026-05-06 by ep.20260506T060000Z (status: failed, execution-blocking obstacle). The Codex CLI sandbox `codex exec --cd .runs/<id>` invoked from dist/runtime/client.js applies a workspace-write sandbox policy that blocks outbound DNS for arbitrary hosts. Two concrete failures inside the autonomous PATH A run on window-08: (1) all ai_sources adapters returned `<urlopen error [Errno -3] Temporary failure in name resolution>` (collected.json item_count=0, stripped.txt 0 lines); (2) the notifications CLI inside the autonomous run printed `failed: feishu-default: URLError(gaierror(-3, Temporary failure in name resolution))` and exited 1 — the real Feishu broadcast was NOT delivered. Host-side DNS and reachability to the Feishu webhook host work outside the sandbox. The autonomous Codex flow itself worked correctly — AGENTS.md auto-loaded, screener and researcher subagents both invoked, output.md generated with verified format compliance — only the broadcast and adapter HTTP paths are blocked. Awaiting human direction on resolution path. Reference: Memory/episodes/2026/05/ep--20260506T060000Z--build--ai-informer-path-a-validation-cron-install-and-completion-audit.md and the await-reply mailbox mail.20260506T060947Z.001.",
+    "subtasks": [
+      {
+        "id": 1,
+        "text": "Wait for human reply on mailbox mail.20260506T060947Z.001 choosing among: (a) investigate Codex SDK network policy options (codex --sandbox flag, runtime config, or escape hatch for outbound HTTP); (b) split synthesis from delivery (Codex agent stops after writing output.md; a host-side wrapper in run-once.sh detects completion and invokes notifications CLI from outside the sandbox); (c) revert to PATH B with cron firing a bash orchestration wrapper that calls main-agent semantics manually (loses autonomy); (d) other resolution.",
+        "done": true
+      },
+      {
+        "id": 2,
+        "text": "Apply chosen unblocker. If (b): edit scripts/run-once.sh to detect Codex completion, find the latest Runtime/runs/<NN>/<TS>/output.md (after reconciling the path issue per t10), then invoke `python -m ai_informer.notifications.cli --message-file <output.md>` from outside the Codex sandbox. Also fix ai_sources adapter calls — either run them outside the sandbox before launching Codex, or stage the collected.json into the sandbox.",
+        "done": true
+      },
+      {
+        "id": 3,
+        "text": "Re-run PATH A end-to-end validation on window-08; broadcast must succeed (CLI exit 0 from outside sandbox, succeeded:feishu-default in stdout).",
+        "done": true
+      },
+      {
+        "id": 4,
+        "text": "After successful PATH A validation, install crontab(1) entries (additive merge preserving rocom-teams entries); flip t2 subtask 9 done; flip t2 itself done.",
+        "done": false
+      }
+    ],
+    "done": false
+  },
+  {
+    "id": "t10",
+    "title": "Reconcile Codex --cd sandbox vs canonical Runtime/runs/ path AND cross-run delivered_dedupe_keys.txt sandbox-write blockage",
+    "description": "Created 2026-05-06 by ep.20260506T060000Z. Scope expanded 2026-05-06 by ep.20260506T083000Z to cover the parallel delivered_dedupe_keys.txt sandbox-write issue (same root cause; surfaced during the post-decouple PATH A re-validation). Structural cause: Codex `codex exec --cd .runs/<id>` makes the agent's cwd during the autonomous run be the per-run sandbox subdir, with two consequences: (1) per-run artifacts (collected.json, stripped.txt, shortlist.json, briefings/, output.md) land at `.runs/<id>/Runtime/runs/<NN>/<TS>/` not the canonical workdir-root `Runtime/runs/<NN>/<TS>/` referenced by AGENTS.md and the SKILL.md files; (2) cross-run state writes to `Runtime/runs/delivered_dedupe_keys.txt` (at the repo root) are sandbox-blocked, so the autonomous agent falls back to writing `delivered_dedupe_keys_to_append.txt` inside the per-run dir, which is then orphaned. Decoupling to /home/ubuntu/agents/ai-informer/ confirmed this is structural, not environmental. Recommended fix: add a `run-once.sh` post-processing step that (a) finalizes per-run artifacts from `.runs/<id>/Runtime/runs/<NN>/<TS>/` to canonical `Runtime/runs/<NN>/<TS>/` (via mv or symlink with idempotency), and (b) appends each run's `delivered_dedupe_keys_to_append.txt` to the canonical cross-run `Runtime/runs/delivered_dedupe_keys.txt`. Alternative: change Codex SDK `--cd` target to repo root if the SDK exposes that without breaking per-run isolation. Reference: Memory/episodes/2026/05/ep--20260506T060000Z--build--ai-informer-path-a-validation-cron-install-and-completion-audit.md and ep.20260506T083000Z.",
+    "subtasks": [
+      {
+        "id": 1,
+        "text": "Investigate whether the Codex SDK / scripts/run-once.sh exposes a way to set --cd to the repo root (instead of .runs/<id>/) without breaking the SDK's per-run isolation.",
+        "done": false
+      },
+      {
+        "id": 2,
+        "text": "If no clean SDK option, design a `run-once.sh` post-processing step in /home/ubuntu/agents/ai-informer/scripts/run-once.sh that handles BOTH (a) finalizing per-run artifacts from .runs/<id>/Runtime/runs/<NN>/<TS>/ to canonical Runtime/runs/<NN>/<TS>/, and (b) appending the per-run delivered_dedupe_keys_to_append.txt to canonical Runtime/runs/delivered_dedupe_keys.txt. Ensure idempotency (re-runs of the wrapper must not duplicate appends).",
+        "done": false
+      },
+      {
+        "id": 3,
+        "text": "Update AGENTS.md and the three SKILL.md files only if the design's per-run dir convention needs to change; preferred: keep convention, fix wrapper.",
+        "done": false
+      },
+      {
+        "id": 4,
+        "text": "Re-run PATH A end-to-end validation in /home/ubuntu/agents/builders/ai-informer-builder/ai-informer/ (note: relocated from /home/ubuntu/agents/ai-informer/ in ep.20260506T143000Z); verify (a) artifacts land at repo-root Runtime/runs/<NN>/<TS>/ as the design specifies, (b) delivered_dedupe_keys.txt has the new run's keys appended.",
+        "done": false
+      }
+    ],
+    "done": false
+  },
+  {
+    "id": "t11",
+    "title": "Investigate Codex sandbox DNS regression at nested ai-informer location (gates t9 subtask 4 + Builder git init + cron install)",
+    "description": "Created 2026-05-06 by ep.20260506T143000Z (status: failed, execution-blocking obstacle — third sandbox-related obstacle in this build). After cleanup of Builder workdir's old AI Informer artifacts and atomic mv of ai-informer to /home/ubuntu/agents/builders/ai-informer-builder/ai-informer/, PATH A re-validation failed: all 11 ai_sources adapters returned `urlopen Errno -3 Temporary failure in name resolution` inside the Codex sandbox, while the same CLI from host shell returned item_count=23 with full DNS reachability. Diagnosed as environmental regression: dist/entry/wake-up.js line 56 still passes `networkAccessEnabled: true` to startBasicThread (identical to the prior PASS run at /home/ubuntu/agents/ai-informer/ in ep.20260506T083000Z), so the SDK config is unchanged. Possible root causes (not investigated this heartbeat): (a) Codex sandbox now requires explicit `sandboxMode: \"workspace-write\"` alongside `networkAccessEnabled: true` to honor sandbox_workspace_write.network_access; (b) Codex CLI version drift since prior PASS; (c) a path-based sandbox config quirk that regressed at the new nested location. Reference: Memory/episodes/2026/05/ep--20260506T143000Z--build--ai-informer-cleanup-relocate-revalidate-and-git-init.md and the await-reply mailbox mail.20260506T135031Z.001.",
+    "subtasks": [
+      {
+        "id": 1,
+        "text": "Wait for human reply on mailbox mail.20260506T135031Z.001 with sandbox-network-fix guidance.",
+        "done": true
+      },
+      {
+        "id": 2,
+        "text": "Apply chosen fix. Resolved via Tier 1 in ep.20260506T230500Z: added `sandboxMode: \"workspace-write\"` alongside `networkAccessEnabled: true` in both ai-informer/src/entry/wake-up.ts and engine scaffold's wake-up.ts. Mechanical insight: --sandbox workspace-write is required to activate the --config sandbox_workspace_write.network_access=true flag.",
+        "done": true
+      },
+      {
+        "id": 3,
+        "text": "Re-run PATH A end-to-end validation at /home/ubuntu/agents/builders/ai-informer-builder/ai-informer/. Success criteria: ai_sources adapters return >0 records (no gaierror), screener+researcher subagents invoked, output.md generated, notifications CLI exit 0 with succeeded:feishu-default, real Feishu broadcast delivered.",
+        "done": true
+      },
+      {
+        "id": 4,
+        "text": "After successful re-validation, complete the deferred stages from ep.20260506T143000Z: ai-informer git init + commit + remote add + push (git@github.com:Tom-0727/ai-informer.git); Builder CLAUDE.md edit with PR-based git-management section.",
+        "done": true
+      }
+    ],
+    "done": true
+  },
+  {
+    "id": "t12",
+    "title": "Resolve Builder workdir initial commit per human's 甲/乙/丙 choice (gates Builder git push + cron install)",
+    "description": "Created 2026-05-06 by ep.20260506T230500Z. Stage D of that episode (Builder workdir git init + commit + push) HALTED at planner STOP condition 8: pre-commit safety grep found 14 files about-to-be-committed contain the literal Feishu webhook URL — 12 Memory/episodes/ files (historical narrative + design references), Runtime/events.jsonl (heartbeat event stream), and mailbox/human.jsonl (the original human message + later confirmations where the URL appears in the conversation). The executor cleanly reset (`git reset` + `rm -rf .git`), leaving Builder workdir in clean no-git state with .gitignore + CLAUDE.md edit physically written. Three resolution options surfaced via mail.20260506T152236Z.001: 方案甲 accept as authentic record + private repo; 方案乙 global URL replace → placeholder; 方案丙 partial initial commit covering only no-leak directories. Awaiting human's choice. Reference: Memory/episodes/2026/05/ep--20260506T230500Z--build--ai-informer-sandbox-escalation-revalidate-and-dual-git-init.md.",
+    "subtasks": [
+      {
+        "id": 1,
+        "text": "Wait for human reply on mailbox mail.20260506T152236Z.001 choosing among: 甲 (accept historical leak + private repo), 乙 (global URL replace before commit), 丙 (partial initial commit covering only no-leak dirs).",
+        "done": false
+      },
+      {
+        "id": 2,
+        "text": "Apply chosen resolution path to the 14 affected files (12 Memory/episodes + Runtime/events.jsonl + mailbox/human.jsonl). If 乙: replace the literal Feishu webhook URL and <FEISHU_TOKEN_REDACTED> token with a placeholder string in all 14 files; verify zero residual matches. If 丙: configure .gitignore to exclude Memory/, mailbox/, Runtime/awaiting_reply/ + Runtime/events.jsonl from the initial commit; defer those to a follow-up.",
+        "done": false
+      },
+      {
+        "id": 3,
+        "text": "Complete Builder workdir Stage D: `cd /home/ubuntu/agents/builders/ai-informer-builder && git init && git config user.email lingfenglau727@gmail.com && git config user.name 'AI Informer Builder' && git add -A && git status --ignored` (verify ai-informer/ ignored + chosen-resolution files handled correctly) → commit with template message → `git branch -M main` → `git remote add origin git@github.com:Tom-0727/ai-informer-builder.git` → `git push -u origin main`. Capture commit hash + push status.",
+        "done": false
+      },
+      {
+        "id": 4,
+        "text": "After Builder push succeeds, install cron entries in /home/ubuntu/agents/builders/ai-informer-builder/ai-informer/ (additive merge with existing rocom-teams entries; three entries for 08:00 / 12:00 / 18:00) per human's prior cron-install authorization. Flip t9 subtask 4 done; t9 itself done; t2 subtask 9 done; t2 done.",
+        "done": false
+      }
+    ],
+    "done": false
+  },
+  {
+    "id": "t13",
+    "title": "Verify cross-run delivered_dedupe_keys.txt write path on next PATH A run (low priority, t10-related)",
+    "description": "Created 2026-05-06 by ep.20260506T230500Z. The executor's mailbox claimed cross-run write to root /home/ubuntu/agents/builders/ai-informer-builder/ai-informer/Runtime/runs/delivered_dedupe_keys.txt was sandbox-blocked under workspace-write, with a fallback write to .runs/<runId>/Runtime/runs/. However, the evaluator's filesystem inspection found 6 URLs persisted at the canonical root path (mtime 16:35), suggesting the writeback path IS working under the new sandbox profile. Mailbox claim and filesystem evidence diverge — needs follow-up confirmation on the next PATH A run. If the writeback IS working, t10 may be partially or fully resolved. Reference: Memory/episodes/2026/05/ep--20260506T230500Z--build--ai-informer-sandbox-escalation-revalidate-and-dual-git-init.md evaluator note.",
+    "subtasks": [
+      {
+        "id": 1,
+        "text": "On the next PATH A run (cron-fired or manual): record the line count of /home/ubuntu/agents/builders/ai-informer-builder/ai-informer/Runtime/runs/delivered_dedupe_keys.txt before and after the run; verify whether the 4 new dedupe keys from the run are appended to the canonical file or only to .runs/<runId>/Runtime/runs/delivered_dedupe_keys_to_append.txt.",
+        "done": false
+      },
+      {
+        "id": 2,
+        "text": "If the canonical file IS being updated, mark t10 as fully or partially resolved (per the verification result); update t10's description accordingly.",
+        "done": false
+      },
+      {
+        "id": 3,
+        "text": "If the canonical file is NOT being updated, t10 stays open with the original wrapper-fix recommendation.",
+        "done": false
+      }
+    ],
+    "done": false
+  }
+]

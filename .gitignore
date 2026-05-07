@@ -1,0 +1,8 @@
+ai-informer/
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/
+.runs/
+trajectories/

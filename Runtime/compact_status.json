@@ -1,0 +1,11 @@
+{
+  "state": "succeeded",
+  "request_id": "compact-db0af7b392554a9782b1b6968c202e0d",
+  "provider": "claude",
+  "requested_at": "2026-05-05T15:19:04Z",
+  "started_at": "2026-05-05T15:19:04Z",
+  "finished_at": "2026-05-05T15:21:35Z",
+  "session_id": "279f6f05-e200-4289-b4ea-c2a38f344e49",
+  "total_compacts": 1,
+  "last_compact_at": "2026-05-05T15:21:34.399Z"
+}

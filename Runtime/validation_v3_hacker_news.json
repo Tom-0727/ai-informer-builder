@@ -1,0 +1,378 @@
+{
+  "collected_at": "2026-05-05T09:53:45Z",
+  "source_request": {
+    "source": "hacker-news",
+    "source_set": null,
+    "profile": "quick",
+    "limit": 5,
+    "selected_sources": [
+      "hacker-news"
+    ],
+    "per_source_limits": {
+      "hacker-news": 5
+    },
+    "enrich": true,
+    "options": {
+      "hacker_news_feeds": [
+        "top"
+      ],
+      "github_since_windows": [
+        "daily",
+        "weekly"
+      ],
+      "reddit_subreddits": [
+        "LocalLLaMA",
+        "singularity",
+        "artificial"
+      ]
+    }
+  },
+  "item_count": 5,
+  "source_counts": {
+    "hacker-news": 5
+  },
+  "source_errors": {},
+  "items": [
+    {
+      "id": "hacker-news:48019163",
+      "source": "hacker-news",
+      "source_category": "community_signal",
+      "title": "Async Rust never left the MVP state",
+      "url": "https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state",
+      "published_at": null,
+      "summary": "Tweede golf Async Rust never left the MVP state - Blog - Tweede golf Rust services Rust engineering > Systems engineering > Web engineering > Embedded engineering Training Consulting Our experts Our work Blog Contact Rust services Rust engineering > Systems engineering > Web engineering > Embedded engineering Training Consulting Our experts Our work Blog Contact May 4, 2026 Async Rust never left the MVP state Dion Embedded software engineer embedded async rust I've previously explained async bloat and some work-arounds for it, but would much prefer to solve the issue at the root, in the compiler. I've submitted a Project Goal, and am looking for help to fund the effort. I love me some async...",
+      "author": "pjmlp",
+      "tags": [
+        "top"
+      ],
+      "source_metrics": {
+        "hn_points": 123,
+        "hn_comments": 9
+      },
+      "raw": {
+        "hn_url": "https://news.ycombinator.com/item?id=48019163",
+        "feed": "top",
+        "time": 1777965963
+      }
+    },
+    {
+      "id": "hacker-news:48017907",
+      "source": "hacker-news",
+      "source_category": "community_signal",
+      "title": "Hand Drawn QR Codes",
+      "url": "https://sethmlarson.dev/hand-drawn-qr-codes",
+      "published_at": null,
+      "summary": "Hand‑drawn QR codes — Seth Larson Blog: About: RSS: Blogroll Hand‑drawn QR codes Seth Larson @ 2025-07-01 I really like QR codes. Recently I purchased a new sticky-note-like pad from a new local stationery store in Minneapolis. The sheets have a 10x10 grid and 2x10 grid. I knew what I wanted to do, I wanted to create a QR code on a sheet. The smallest QR code (besides micro QR codes) is \"version 1\" which uses 21x21 pixels. We'll have to split the squares in half and then use some of the margin. Version 1 QR codes can hold URLs up to 17 bytes long using the lowest data quality setting. Unfortunately https://sethmlarson.dev is 23 bytes long, so I'll have to improvise. I went with sethmlarson....",
+      "author": "jollyjerry",
+      "tags": [
+        "top"
+      ],
+      "source_metrics": {
+        "hn_points": 104,
+        "hn_comments": 6
+      },
+      "raw": {
+        "hn_url": "https://news.ycombinator.com/item?id=48017907",
+        "feed": "top",
+        "time": 1777953721
+      }
+    },
+    {
+      "id": "hacker-news:48016880",
+      "source": "hacker-news",
+      "source_category": "community_signal",
+      "title": "Bun is being ported from Zig to Rust",
+      "url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5",
+      "published_at": null,
+      "summary": "docs: add Phase-A porting guide · oven-sh/bun@46d3bc2 · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Ma...",
+      "author": "SergeAx",
+      "tags": [
+        "top"
+      ],
+      "source_metrics": {
+        "hn_points": 502,
+        "hn_comments": 74
+      },
+      "raw": {
+        "hn_url": "https://news.ycombinator.com/item?id=48016880",
+        "feed": "top",
+        "time": 1777943297
+      }
+    },
+    {
+      "id": "hacker-news:48013919",
+      "source": "hacker-news",
+      "source_category": "community_signal",
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
+      "published_at": null,
+      "summary": "Very grateful that OpenAI published the article/publicized their usage of Pion[0] a library I work on. If you aren't familiar with WebRTC it's a super fun space. I work on a book WebRTC for the Curious [1] that details how it works. [0] https://github.com/pion/webrtc [1] https:/... The low latency is more of a pain point than a good thing, the way they have it implemented. Trying to have a casual conversation with it, as humans we naturally pause, and GPT will take this as you are \"done\" and start blabbing away. I also suffer from finding the appropriate w... Wait a minute... I’m genuinely happy that they are sharing this, but keep in mind that realtime audio model from OpenAI are still stuck with the 4o family in terms of capabilities, sadly. I still find them so useful, such a pity that there’s no real competitor in this segment, h...",
+      "author": "Sean-Der",
+      "tags": [
+        "top"
+      ],
+      "source_metrics": {
+        "hn_points": 406,
+        "hn_comments": 37
+      },
+      "raw": {
+        "hn_url": "https://news.ycombinator.com/item?id=48013919",
+        "feed": "top",
+        "time": 1777923767
+      }
+    },
+    {
+      "id": "hacker-news:48017813",
+      "source": "hacker-news",
+      "source_category": "community_signal",
+      "title": "CVE-2026-31431: Copy Fail vs. rootless containers",
+      "url": "https://www.dragonsreach.it/2026/05/04/cve-2026-31431-copy-fail-rootless-containers/",
+      "published_at": null,
+      "summary": "CVE-2026-31431: Copy Fail vs. rootless containers - Andrea Veri's Blog Home About me CVE-2026-31431: Copy Fail vs. rootless containers 04 May 2026 Table of Contents Table of Contents Introduction The vulnerability Analyzing the shellcode Setting up the lab Setting up rootless Podman Running the exploit inside a container Tracing the exploit mechanism Why rootless containers stopped the escalation Catching the kernel in the act with eBPF The uid_map proof Conclusions Introduction In the previous post about SELinux MCS and GitLab runners, I briefly mentioned CVE-2026-31431 (“Copy Fail”) as a motivating example for per-job VM isolation. After that post went out I spent the weekend setting up a...",
+      "author": "averi",
+      "tags": [
+        "top"
+      ],
+      "source_metrics": {
+        "hn_points": 100,
+        "hn_comments": 13
+      },
+      "raw": {
+        "hn_url": "https://news.ycombinator.com/item?id=48017813",
+        "feed": "top",
+        "time": 1777952588
+      }
+    }
+  ],
+  "raw_item_count": 5,
+  "normalized_record_count": 5,
+  "merged_duplicates": 0,
+  "records": [
+    {
+      "record_id": "intake:ce50febda2ff8356",
+      "dedupe_key": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5",
+      "title": "Bun is being ported from Zig to Rust",
+      "url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5",
+      "published_at": null,
+      "summary": "docs: add Phase-A porting guide · oven-sh/bun@46d3bc2 · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Ma...",
+      "tags": [
+        "top"
+      ],
+      "source_item_ids": [
+        "hacker-news:48016880"
+      ],
+      "sources": [
+        "hacker-news"
+      ],
+      "source_categories": [
+        "community_signal"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "hacker-news:48016880",
+          "source": "hacker-news",
+          "source_category": "community_signal",
+          "title": "Bun is being ported from Zig to Rust",
+          "url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5",
+          "published_at": null,
+          "summary": "docs: add Phase-A porting guide · oven-sh/bun@46d3bc2 · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Ma...",
+          "author": "SergeAx",
+          "tags": [
+            "top"
+          ],
+          "source_metrics": {
+            "hn_points": 502,
+            "hn_comments": 74
+          },
+          "raw": {
+            "hn_url": "https://news.ycombinator.com/item?id=48016880",
+            "feed": "top",
+            "time": 1777943297
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:d6581b92c87ef014",
+      "dedupe_key": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "published_at": null,
+      "summary": "Very grateful that OpenAI published the article/publicized their usage of Pion[0] a library I work on. If you aren't familiar with WebRTC it's a super fun space. I work on a book WebRTC for the Curious [1] that details how it works. [0] https://github.com/pion/webrtc [1] https:/... The low latency is more of a pain point than a good thing, the way they have it implemented. Trying to have a casual conversation with it, as humans we naturally pause, and GPT will take this as you are \"done\" and start blabbing away. I also suffer from finding the appropriate w... Wait a minute... I’m genuinely happy that they are sharing this, but keep in mind that realtime audio model from OpenAI are still stuck with the 4o family in terms of capabilities, sadly. I still find them so useful, such a pity that there’s no real competitor in this segment, h...",
+      "tags": [
+        "top"
+      ],
+      "source_item_ids": [
+        "hacker-news:48013919"
+      ],
+      "sources": [
+        "hacker-news"
+      ],
+      "source_categories": [
+        "community_signal"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "hacker-news:48013919",
+          "source": "hacker-news",
+          "source_category": "community_signal",
+          "title": "How OpenAI delivers low-latency voice AI at scale",
+          "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
+          "published_at": null,
+          "summary": "Very grateful that OpenAI published the article/publicized their usage of Pion[0] a library I work on. If you aren't familiar with WebRTC it's a super fun space. I work on a book WebRTC for the Curious [1] that details how it works. [0] https://github.com/pion/webrtc [1] https:/... The low latency is more of a pain point than a good thing, the way they have it implemented. Trying to have a casual conversation with it, as humans we naturally pause, and GPT will take this as you are \"done\" and start blabbing away. I also suffer from finding the appropriate w... Wait a minute... I’m genuinely happy that they are sharing this, but keep in mind that realtime audio model from OpenAI are still stuck with the 4o family in terms of capabilities, sadly. I still find them so useful, such a pity that there’s no real competitor in this segment, h...",
+          "author": "Sean-Der",
+          "tags": [
+            "top"
+          ],
+          "source_metrics": {
+            "hn_points": 406,
+            "hn_comments": 37
+          },
+          "raw": {
+            "hn_url": "https://news.ycombinator.com/item?id=48013919",
+            "feed": "top",
+            "time": 1777923767
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:a6ada3c07a84782b",
+      "dedupe_key": "https://sethmlarson.dev/hand-drawn-qr-codes",
+      "title": "Hand Drawn QR Codes",
+      "url": "https://sethmlarson.dev/hand-drawn-qr-codes",
+      "published_at": null,
+      "summary": "Hand‑drawn QR codes — Seth Larson Blog: About: RSS: Blogroll Hand‑drawn QR codes Seth Larson @ 2025-07-01 I really like QR codes. Recently I purchased a new sticky-note-like pad from a new local stationery store in Minneapolis. The sheets have a 10x10 grid and 2x10 grid. I knew what I wanted to do, I wanted to create a QR code on a sheet. The smallest QR code (besides micro QR codes) is \"version 1\" which uses 21x21 pixels. We'll have to split the squares in half and then use some of the margin. Version 1 QR codes can hold URLs up to 17 bytes long using the lowest data quality setting. Unfortunately https://sethmlarson.dev is 23 bytes long, so I'll have to improvise. I went with sethmlarson....",
+      "tags": [
+        "top"
+      ],
+      "source_item_ids": [
+        "hacker-news:48017907"
+      ],
+      "sources": [
+        "hacker-news"
+      ],
+      "source_categories": [
+        "community_signal"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "hacker-news:48017907",
+          "source": "hacker-news",
+          "source_category": "community_signal",
+          "title": "Hand Drawn QR Codes",
+          "url": "https://sethmlarson.dev/hand-drawn-qr-codes",
+          "published_at": null,
+          "summary": "Hand‑drawn QR codes — Seth Larson Blog: About: RSS: Blogroll Hand‑drawn QR codes Seth Larson @ 2025-07-01 I really like QR codes. Recently I purchased a new sticky-note-like pad from a new local stationery store in Minneapolis. The sheets have a 10x10 grid and 2x10 grid. I knew what I wanted to do, I wanted to create a QR code on a sheet. The smallest QR code (besides micro QR codes) is \"version 1\" which uses 21x21 pixels. We'll have to split the squares in half and then use some of the margin. Version 1 QR codes can hold URLs up to 17 bytes long using the lowest data quality setting. Unfortunately https://sethmlarson.dev is 23 bytes long, so I'll have to improvise. I went with sethmlarson....",
+          "author": "jollyjerry",
+          "tags": [
+            "top"
+          ],
+          "source_metrics": {
+            "hn_points": 104,
+            "hn_comments": 6
+          },
+          "raw": {
+            "hn_url": "https://news.ycombinator.com/item?id=48017907",
+            "feed": "top",
+            "time": 1777953721
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:750c819303a2b8e4",
+      "dedupe_key": "https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state",
+      "title": "Async Rust never left the MVP state",
+      "url": "https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state",
+      "published_at": null,
+      "summary": "Tweede golf Async Rust never left the MVP state - Blog - Tweede golf Rust services Rust engineering > Systems engineering > Web engineering > Embedded engineering Training Consulting Our experts Our work Blog Contact Rust services Rust engineering > Systems engineering > Web engineering > Embedded engineering Training Consulting Our experts Our work Blog Contact May 4, 2026 Async Rust never left the MVP state Dion Embedded software engineer embedded async rust I've previously explained async bloat and some work-arounds for it, but would much prefer to solve the issue at the root, in the compiler. I've submitted a Project Goal, and am looking for help to fund the effort. I love me some async...",
+      "tags": [
+        "top"
+      ],
+      "source_item_ids": [
+        "hacker-news:48019163"
+      ],
+      "sources": [
+        "hacker-news"
+      ],
+      "source_categories": [
+        "community_signal"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "hacker-news:48019163",
+          "source": "hacker-news",
+          "source_category": "community_signal",
+          "title": "Async Rust never left the MVP state",
+          "url": "https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state",
+          "published_at": null,
+          "summary": "Tweede golf Async Rust never left the MVP state - Blog - Tweede golf Rust services Rust engineering > Systems engineering > Web engineering > Embedded engineering Training Consulting Our experts Our work Blog Contact Rust services Rust engineering > Systems engineering > Web engineering > Embedded engineering Training Consulting Our experts Our work Blog Contact May 4, 2026 Async Rust never left the MVP state Dion Embedded software engineer embedded async rust I've previously explained async bloat and some work-arounds for it, but would much prefer to solve the issue at the root, in the compiler. I've submitted a Project Goal, and am looking for help to fund the effort. I love me some async...",
+          "author": "pjmlp",
+          "tags": [
+            "top"
+          ],
+          "source_metrics": {
+            "hn_points": 123,
+            "hn_comments": 9
+          },
+          "raw": {
+            "hn_url": "https://news.ycombinator.com/item?id=48019163",
+            "feed": "top",
+            "time": 1777965963
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:dab20da39e4a1a6a",
+      "dedupe_key": "https://www.dragonsreach.it/2026/05/04/cve-2026-31431-copy-fail-rootless-containers",
+      "title": "CVE-2026-31431: Copy Fail vs. rootless containers",
+      "url": "https://www.dragonsreach.it/2026/05/04/cve-2026-31431-copy-fail-rootless-containers",
+      "published_at": null,
+      "summary": "CVE-2026-31431: Copy Fail vs. rootless containers - Andrea Veri's Blog Home About me CVE-2026-31431: Copy Fail vs. rootless containers 04 May 2026 Table of Contents Table of Contents Introduction The vulnerability Analyzing the shellcode Setting up the lab Setting up rootless Podman Running the exploit inside a container Tracing the exploit mechanism Why rootless containers stopped the escalation Catching the kernel in the act with eBPF The uid_map proof Conclusions Introduction In the previous post about SELinux MCS and GitLab runners, I briefly mentioned CVE-2026-31431 (“Copy Fail”) as a motivating example for per-job VM isolation. After that post went out I spent the weekend setting up a...",
+      "tags": [
+        "top"
+      ],
+      "source_item_ids": [
+        "hacker-news:48017813"
+      ],
+      "sources": [
+        "hacker-news"
+      ],
+      "source_categories": [
+        "community_signal"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "hacker-news:48017813",
+          "source": "hacker-news",
+          "source_category": "community_signal",
+          "title": "CVE-2026-31431: Copy Fail vs. rootless containers",
+          "url": "https://www.dragonsreach.it/2026/05/04/cve-2026-31431-copy-fail-rootless-containers/",
+          "published_at": null,
+          "summary": "CVE-2026-31431: Copy Fail vs. rootless containers - Andrea Veri's Blog Home About me CVE-2026-31431: Copy Fail vs. rootless containers 04 May 2026 Table of Contents Table of Contents Introduction The vulnerability Analyzing the shellcode Setting up the lab Setting up rootless Podman Running the exploit inside a container Tracing the exploit mechanism Why rootless containers stopped the escalation Catching the kernel in the act with eBPF The uid_map proof Conclusions Introduction In the previous post about SELinux MCS and GitLab runners, I briefly mentioned CVE-2026-31431 (“Copy Fail”) as a motivating example for per-job VM isolation. After that post went out I spent the weekend setting up a...",
+          "author": "averi",
+          "tags": [
+            "top"
+          ],
+          "source_metrics": {
+            "hn_points": 100,
+            "hn_comments": 13
+          },
+          "raw": {
+            "hn_url": "https://news.ycombinator.com/item?id=48017813",
+            "feed": "top",
+            "time": 1777952588
+          }
+        }
+      ]
+    }
+  ],
+  "output_path": "Runtime/validation_v3_hacker_news.json"
+}

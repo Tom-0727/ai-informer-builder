@@ -1,0 +1,43 @@
+{
+  "collected_at": "2026-05-05T09:53:46Z",
+  "source_request": {
+    "source": "reddit-ai",
+    "source_set": null,
+    "profile": "quick",
+    "limit": 5,
+    "selected_sources": [
+      "reddit-ai"
+    ],
+    "per_source_limits": {
+      "reddit-ai": 5
+    },
+    "enrich": true,
+    "options": {
+      "hacker_news_feeds": [
+        "top"
+      ],
+      "github_since_windows": [
+        "daily",
+        "weekly"
+      ],
+      "reddit_subreddits": [
+        "LocalLLaMA",
+        "singularity",
+        "artificial"
+      ]
+    }
+  },
+  "item_count": 0,
+  "source_counts": {
+    "reddit-ai": 0
+  },
+  "source_errors": {
+    "reddit-ai": "failed to fetch https://www.reddit.com/r/LocalLLaMA/hot.json?limit=10&raw_json=1: HTTP Error 403: Blocked"
+  },
+  "items": [],
+  "raw_item_count": 0,
+  "normalized_record_count": 0,
+  "merged_duplicates": 0,
+  "records": [],
+  "output_path": "Runtime/validation_v3_reddit_ai.json"
+}

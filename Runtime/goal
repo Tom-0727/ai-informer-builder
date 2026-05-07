@@ -1,0 +1,5 @@
+Build and continuously improve AI Informer as a Codex-agent-based information analyst for AI updates. It should collect canonical AI-related candidate records from the reusable ai_sources module, use true short-lived Codex subagents for lightweight screening and per-candidate research, and have the main agent synthesize final user-facing recommendations with concise explanations, evidence, uncertainty, and feedback-driven improvement.
+The system should prioritize timely, useful, and trustworthy AI information over volume, remain observable, auditable, and easy to refine, and support time-aware delivery of different information types to match user needs across the day:
+08:00 — prioritize high-urgency, time-sensitive updates the user should know immediately (e.g., major model/product releases from companies like OpenAI or Anthropic).
+12:00 — prioritize opinionated and conceptual content (e.g., blogs, essays, forward-looking discussions such as “what’s next for agents”).
+18:00 — prioritize deep technical and practitioner-oriented content (e.g., notable GitHub Trending projects, research, tools worth exploring).

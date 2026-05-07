@@ -1,0 +1,338 @@
+{
+  "collected_at": "2026-05-05T09:20:05Z",
+  "source_request": {
+    "source": "openai-blog",
+    "source_set": null,
+    "profile": "quick",
+    "limit": 5,
+    "selected_sources": [
+      "openai-blog"
+    ],
+    "per_source_limits": {
+      "openai-blog": 5
+    },
+    "enrich": true,
+    "options": {
+      "hacker_news_feeds": [
+        "top"
+      ],
+      "github_since_windows": [
+        "daily",
+        "weekly"
+      ],
+      "reddit_subreddits": [
+        "LocalLLaMA",
+        "singularity",
+        "artificial"
+      ]
+    }
+  },
+  "item_count": 5,
+  "source_counts": {
+    "openai-blog": 5
+  },
+  "source_errors": {},
+  "items": [
+    {
+      "id": "openai-blog:https://openai.com/index/openai-pwc-finance-collaboration",
+      "source": "openai-blog",
+      "source_category": "official_lab",
+      "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+      "url": "https://openai.com/index/openai-pwc-finance-collaboration",
+      "published_at": "Mon, 04 May 2026 21:00:00 GMT",
+      "summary": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+      "author": null,
+      "tags": [
+        "Global Affairs"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://openai.com/index/openai-pwc-finance-collaboration",
+        "feed_url": "https://openai.com/news/rss.xml"
+      }
+    },
+    {
+      "id": "openai-blog:https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "source": "openai-blog",
+      "source_category": "official_lab",
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "published_at": "Mon, 04 May 2026 00:00:00 GMT",
+      "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+      "author": null,
+      "tags": [
+        "Engineering"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+        "feed_url": "https://openai.com/news/rss.xml"
+      }
+    },
+    {
+      "id": "openai-blog:https://openai.com/index/advanced-account-security",
+      "source": "openai-blog",
+      "source_category": "official_lab",
+      "title": "Introducing Advanced Account Security",
+      "url": "https://openai.com/index/advanced-account-security",
+      "published_at": "Thu, 30 Apr 2026 00:00:00 GMT",
+      "summary": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.",
+      "author": null,
+      "tags": [
+        "Product"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://openai.com/index/advanced-account-security",
+        "feed_url": "https://openai.com/news/rss.xml"
+      }
+    },
+    {
+      "id": "openai-blog:https://openai.com/index/where-the-goblins-came-from",
+      "source": "openai-blog",
+      "source_category": "official_lab",
+      "title": "Where the goblins came from",
+      "url": "https://openai.com/index/where-the-goblins-came-from",
+      "published_at": "Wed, 29 Apr 2026 20:00:00 GMT",
+      "summary": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
+      "author": null,
+      "tags": [
+        "Publication"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://openai.com/index/where-the-goblins-came-from",
+        "feed_url": "https://openai.com/news/rss.xml"
+      }
+    },
+    {
+      "id": "openai-blog:https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+      "source": "openai-blog",
+      "source_category": "official_lab",
+      "title": "Building the compute infrastructure for the Intelligence Age",
+      "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+      "published_at": "Wed, 29 Apr 2026 15:00:00 GMT",
+      "summary": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
+      "author": null,
+      "tags": [
+        "Global Affairs"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+        "feed_url": "https://openai.com/news/rss.xml"
+      }
+    }
+  ],
+  "raw_item_count": 5,
+  "normalized_record_count": 5,
+  "merged_duplicates": 0,
+  "records": [
+    {
+      "record_id": "intake:92f8ee26a85afd65",
+      "dedupe_key": "https://openai.com/index/advanced-account-security",
+      "title": "Introducing Advanced Account Security",
+      "url": "https://openai.com/index/advanced-account-security",
+      "published_at": "Thu, 30 Apr 2026 00:00:00 GMT",
+      "summary": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.",
+      "tags": [
+        "product"
+      ],
+      "source_item_ids": [
+        "openai-blog:https://openai.com/index/advanced-account-security"
+      ],
+      "sources": [
+        "openai-blog"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "openai-blog:https://openai.com/index/advanced-account-security",
+          "source": "openai-blog",
+          "source_category": "official_lab",
+          "title": "Introducing Advanced Account Security",
+          "url": "https://openai.com/index/advanced-account-security",
+          "published_at": "Thu, 30 Apr 2026 00:00:00 GMT",
+          "summary": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.",
+          "author": null,
+          "tags": [
+            "Product"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://openai.com/index/advanced-account-security",
+            "feed_url": "https://openai.com/news/rss.xml"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:0889e6f0be8e183a",
+      "dedupe_key": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+      "title": "Building the compute infrastructure for the Intelligence Age",
+      "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+      "published_at": "Wed, 29 Apr 2026 15:00:00 GMT",
+      "summary": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
+      "tags": [
+        "global affairs"
+      ],
+      "source_item_ids": [
+        "openai-blog:https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age"
+      ],
+      "sources": [
+        "openai-blog"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "openai-blog:https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+          "source": "openai-blog",
+          "source_category": "official_lab",
+          "title": "Building the compute infrastructure for the Intelligence Age",
+          "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+          "published_at": "Wed, 29 Apr 2026 15:00:00 GMT",
+          "summary": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
+          "author": null,
+          "tags": [
+            "Global Affairs"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+            "feed_url": "https://openai.com/news/rss.xml"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:d6581b92c87ef014",
+      "dedupe_key": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "published_at": "Mon, 04 May 2026 00:00:00 GMT",
+      "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+      "tags": [
+        "engineering"
+      ],
+      "source_item_ids": [
+        "openai-blog:https://openai.com/index/delivering-low-latency-voice-ai-at-scale"
+      ],
+      "sources": [
+        "openai-blog"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "openai-blog:https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+          "source": "openai-blog",
+          "source_category": "official_lab",
+          "title": "How OpenAI delivers low-latency voice AI at scale",
+          "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+          "published_at": "Mon, 04 May 2026 00:00:00 GMT",
+          "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+          "author": null,
+          "tags": [
+            "Engineering"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+            "feed_url": "https://openai.com/news/rss.xml"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:9807ae0752f785d8",
+      "dedupe_key": "https://openai.com/index/openai-pwc-finance-collaboration",
+      "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+      "url": "https://openai.com/index/openai-pwc-finance-collaboration",
+      "published_at": "Mon, 04 May 2026 21:00:00 GMT",
+      "summary": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+      "tags": [
+        "global affairs"
+      ],
+      "source_item_ids": [
+        "openai-blog:https://openai.com/index/openai-pwc-finance-collaboration"
+      ],
+      "sources": [
+        "openai-blog"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "openai-blog:https://openai.com/index/openai-pwc-finance-collaboration",
+          "source": "openai-blog",
+          "source_category": "official_lab",
+          "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+          "url": "https://openai.com/index/openai-pwc-finance-collaboration",
+          "published_at": "Mon, 04 May 2026 21:00:00 GMT",
+          "summary": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+          "author": null,
+          "tags": [
+            "Global Affairs"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://openai.com/index/openai-pwc-finance-collaboration",
+            "feed_url": "https://openai.com/news/rss.xml"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:6ce07af346a49ef2",
+      "dedupe_key": "https://openai.com/index/where-the-goblins-came-from",
+      "title": "Where the goblins came from",
+      "url": "https://openai.com/index/where-the-goblins-came-from",
+      "published_at": "Wed, 29 Apr 2026 20:00:00 GMT",
+      "summary": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
+      "tags": [
+        "publication"
+      ],
+      "source_item_ids": [
+        "openai-blog:https://openai.com/index/where-the-goblins-came-from"
+      ],
+      "sources": [
+        "openai-blog"
+      ],
+      "source_categories": [
+        "official_lab"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "openai-blog:https://openai.com/index/where-the-goblins-came-from",
+          "source": "openai-blog",
+          "source_category": "official_lab",
+          "title": "Where the goblins came from",
+          "url": "https://openai.com/index/where-the-goblins-came-from",
+          "published_at": "Wed, 29 Apr 2026 20:00:00 GMT",
+          "summary": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
+          "author": null,
+          "tags": [
+            "Publication"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "https://openai.com/index/where-the-goblins-came-from",
+            "feed_url": "https://openai.com/news/rss.xml"
+          }
+        }
+      ]
+    }
+  ],
+  "output_path": "Runtime/validation_openai-blog.json"
+}

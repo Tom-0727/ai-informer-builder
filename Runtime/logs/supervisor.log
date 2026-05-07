@@ -1,0 +1,9 @@
+[2026-05-05T08:57:54Z] [info] supervisor starting for AI Informer Builder (claude)
+[2026-05-05T08:57:54Z] [info] spawning runtime: node /home/ubuntu/agents/long-run-agent-harness/engine/dist/claude/runtime.js
+[2026-05-05T09:54:48Z] [info] received SIGTERM, forwarding to child
+[2026-05-05T09:55:09Z] [info] received SIGTERM, forwarding to child
+[2026-05-05T10:20:42Z] [info] supervisor starting for AI Informer Builder (claude)
+[2026-05-05T10:20:42Z] [info] spawning runtime: node /home/ubuntu/agents/long-run-agent-harness/engine/dist/claude/runtime.js
+[2026-05-05T10:29:05Z] [info] received SIGTERM, forwarding to child
+[2026-05-05T10:52:26Z] [info] supervisor starting for AI Informer Builder (claude)
+[2026-05-05T10:52:26Z] [info] spawning runtime: node /home/ubuntu/agents/long-run-agent-harness/engine/dist/claude/runtime.js

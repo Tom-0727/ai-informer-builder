@@ -1,0 +1,341 @@
+{
+  "collected_at": "2026-05-05T09:20:07Z",
+  "source_request": {
+    "source": "thegradient",
+    "source_set": null,
+    "profile": "quick",
+    "limit": 5,
+    "selected_sources": [
+      "thegradient"
+    ],
+    "per_source_limits": {
+      "thegradient": 5
+    },
+    "enrich": true,
+    "options": {
+      "hacker_news_feeds": [
+        "top"
+      ],
+      "github_since_windows": [
+        "daily",
+        "weekly"
+      ],
+      "reddit_subreddits": [
+        "LocalLLaMA",
+        "singularity",
+        "artificial"
+      ]
+    }
+  },
+  "item_count": 5,
+  "source_counts": {
+    "thegradient": 5
+  },
+  "source_errors": {},
+  "items": [
+    {
+      "id": "thegradient:69879dd077c3d76051ac158f",
+      "source": "thegradient",
+      "source_category": "research_commentary",
+      "title": "After Orthogonality: Virtue-Ethical Agency and AI Alignment",
+      "url": "https://thegradient.pub/virtue-ethics-ai-alignment/",
+      "published_at": "Wed, 18 Feb 2026 23:25:52 GMT",
+      "summary": "Preface This essay argues that rational people don’t have goals, and that rational AIs shouldn’t have goals. Human actions are rational not because we direct them at some final ‘goals,’ but because we align actions to practices [1]: networks of actions, action-dispositions, action-evaluation criteria,",
+      "author": "Peli Grietzer",
+      "tags": [
+        "Ethics",
+        "Human factors",
+        "Impacts"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "69879dd077c3d76051ac158f",
+        "feed_url": "https://thegradient.pub/rss/"
+      }
+    },
+    {
+      "id": "thegradient:683fb98b77c3d76051ac142c",
+      "source": "thegradient",
+      "source_category": "research_commentary",
+      "title": "AGI Is Not Multimodal",
+      "url": "https://thegradient.pub/agi-is-not-multimodal/",
+      "published_at": "Wed, 04 Jun 2025 14:00:29 GMT",
+      "summary": "\"In projecting language back as the model for thought, we lose sight of the tacit embodied understanding that undergirds our intelligence.\" –Terry Winograd The recent successes of generative AI models have convinced some that AGI is imminent. While these models appear to capture the essence of human",
+      "author": "Benjamin A. Spiegel",
+      "tags": [
+        "Perspectives",
+        "Trends"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "683fb98b77c3d76051ac142c",
+        "feed_url": "https://thegradient.pub/rss/"
+      }
+    },
+    {
+      "id": "thegradient:673686c693571d5c8c155078",
+      "source": "thegradient",
+      "source_category": "research_commentary",
+      "title": "Shape, Symmetries, and Structure: The Changing Role of Mathematics in Machine Learning Research",
+      "url": "https://thegradient.pub/shape-symmetry-structure/",
+      "published_at": "Sat, 16 Nov 2024 16:46:15 GMT",
+      "summary": "What is the Role of Mathematics in Modern Machine Learning? The past decade has witnessed a shift in how progress is made in machine learning. Research involving carefully designed and mathematically principled architectures result in only marginal improvements while compute-intensive and engineering-first efforts that scale to ever larger training sets",
+      "author": "Henry Kvinge",
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "guid": "673686c693571d5c8c155078",
+        "feed_url": "https://thegradient.pub/rss/"
+      }
+    },
+    {
+      "id": "thegradient:66c6733993571d5c8c154fb1",
+      "source": "thegradient",
+      "source_category": "research_commentary",
+      "title": "What's Missing From LLM Chatbots: A Sense of Purpose",
+      "url": "https://thegradient.pub/dialog/",
+      "published_at": "Mon, 09 Sep 2024 17:28:48 GMT",
+      "summary": "LLM-based chatbots’ capabilities have been advancing every month. These improvements are mostly measured by benchmarks like MMLU, HumanEval, and MATH (e.g. sonnet 3.5, gpt-4o). However, as these measures get more and more saturated, is user experience increasing in proportion to these scores? If we envision a future",
+      "author": "Kenneth Li",
+      "tags": [],
+      "source_metrics": {},
+      "raw": {
+        "guid": "66c6733993571d5c8c154fb1",
+        "feed_url": "https://thegradient.pub/rss/"
+      }
+    },
+    {
+      "id": "thegradient:66a4243393571d5c8c154f4e",
+      "source": "thegradient",
+      "source_category": "research_commentary",
+      "title": "We Need Positive Visions for AI Grounded in Wellbeing",
+      "url": "https://thegradient.pub/we-need-positive-visions-for-ai-grounded-in-wellbeing/",
+      "published_at": "Sat, 03 Aug 2024 17:00:43 GMT",
+      "summary": "Introduction Imagine yourself a decade ago, jumping directly into the present shock of conversing naturally with an encyclopedic AI that crafts images, writes code, and debates philosophy. Won’t this technology almost certainly transform society — and hasn’t AI’s impact on us so far been",
+      "author": "Joel Lehman",
+      "tags": [
+        "Perspectives",
+        "Ethics",
+        "Impacts"
+      ],
+      "source_metrics": {},
+      "raw": {
+        "guid": "66a4243393571d5c8c154f4e",
+        "feed_url": "https://thegradient.pub/rss/"
+      }
+    }
+  ],
+  "raw_item_count": 5,
+  "normalized_record_count": 5,
+  "merged_duplicates": 0,
+  "records": [
+    {
+      "record_id": "intake:255d0fc950f33d7a",
+      "dedupe_key": "https://thegradient.pub/agi-is-not-multimodal",
+      "title": "AGI Is Not Multimodal",
+      "url": "https://thegradient.pub/agi-is-not-multimodal",
+      "published_at": "Wed, 04 Jun 2025 14:00:29 GMT",
+      "summary": "\"In projecting language back as the model for thought, we lose sight of the tacit embodied understanding that undergirds our intelligence.\" –Terry Winograd The recent successes of generative AI models have convinced some that AGI is imminent. While these models appear to capture the essence of human",
+      "tags": [
+        "perspectives",
+        "trends"
+      ],
+      "source_item_ids": [
+        "thegradient:683fb98b77c3d76051ac142c"
+      ],
+      "sources": [
+        "thegradient"
+      ],
+      "source_categories": [
+        "research_commentary"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "thegradient:683fb98b77c3d76051ac142c",
+          "source": "thegradient",
+          "source_category": "research_commentary",
+          "title": "AGI Is Not Multimodal",
+          "url": "https://thegradient.pub/agi-is-not-multimodal/",
+          "published_at": "Wed, 04 Jun 2025 14:00:29 GMT",
+          "summary": "\"In projecting language back as the model for thought, we lose sight of the tacit embodied understanding that undergirds our intelligence.\" –Terry Winograd The recent successes of generative AI models have convinced some that AGI is imminent. While these models appear to capture the essence of human",
+          "author": "Benjamin A. Spiegel",
+          "tags": [
+            "Perspectives",
+            "Trends"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "683fb98b77c3d76051ac142c",
+            "feed_url": "https://thegradient.pub/rss/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:66cf0c972a12f469",
+      "dedupe_key": "https://thegradient.pub/dialog",
+      "title": "What's Missing From LLM Chatbots: A Sense of Purpose",
+      "url": "https://thegradient.pub/dialog",
+      "published_at": "Mon, 09 Sep 2024 17:28:48 GMT",
+      "summary": "LLM-based chatbots’ capabilities have been advancing every month. These improvements are mostly measured by benchmarks like MMLU, HumanEval, and MATH (e.g. sonnet 3.5, gpt-4o). However, as these measures get more and more saturated, is user experience increasing in proportion to these scores? If we envision a future",
+      "tags": [],
+      "source_item_ids": [
+        "thegradient:66c6733993571d5c8c154fb1"
+      ],
+      "sources": [
+        "thegradient"
+      ],
+      "source_categories": [
+        "research_commentary"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "thegradient:66c6733993571d5c8c154fb1",
+          "source": "thegradient",
+          "source_category": "research_commentary",
+          "title": "What's Missing From LLM Chatbots: A Sense of Purpose",
+          "url": "https://thegradient.pub/dialog/",
+          "published_at": "Mon, 09 Sep 2024 17:28:48 GMT",
+          "summary": "LLM-based chatbots’ capabilities have been advancing every month. These improvements are mostly measured by benchmarks like MMLU, HumanEval, and MATH (e.g. sonnet 3.5, gpt-4o). However, as these measures get more and more saturated, is user experience increasing in proportion to these scores? If we envision a future",
+          "author": "Kenneth Li",
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "guid": "66c6733993571d5c8c154fb1",
+            "feed_url": "https://thegradient.pub/rss/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:70e3dc831fe6f660",
+      "dedupe_key": "https://thegradient.pub/shape-symmetry-structure",
+      "title": "Shape, Symmetries, and Structure: The Changing Role of Mathematics in Machine Learning Research",
+      "url": "https://thegradient.pub/shape-symmetry-structure",
+      "published_at": "Sat, 16 Nov 2024 16:46:15 GMT",
+      "summary": "What is the Role of Mathematics in Modern Machine Learning? The past decade has witnessed a shift in how progress is made in machine learning. Research involving carefully designed and mathematically principled architectures result in only marginal improvements while compute-intensive and engineering-first efforts that scale to ever larger training sets",
+      "tags": [],
+      "source_item_ids": [
+        "thegradient:673686c693571d5c8c155078"
+      ],
+      "sources": [
+        "thegradient"
+      ],
+      "source_categories": [
+        "research_commentary"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "thegradient:673686c693571d5c8c155078",
+          "source": "thegradient",
+          "source_category": "research_commentary",
+          "title": "Shape, Symmetries, and Structure: The Changing Role of Mathematics in Machine Learning Research",
+          "url": "https://thegradient.pub/shape-symmetry-structure/",
+          "published_at": "Sat, 16 Nov 2024 16:46:15 GMT",
+          "summary": "What is the Role of Mathematics in Modern Machine Learning? The past decade has witnessed a shift in how progress is made in machine learning. Research involving carefully designed and mathematically principled architectures result in only marginal improvements while compute-intensive and engineering-first efforts that scale to ever larger training sets",
+          "author": "Henry Kvinge",
+          "tags": [],
+          "source_metrics": {},
+          "raw": {
+            "guid": "673686c693571d5c8c155078",
+            "feed_url": "https://thegradient.pub/rss/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:9d59ee8f065a355f",
+      "dedupe_key": "https://thegradient.pub/virtue-ethics-ai-alignment",
+      "title": "After Orthogonality: Virtue-Ethical Agency and AI Alignment",
+      "url": "https://thegradient.pub/virtue-ethics-ai-alignment",
+      "published_at": "Wed, 18 Feb 2026 23:25:52 GMT",
+      "summary": "Preface This essay argues that rational people don’t have goals, and that rational AIs shouldn’t have goals. Human actions are rational not because we direct them at some final ‘goals,’ but because we align actions to practices [1]: networks of actions, action-dispositions, action-evaluation criteria,",
+      "tags": [
+        "ethics",
+        "human factors",
+        "impacts"
+      ],
+      "source_item_ids": [
+        "thegradient:69879dd077c3d76051ac158f"
+      ],
+      "sources": [
+        "thegradient"
+      ],
+      "source_categories": [
+        "research_commentary"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "thegradient:69879dd077c3d76051ac158f",
+          "source": "thegradient",
+          "source_category": "research_commentary",
+          "title": "After Orthogonality: Virtue-Ethical Agency and AI Alignment",
+          "url": "https://thegradient.pub/virtue-ethics-ai-alignment/",
+          "published_at": "Wed, 18 Feb 2026 23:25:52 GMT",
+          "summary": "Preface This essay argues that rational people don’t have goals, and that rational AIs shouldn’t have goals. Human actions are rational not because we direct them at some final ‘goals,’ but because we align actions to practices [1]: networks of actions, action-dispositions, action-evaluation criteria,",
+          "author": "Peli Grietzer",
+          "tags": [
+            "Ethics",
+            "Human factors",
+            "Impacts"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "69879dd077c3d76051ac158f",
+            "feed_url": "https://thegradient.pub/rss/"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "intake:f65ee04cb9b5a62e",
+      "dedupe_key": "https://thegradient.pub/we-need-positive-visions-for-ai-grounded-in-wellbeing",
+      "title": "We Need Positive Visions for AI Grounded in Wellbeing",
+      "url": "https://thegradient.pub/we-need-positive-visions-for-ai-grounded-in-wellbeing",
+      "published_at": "Sat, 03 Aug 2024 17:00:43 GMT",
+      "summary": "Introduction Imagine yourself a decade ago, jumping directly into the present shock of conversing naturally with an encyclopedic AI that crafts images, writes code, and debates philosophy. Won’t this technology almost certainly transform society — and hasn’t AI’s impact on us so far been",
+      "tags": [
+        "ethics",
+        "impacts",
+        "perspectives"
+      ],
+      "source_item_ids": [
+        "thegradient:66a4243393571d5c8c154f4e"
+      ],
+      "sources": [
+        "thegradient"
+      ],
+      "source_categories": [
+        "research_commentary"
+      ],
+      "merged_item_count": 1,
+      "raw_items": [
+        {
+          "id": "thegradient:66a4243393571d5c8c154f4e",
+          "source": "thegradient",
+          "source_category": "research_commentary",
+          "title": "We Need Positive Visions for AI Grounded in Wellbeing",
+          "url": "https://thegradient.pub/we-need-positive-visions-for-ai-grounded-in-wellbeing/",
+          "published_at": "Sat, 03 Aug 2024 17:00:43 GMT",
+          "summary": "Introduction Imagine yourself a decade ago, jumping directly into the present shock of conversing naturally with an encyclopedic AI that crafts images, writes code, and debates philosophy. Won’t this technology almost certainly transform society — and hasn’t AI’s impact on us so far been",
+          "author": "Joel Lehman",
+          "tags": [
+            "Perspectives",
+            "Ethics",
+            "Impacts"
+          ],
+          "source_metrics": {},
+          "raw": {
+            "guid": "66a4243393571d5c8c154f4e",
+            "feed_url": "https://thegradient.pub/rss/"
+          }
+        }
+      ]
+    }
+  ],
+  "output_path": "Runtime/validation_thegradient.json"
+}
