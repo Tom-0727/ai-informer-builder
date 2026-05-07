@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "heartbeat": {
-    "count": 19,
-    "last_duration_seconds": 3159.425,
-    "avg_duration_seconds": 1063.5921578947366,
-    "total_duration_seconds": 20208.250999999997
+    "count": 23,
+    "last_duration_seconds": 763.653,
+    "avg_duration_seconds": 1036.0477391304346,
+    "total_duration_seconds": 23829.097999999994
   },
   "compact": {
-    "count_since_last": 13,
+    "count_since_last": 17,
     "total_compacts": 1,
     "total_heartbeats_between_compacts": 6,
     "avg_heartbeats_between": 6,
@@ -16,20 +16,20 @@
   },
   "tokens": {
     "last_turn": {
-      "input_tokens": 26,
-      "output_tokens": 37279,
-      "cache_read_input_tokens": 8028345,
-      "cache_creation_input_tokens": 1118455,
-      "estimated_context_tokens": 9146826
+      "input_tokens": 19,
+      "output_tokens": 20441,
+      "cache_read_input_tokens": 7084690,
+      "cache_creation_input_tokens": 36700,
+      "estimated_context_tokens": 7121409
     },
-    "estimated_context_tokens": 9146826,
+    "estimated_context_tokens": 7121409,
     "lifetime": {
-      "input_tokens": 462,
-      "output_tokens": 409124,
-      "cache_read_input_tokens": 50427901,
-      "cache_creation_input_tokens": 3172347,
+      "input_tokens": 558,
+      "output_tokens": 502784,
+      "cache_read_input_tokens": 79199095,
+      "cache_creation_input_tokens": 3897323,
       "cached_input_tokens": 0
     }
   },
-  "last_updated": "2026-05-06T15:56:24Z"
+  "last_updated": "2026-05-07T02:38:04Z"
 }

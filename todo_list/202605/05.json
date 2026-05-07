@@ -70,10 +70,10 @@
       {
         "id": 9,
         "text": "Smoke run for one window without cron; verify pipeline end-to-end before adding cron entries",
-        "done": false
+        "done": true
       }
     ],
-    "done": false
+    "done": true
   },
   {
     "id": "t3",
@@ -226,10 +226,10 @@
       {
         "id": 4,
         "text": "After successful PATH A validation, install crontab(1) entries (additive merge preserving rocom-teams entries); flip t2 subtask 9 done; flip t2 itself done.",
-        "done": false
+        "done": true
       }
     ],
-    "done": false
+    "done": true
   },
   {
     "id": "t10",
@@ -295,25 +295,25 @@
       {
         "id": 1,
         "text": "Wait for human reply on mailbox mail.20260506T152236Z.001 choosing among: 甲 (accept historical leak + private repo), 乙 (global URL replace before commit), 丙 (partial initial commit covering only no-leak dirs).",
-        "done": false
+        "done": true
       },
       {
         "id": 2,
         "text": "Apply chosen resolution path to the 14 affected files (12 Memory/episodes + Runtime/events.jsonl + mailbox/human.jsonl). If 乙: replace the literal Feishu webhook URL and <FEISHU_TOKEN_REDACTED> token with a placeholder string in all 14 files; verify zero residual matches. If 丙: configure .gitignore to exclude Memory/, mailbox/, Runtime/awaiting_reply/ + Runtime/events.jsonl from the initial commit; defer those to a follow-up.",
-        "done": false
+        "done": true
       },
       {
         "id": 3,
         "text": "Complete Builder workdir Stage D: `cd /home/ubuntu/agents/builders/ai-informer-builder && git init && git config user.email lingfenglau727@gmail.com && git config user.name 'AI Informer Builder' && git add -A && git status --ignored` (verify ai-informer/ ignored + chosen-resolution files handled correctly) → commit with template message → `git branch -M main` → `git remote add origin git@github.com:Tom-0727/ai-informer-builder.git` → `git push -u origin main`. Capture commit hash + push status.",
-        "done": false
+        "done": true
       },
       {
         "id": 4,
         "text": "After Builder push succeeds, install cron entries in /home/ubuntu/agents/builders/ai-informer-builder/ai-informer/ (additive merge with existing rocom-teams entries; three entries for 08:00 / 12:00 / 18:00) per human's prior cron-install authorization. Flip t9 subtask 4 done; t9 itself done; t2 subtask 9 done; t2 done.",
-        "done": false
+        "done": true
       }
     ],
-    "done": false
+    "done": true
   },
   {
     "id": "t13",
@@ -335,6 +335,51 @@
         "text": "If the canonical file is NOT being updated, t10 stays open with the original wrapper-fix recommendation.",
         "done": false
       }
+    ],
+    "done": false
+  },
+  {
+    "id": "t14",
+    "title": "Engine scaffold WT-change disposition (3 uncommitted files at long-run-agent-harness)",
+    "description": "Created 2026-05-07 by ep.20260507T011000Z. Three accumulated working-tree changes at /home/ubuntu/agents/long-run-agent-harness/engine/scaffolds/basic-agent/ remain uncommitted: (1) package.json — @openai/codex-sdk pin bumped from ^0.121.0 to ^0.128.0 (from t8 / ep.20260506T030000Z, fixed bundled CLI mismatch); (2) package-lock.json — regenerated after the SDK pin bump; (3) src/entry/wake-up.ts — added `networkAccessEnabled: true` (from ep.20260506T083000Z) and `sandboxMode: \"workspace-write\"` (from ep.20260506T230500Z) to the startBasicThread options object (the mechanical fix for Codex sandbox DNS isolation: networkAccessEnabled requires explicit sandboxMode workspace-write to activate the scoped network_access config). All three changes are validated production-grade (autonomous PATH A end-to-end succeeded multiple times). Awaiting human direction. Reference: Memory/episodes/2026/05/ep--20260506T230500Z--build--ai-informer-sandbox-escalation-revalidate-and-dual-git-init.md and ep.20260507T011000Z's mailbox.",
+    "subtasks": [
+      {"id": 1, "text": "Wait for human direction on disposition (PR to long-run-agent-harness upstream OR document as known-fork divergence + treat as engine-specific overrides).", "done": false},
+      {"id": 2, "text": "If PR: open a PR against long-run-agent-harness's main branch including the three changes with a description covering the SDK-pin + sandbox-network-coupling rationale.", "done": false},
+      {"id": 3, "text": "If known-fork divergence: document in a knowledge note or in the Builder's design/ that these are local engine overrides; rationale + revert path.", "done": false}
+    ],
+    "done": false
+  },
+  {
+    "id": "t15",
+    "title": "First cron run verification (will fire at next 08:00 / 12:00 / 18:00 server time)",
+    "description": "Created 2026-05-07 by ep.20260507T011000Z. Cron is now installed at host crontab with three AI Informer entries firing daily at 0 8 / 12 / 18 server time. The first scheduled fire is the load-bearing verification that the autonomous PATH A flow + Feishu broadcast pipeline works in the cron-driven (no human-in-loop) path. Subsumes the earlier t13 verification of cross-run delivered_dedupe_keys.txt write path. Reference: Memory/episodes/2026/05/ep--20260507T011000Z--build--ai-informer-builder-redact-commit-push-and-cron-install.md.",
+    "subtasks": [
+      {"id": 1, "text": "After next 08:00 / 12:00 / 18:00 server time fires: inspect Runtime/runs/<NN>/cron.log for the corresponding window — verify cron actually fired (file exists with timestamped content).", "done": false},
+      {"id": 2, "text": "Inspect ai-informer/.runs/<runId>/Runtime/runs/<NN>/<TS>/ for the per-run artifact tree (collected.json, stripped.txt, shortlist.json, briefings/, output.md). Verify autonomous PATH A succeeded.", "done": false},
+      {"id": 3, "text": "Verify real Feishu broadcast delivered via cron-driven path (CLI exit 0 with succeeded:feishu-default in the cron.log). Subsumes t13 cross-run verification — record whether canonical Runtime/runs/delivered_dedupe_keys.txt was appended (the workspace-write sandbox question from ep.20260506T230500Z evaluator note).", "done": false},
+      {"id": 4, "text": "Send Chinese no-markdown progress mailbox to human with first-cron-run results. If issues surfaced (broken stage, format leak, dedupe-state path issue), open iteration episode. If clean, build is fully verified.", "done": false}
+    ],
+    "done": false
+  },
+  {
+    "id": "t16",
+    "title": "Promote remaining medium-priority build heuristics into Memory/knowledge/ (low priority)",
+    "description": "Created 2026-05-07 by ep.20260507T013930Z. The first knowledge-promotion housekeeping pass landed three high-priority heuristic notes (Codex SDK sandbox network coupling; secret redaction single-burst discipline; long-running-agent secret accumulation). 4-7 medium-priority candidates remain queued for a follow-up promotion pass: (1) filesystem-marker-satisfaction over deep engine edits (heuristic, single-instance — empty .git/ mkdir to satisfy Codex trusted-directory walk vs escalating to skipGitRepoCheck); (2) foreground-validate-before-cron-install / OPTION X discipline (heuristic, single-instance — paid off in ep.20260506T060000Z); (3) Codex SDK ThreadOptions schema fields (factual reference — six top-level keys with no explicit web_fetch toggle); (4) PATH B four-stage smoke checklist (skill candidate, single-instance — collect/strip+screen/research/synthesize+deliver with main-agent-as-screener-and-researcher); (5) monkeypatch urlopen seam test pattern (skill candidate, single-instance); (6) structural verification gates checklist (skill candidate, four-instance — line cap + frontmatter + forbidden-token grep + sha256 + untouched-files snapshot); (7) Codex agent artifact authoring contract (skill candidate, three-instance — recurring across AGENTS.md / .toml / SKILL.md authoring). Reference: Memory/episodes/2026/05/ep--20260507T013930Z--knowledge--promote-three-high-priority-build-heuristics.md.",
+    "subtasks": [
+      {"id": 1, "text": "Decide which of the 7 candidates merit standalone notes vs folding into existing notes vs deferring further (single-instance candidates may stay below promotion threshold).", "done": false},
+      {"id": 2, "text": "Author 3-5 medium-priority notes following the same discipline as the first pass (read README + existing exemplars, match cadence, bind shell-variable secret guards if redaction touched, run literal-form grep gate, mailbox progress).", "done": false},
+      {"id": 3, "text": "Bundle these notes plus the three from t013930Z + any t15 observations into a single Builder commit episode after t15 first cron fire.", "done": false}
+    ],
+    "done": false
+  },
+  {
+    "id": "t17",
+    "title": "v1 retrospective slimming-list — await human review then route per-item to follow-up episodes",
+    "description": "Created 2026-05-07 by ep.20260507T020000Z. /home/ubuntu/agents/builders/ai-informer-builder/RETROSPECTIVE_v1.md Section 2 contains 12 slimming/optimization observations (2.1 obsolete scaffold + 2.2 directory-structure improvements). The retrospective explicitly does NOT execute on these; the document is observational. Some observations overlap with existing pending Todos (t14 engine scaffold disposition; t10 .runs canonical-path reconciliation). Others are new (design/ duplication between Builder and ai-informer; implement_plan/COMPLETION_AUDIT historical archival; ai-informer/.codex/agents stock files; ai-informer/probes/ retention; cron.example update; Memory/episodes monthly indexing; Builder workdir root organization). Awaiting human review of the retrospective document; then route each observation to either (a) merge into existing Todo (e.g. .runs path → t10), (b) create a new action Todo, or (c) accept as observational-only.",
+    "subtasks": [
+      {"id": 1, "text": "Wait for human review of /home/ubuntu/agents/builders/ai-informer-builder/RETROSPECTIVE_v1.md.", "done": false},
+      {"id": 2, "text": "Per human direction, route each Section 2 observation: merge into existing Todo / create new Todo / accept observational. Update Todos accordingly.", "done": false},
+      {"id": 3, "text": "Mark t17 done after routing complete.", "done": false}
     ],
     "done": false
   }
